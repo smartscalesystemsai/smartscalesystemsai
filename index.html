@@ -82,6 +82,7 @@
 
   /* ---------- HERO COPY ---------- */
   .hero{margin-top:44px;max-width:820px}
+  .hero .eyebrow{display:none}   /* desktop: banner already states the categories */
   .eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:'Bricolage Grotesque';font-weight:600;font-size:.84rem;
     letter-spacing:.16em;text-transform:uppercase;color:var(--cyan);padding:9px 17px;border:1px solid var(--line);border-radius:999px;background:var(--panel)}
   .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:pulse 2.4s infinite}
@@ -156,8 +157,8 @@
   section.pulse{padding:84px 0 0}
   .pulse-head{display:flex;align-items:center;gap:16px;margin-bottom:24px;flex-wrap:wrap}
   .pulse-head h2{font-size:clamp(1.8rem,3.6vw,2.4rem)}
-  .pulse-list{display:grid;gap:12px}
-  .pnews{display:flex;align-items:center;gap:16px;padding:15px 20px;border:1px solid var(--line);border-radius:14px;
+  .pulse-list{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+  .pnews{display:flex;align-items:center;gap:16px;min-width:0;padding:15px 20px;border:1px solid var(--line);border-radius:14px;
     background:var(--panel);transition:.24s}
   .pnews:hover{border-color:var(--teal);transform:translateX(4px)}
   .pnews .rank{font-family:'Bricolage Grotesque';font-weight:700;color:var(--teal);font-size:1.15rem;width:24px;flex:none;text-align:center}
@@ -200,14 +201,18 @@
   .reveal{opacity:0;transform:translateY(26px);transition:.7s cubic-bezier(.2,.7,.3,1)}
   .reveal.in{opacity:1;transform:none}
   @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
-  @media(max-width:560px){
-    .idrow{margin-top:-26px}.av{width:88px;height:88px}
-    .banner{aspect-ratio:auto;height:auto}
-    .banner img{height:auto}
-    .banner::after{display:none}
+  @media(max-width:600px){
+    /* Mobile: hide the raster banner, show a crisp live brand lockup instead */
+    .banner{display:none}
+    .idrow{flex-direction:column;align-items:center;text-align:center;gap:12px;margin-top:6px;padding:0}
+    .av{width:96px;height:96px}
+    .idrow .who{padding-bottom:0}
+    .idrow .who .nm{font-size:2rem;line-height:1.06;letter-spacing:-.02em;
+      background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .idrow .who .hd{font-size:1rem;margin-top:4px}
     .hero{margin-top:26px}
-    .idrow .who .nm{font-size:1.25rem}
-    header{padding:22px 0 24px}
+    .hero .eyebrow{display:inline-flex}   /* mobile: banner hidden, so show categories here */
+    header{padding:14px 0 8px}
   }
 </style>
 </head>
