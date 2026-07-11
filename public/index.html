@@ -153,6 +153,17 @@
   .cell.fcard{min-height:196px}
 
   /* AI Pulse (live news) */
+  .pulse-teaser{margin-top:24px;border:1px solid var(--line);border-radius:18px;padding:18px 20px;
+    background:linear-gradient(135deg,rgba(47,216,198,.10),rgba(255,255,255,.025));box-shadow:0 18px 50px -34px #000}
+  .pulse-teaser-top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:12px;flex-wrap:wrap}
+  .pulse-teaser-title{font-family:'Bricolage Grotesque';font-weight:700;color:var(--ink);display:flex;align-items:center;gap:9px}
+  .pulse-teaser-title span{font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--cyan)}
+  .pulse-teaser-link{font-family:'Bricolage Grotesque';font-weight:600;font-size:.9rem;color:var(--mint)}
+  .pulse-teaser-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .pulse-teaser .pnews{padding:12px 14px;background:rgba(0,0,0,.22)}
+  .pulse-teaser .pnews .ttl{font-size:.95rem}
+  .pulse-teaser .pnews .meta{font-size:.78rem}
+  @media(max-width:720px){.pulse-teaser-list{grid-template-columns:1fr}.pulse-teaser{margin-top:18px}}
   section.pulse{padding:84px 0 0}
   .pulse-head{display:flex;align-items:center;gap:16px;margin-bottom:24px;flex-wrap:wrap}
   .pulse-head h2{font-size:clamp(1.8rem,3.6vw,2.4rem)}
@@ -221,6 +232,7 @@
       <div class="nav-links">
         <a href="#free">Free tools</a>
         <a href="#products">Products</a>
+        <a href="#pulse">AI Pulse</a>
         <a href="https://www.youtube.com/@SmartScaleSystemsAI" target="_blank" rel="noopener">YouTube</a>
       </div>
       <a class="nav-cta" href="#free">Start free →</a>
@@ -269,6 +281,14 @@
         <div class="t"><div class="k"><svg viewBox="0 0 24 24" fill="none"><path d="M20 7 9 18l-5-5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Own it forever</div><div class="d">One-time pricing. No subscriptions, no lock-in.</div></div>
         <div class="t"><div class="k"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Instant delivery</div><div class="d">Digital downloads land the moment you buy.</div></div>
         <div class="t"><div class="k"><svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg> Weekly playbooks</div><div class="d">New AI workflows on YouTube every week.</div></div>
+      </div>
+
+      <div class="pulse-teaser reveal">
+        <div class="pulse-teaser-top">
+          <div class="pulse-teaser-title">AI Pulse <span>live topics</span></div>
+          <a class="pulse-teaser-link" href="#pulse">See today's AI pulse →</a>
+        </div>
+        <div class="pulse-teaser-list" id="pulseTeaser"><div class="pulse-note">Loading today's AI headlines…</div></div>
       </div>
     </div>
   </header>
@@ -424,7 +444,7 @@
     }
     async function loadPulse(){
       const now=Math.floor(Date.now()/1000);
-      const T=document.getElementById('pulseTrending'), F=document.getElementById('pulseFresh');
+      const T=document.getElementById('pulseTrending'), F=document.getElementById('pulseFresh'), P=document.getElementById('pulseTeaser');
       let trendIds=new Set();
       // Trending: top-voted AI stories from the last 24h
       try{
@@ -432,8 +452,9 @@
         const d=await r.json();
         const hits=(d.hits||[]).filter(h=>h.title).sort((a,b)=>(b.points||0)-(a.points||0)).slice(0,4);
         trendIds=new Set(hits.map(h=>h.objectID));
+        P.innerHTML=hits.length?hits.slice(0,2).map((h,i)=>row(h,i,false)).join(''):note('No trending AI stories found right now.');
         T.innerHTML=hits.length?hits.map((h,i)=>row(h,i,false)).join(''):note('No trending AI stories found right now.');
-      }catch(e){T.innerHTML=note('Couldn\'t load trending AI news right now.');}
+      }catch(e){P.innerHTML=note('Couldn\'t load trending AI news right now.');T.innerHTML=note('Couldn\'t load trending AI news right now.');}
       // Fresh: posted within the last hour (excluding any already shown above)
       try{
         const r2=await fetch('https://hn.algolia.com/api/v1/search_by_date?query=AI&tags=story&hitsPerPage=20&numericFilters='+encodeURIComponent('created_at_i>'+(now-3600)));
