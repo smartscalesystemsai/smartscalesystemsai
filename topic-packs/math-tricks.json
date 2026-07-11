@@ -1,0 +1,355 @@
+{
+  "id": "math-tricks",
+  "title": "Mind-Blowing Math Tricks (Looks like Magic)",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "math-tricks-premium-01",
+      "concept": "Premium hook",
+      "question": "A calculator shows 101-102=1. It is not broken. What number system is it using?",
+      "answer": "Binary",
+      "explanation": "In binary, 101 is 5 and 102 is impossible, so the clue is that the display is not base ten as assumed.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-02",
+      "concept": "Premium hook",
+      "question": "A number is 20% larger than another. By what percent is the second number smaller than the first?",
+      "answer": "16.67%",
+      "explanation": "If the smaller number is 100, the larger is 120. The drop is 20 out of 120.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-03",
+      "concept": "Premium hook",
+      "question": "You double a number, add 10, divide by 2, and subtract the original number. Why is the answer always 5?",
+      "answer": "The original cancels out",
+      "explanation": "The expression becomes (2x+10)/2 - x, which simplifies to 5.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-04",
+      "concept": "Premium hook",
+      "question": "Which is better: a 30% discount then 20% discount, or 50% discount once?",
+      "answer": "50% once",
+      "explanation": "30% then 20% leaves 56% of the price, so the discount is 44%.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-05",
+      "concept": "Premium hook",
+      "question": "A clock gains 10 minutes every hour. If it says 3 PM after 6 real hours, what time did it start?",
+      "answer": "1:50 PM",
+      "explanation": "In 6 hours it gains 60 minutes, so it reads one hour ahead.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-06",
+      "concept": "Nine trick",
+      "question": "Pick any number, multiply by 9, and add the digits. What number keeps appearing?",
+      "answer": "9",
+      "explanation": "Multiples of 9 have digits that reduce back to 9.",
+      "hint": "Look for the nine trick clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "NINE TRICK",
+        "9",
+        "MATH"
+      ],
+      "choices": [
+        "30",
+        "253",
+        "9",
+        "20"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-07",
+      "concept": "Calendar math",
+      "question": "What is 25% of 80, and why does the reverse trick work?",
+      "answer": "20",
+      "explanation": "25% of 80 equals 80% of 25, which is easier: 20.",
+      "hint": "Look for the calendar math clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "CALENDAR MATH",
+        "20",
+        "MATH"
+      ],
+      "choices": [
+        "253",
+        "4653",
+        "20",
+        "30"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-08",
+      "concept": "Zero trap",
+      "question": "What is 15% of 200 without a calculator?",
+      "answer": "30",
+      "explanation": "10% is 20 and 5% is 10, so together they make 30.",
+      "hint": "Look for the zero trap clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "ZERO TRAP",
+        "30",
+        "MATH"
+      ],
+      "choices": [
+        "1225",
+        "30",
+        "253",
+        "4653"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-09",
+      "concept": "Square shortcut",
+      "question": "What is 11 times 23 using the quick middle-digit trick?",
+      "answer": "253",
+      "explanation": "For 23 x 11, keep 2 and 3 outside, then put 2+3 in the middle.",
+      "hint": "Look for the square shortcut clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "SQUARE SHORTCUT",
+        "253",
+        "MATH"
+      ],
+      "choices": [
+        "253",
+        "4653",
+        "1225",
+        "They are equal"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-10",
+      "concept": "Percent flip",
+      "question": "What is 99 x 47 using the shortcut?",
+      "answer": "4653",
+      "explanation": "100 x 47 is 4700. Subtract 47 to get 4653.",
+      "hint": "Look for the percent flip clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "PERCENT FLIP",
+        "4653",
+        "MATH"
+      ],
+      "choices": [
+        "6",
+        "4653",
+        "1225",
+        "They are equal"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-11",
+      "concept": "Number reversal",
+      "question": "What is the square of 35 using the ending-in-5 shortcut?",
+      "answer": "1225",
+      "explanation": "3 x 4 gives 12, then add 25.",
+      "hint": "Look for the number reversal clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "NUMBER REVERSAL",
+        "1225",
+        "MATH"
+      ],
+      "choices": [
+        "3",
+        "1225",
+        "They are equal",
+        "6"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-12",
+      "concept": "Eleven trick",
+      "question": "Which is bigger: 40% of 70 or 70% of 40?",
+      "answer": "They are equal",
+      "explanation": "Percent multiplication can swap order: 0.4 x 70 equals 0.7 x 40.",
+      "hint": "Look for the eleven trick clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "ELEVEN TRICK",
+        "THEY ARE EQUAL",
+        "MATH"
+      ],
+      "choices": [
+        "6",
+        "3",
+        "They are equal",
+        "16"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-13",
+      "concept": "Mental math",
+      "question": "What number becomes larger when you turn it upside down?",
+      "answer": "6",
+      "explanation": "Turn a 6 upside down and it becomes 9.",
+      "hint": "Look for the mental math clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "MENTAL MATH",
+        "6",
+        "MATH"
+      ],
+      "choices": [
+        "9",
+        "3",
+        "16",
+        "6"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-14",
+      "concept": "Odd/even",
+      "question": "What is 50% of 2 plus 2?",
+      "answer": "3",
+      "explanation": "50% of 2 is 1, then add 2.",
+      "hint": "Look for the odd/even clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "ODD/EVEN",
+        "3",
+        "MATH"
+      ],
+      "choices": [
+        "9",
+        "3",
+        "20",
+        "16"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "math-tricks-premium-15",
+      "concept": "Digit sum",
+      "question": "A number doubled and then doubled again becomes 64. What was it?",
+      "answer": "16",
+      "explanation": "Doubling twice means multiplying by 4, so 64 divided by 4 is 16.",
+      "hint": "Look for the digit sum clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "DIGIT SUM",
+        "16",
+        "MATH"
+      ],
+      "choices": [
+        "9",
+        "20",
+        "16",
+        "30"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

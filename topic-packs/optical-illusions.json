@@ -1,0 +1,355 @@
+{
+  "id": "optical-illusions",
+  "title": "Optical Illusions & Brain Glitches",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "optical-illusions-premium-01",
+      "concept": "Premium hook",
+      "question": "Two squares are the same shade, but one looks darker. What fooled you?",
+      "answer": "Context",
+      "explanation": "Surrounding brightness changes perceived color.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-02",
+      "concept": "Premium hook",
+      "question": "A still image seems to move. What is your brain doing?",
+      "answer": "Predicting motion",
+      "explanation": "High-contrast repeating patterns can trigger motion perception.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-03",
+      "concept": "Premium hook",
+      "question": "Why does a road seem to narrow in the distance?",
+      "answer": "Perspective",
+      "explanation": "Parallel lines converge visually with distance.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-04",
+      "concept": "Premium hook",
+      "question": "A face appears in toast. What is the phenomenon?",
+      "answer": "Pareidolia",
+      "explanation": "The brain detects meaningful patterns, especially faces.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-05",
+      "concept": "Premium hook",
+      "question": "A shadow makes a color look lighter than it is. Why?",
+      "answer": "Light correction",
+      "explanation": "The brain compensates for assumed lighting conditions.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-06",
+      "concept": "Color",
+      "question": "Why can two identical colors look different?",
+      "answer": "Surrounding contrast",
+      "explanation": "Nearby colors influence how the brain interprets a shade.",
+      "hint": "Look for the color clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "COLOR",
+        "SURROUNDING CONTRAST",
+        "VISUAL"
+      ],
+      "choices": [
+        "Perspective",
+        "Surrounding contrast",
+        "Muller-Lyer illusion",
+        "Pattern contrast"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-07",
+      "concept": "Motion",
+      "question": "What creates fake motion in a still image?",
+      "answer": "Pattern contrast",
+      "explanation": "Repeated high-contrast shapes can trick motion perception.",
+      "hint": "Look for the motion clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "MOTION",
+        "PATTERN CONTRAST",
+        "VISUAL"
+      ],
+      "choices": [
+        "Muller-Lyer illusion",
+        "Pattern contrast",
+        "Perspective",
+        "The brain corrects lighting"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-08",
+      "concept": "Perspective",
+      "question": "Why do railroad tracks look like they meet?",
+      "answer": "Perspective",
+      "explanation": "Parallel lines appear closer together in the distance.",
+      "hint": "Look for the perspective clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "PERSPECTIVE",
+        "PERSPECTIVE",
+        "VISUAL"
+      ],
+      "choices": [
+        "One image with multiple interpretations",
+        "Perspective",
+        "The brain corrects lighting",
+        "Muller-Lyer illusion"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-09",
+      "concept": "Size",
+      "question": "What illusion makes equal lines look different lengths?",
+      "answer": "Muller-Lyer illusion",
+      "explanation": "Arrow-like ends change perceived length.",
+      "hint": "Look for the size clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "SIZE",
+        "MULLER-LYER ILLUSION",
+        "VISUAL"
+      ],
+      "choices": [
+        "The brain corrects lighting",
+        "Muller-Lyer illusion",
+        "One image with multiple interpretations",
+        "Pareidolia"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-10",
+      "concept": "Shadow",
+      "question": "Why do shadows change color perception?",
+      "answer": "The brain corrects lighting",
+      "explanation": "Perception adjusts for assumed light and shade.",
+      "hint": "Look for the shadow clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "SHADOW",
+        "THE BRAIN CORRECTS LIGHTING",
+        "VISUAL"
+      ],
+      "choices": [
+        "One image with multiple interpretations",
+        "Pareidolia",
+        "The brain corrects lighting",
+        "Depth cues"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-11",
+      "concept": "Contrast",
+      "question": "What is an ambiguous image?",
+      "answer": "One image with multiple interpretations",
+      "explanation": "The brain can switch between possible meanings.",
+      "hint": "Look for the contrast clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "CONTRAST",
+        "ONE IMAGE WITH MULTIPLE INTERPRETATIONS",
+        "VISUAL"
+      ],
+      "choices": [
+        "Pareidolia",
+        "Context beats raw pixel value",
+        "Depth cues",
+        "One image with multiple interpretations"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-12",
+      "concept": "Face",
+      "question": "Why do we see faces in random patterns?",
+      "answer": "Pareidolia",
+      "explanation": "The brain is tuned to detect face-like shapes.",
+      "hint": "Look for the face clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "FACE",
+        "PAREIDOLIA",
+        "VISUAL"
+      ],
+      "choices": [
+        "Context beats raw pixel value",
+        "Depth cues",
+        "Perception is constructed",
+        "Pareidolia"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-13",
+      "concept": "Depth",
+      "question": "What makes a flat drawing look 3D?",
+      "answer": "Depth cues",
+      "explanation": "Shading, perspective, and overlap suggest depth.",
+      "hint": "Look for the depth clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "DEPTH",
+        "DEPTH CUES",
+        "VISUAL"
+      ],
+      "choices": [
+        "Surrounding contrast",
+        "Context beats raw pixel value",
+        "Depth cues",
+        "Perception is constructed"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-14",
+      "concept": "Pattern",
+      "question": "Why are checker shadow illusions surprising?",
+      "answer": "Context beats raw pixel value",
+      "explanation": "The brain reads brightness through context.",
+      "hint": "Look for the pattern clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "PATTERN",
+        "CONTEXT BEATS RAW PIXEL VALUE",
+        "VISUAL"
+      ],
+      "choices": [
+        "Surrounding contrast",
+        "Context beats raw pixel value",
+        "Pattern contrast",
+        "Perception is constructed"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "optical-illusions-premium-15",
+      "concept": "Ambiguous image",
+      "question": "What is the lesson of most illusions?",
+      "answer": "Perception is constructed",
+      "explanation": "The brain interprets signals instead of simply recording them.",
+      "hint": "Look for the ambiguous image clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "AMBIGUOUS IMAGE",
+        "PERCEPTION IS CONSTRUCTED",
+        "VISUAL"
+      ],
+      "choices": [
+        "Pattern contrast",
+        "Perception is constructed",
+        "Perspective",
+        "Surrounding contrast"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "id": "psychology-body-language",
+  "title": "Psychology Tricks & Body Language",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "psychology-body-language-premium-01",
+      "concept": "Premium hook",
+      "question": "A person says they are fine, but their feet point toward the exit. What might that signal?",
+      "answer": "Desire to leave",
+      "explanation": "Feet often reveal intended direction before words do.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-02",
+      "concept": "Premium hook",
+      "question": "Why does a fake countdown make people click faster?",
+      "answer": "Scarcity pressure",
+      "explanation": "Urgency reduces careful decision-making.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-03",
+      "concept": "Premium hook",
+      "question": "What bias makes expensive items feel better before you try them?",
+      "answer": "Price-placebo effect",
+      "explanation": "Expectations can change perceived value.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-04",
+      "concept": "Premium hook",
+      "question": "Why does repeating a statement make it feel truer?",
+      "answer": "Illusory truth effect",
+      "explanation": "Familiarity can be mistaken for accuracy.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-05",
+      "concept": "Premium hook",
+      "question": "What makes a memory feel vivid but still unreliable?",
+      "answer": "Reconstruction",
+      "explanation": "Memory rebuilds details and can add false confidence.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-06",
+      "concept": "Memory",
+      "question": "What is it called when you notice something more after learning about it?",
+      "answer": "Frequency illusion",
+      "explanation": "Your attention makes the thing seem newly common.",
+      "hint": "Look for the memory clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "MEMORY",
+        "FREQUENCY ILLUSION",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "Recency bias",
+        "Subtle mirroring",
+        "Open loop",
+        "Frequency illusion"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-07",
+      "concept": "Attention",
+      "question": "What body-language trick often builds rapport?",
+      "answer": "Subtle mirroring",
+      "explanation": "People tend to feel comfort when rhythms and posture gently match.",
+      "hint": "Look for the attention clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "ATTENTION",
+        "SUBTLE MIRRORING",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "Recency bias",
+        "2 options",
+        "Subtle mirroring",
+        "Open loop"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-08",
+      "concept": "Mirroring",
+      "question": "Why do cliffhanger questions hold attention?",
+      "answer": "Open loop",
+      "explanation": "The brain wants closure for incomplete information.",
+      "hint": "Look for the mirroring clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "MIRRORING",
+        "OPEN LOOP",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "Seeking evidence that agrees with you",
+        "Recency bias",
+        "2 options",
+        "Open loop"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-09",
+      "concept": "Confidence",
+      "question": "What bias makes recent events feel more important?",
+      "answer": "Recency bias",
+      "explanation": "Recent information is easier to recall and can feel overweighted.",
+      "hint": "Look for the confidence clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "CONFIDENCE",
+        "RECENCY BIAS",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "Seeking evidence that agrees with you",
+        "Recency bias",
+        "2 options",
+        "Eye involvement"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-10",
+      "concept": "Bias",
+      "question": "What makes a choice feel easier: 2 options or 12?",
+      "answer": "2 options",
+      "explanation": "Too many options can create decision fatigue.",
+      "hint": "Look for the bias clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "BIAS",
+        "2 OPTIONS",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "Eye involvement",
+        "Urgency",
+        "Seeking evidence that agrees with you",
+        "2 options"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-11",
+      "concept": "Priming",
+      "question": "What is confirmation bias?",
+      "answer": "Seeking evidence that agrees with you",
+      "explanation": "People often favor information that supports existing beliefs.",
+      "hint": "Look for the priming clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "PRIMING",
+        "SEEKING EVIDENCE THAT AGREES WITH YOU",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "First number influence",
+        "Urgency",
+        "Seeking evidence that agrees with you",
+        "Eye involvement"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-12",
+      "concept": "Stress",
+      "question": "What does a forced smile usually lack?",
+      "answer": "Eye involvement",
+      "explanation": "Natural smiles often involve muscles around the eyes.",
+      "hint": "Look for the stress clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "STRESS",
+        "EYE INVOLVEMENT",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "Eye involvement",
+        "First number influence",
+        "Peak-end effect",
+        "Urgency"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-13",
+      "concept": "Smile",
+      "question": "Why do countdowns increase action?",
+      "answer": "Urgency",
+      "explanation": "Time limits reduce hesitation.",
+      "hint": "Look for the smile clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "SMILE",
+        "URGENCY",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "Frequency illusion",
+        "First number influence",
+        "Peak-end effect",
+        "Urgency"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-14",
+      "concept": "Eye contact",
+      "question": "What is anchoring?",
+      "answer": "First number influence",
+      "explanation": "The first value seen can shape later judgments.",
+      "hint": "Look for the eye contact clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "EYE CONTACT",
+        "FIRST NUMBER INFLUENCE",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "Subtle mirroring",
+        "Frequency illusion",
+        "First number influence",
+        "Peak-end effect"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "psychology-body-language-premium-15",
+      "concept": "Decision",
+      "question": "Why do people remember endings strongly?",
+      "answer": "Peak-end effect",
+      "explanation": "Memory often emphasizes intense moments and endings.",
+      "hint": "Look for the decision clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "DECISION",
+        "PEAK-END EFFECT",
+        "PSYCHOLOGY"
+      ],
+      "choices": [
+        "Subtle mirroring",
+        "Open loop",
+        "Frequency illusion",
+        "Peak-end effect"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "id": "wow-riddles",
+  "title": "10 Million View WOW Riddles (Unexpected Twists)",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "wow-riddles-premium-01",
+      "concept": "Premium hook",
+      "question": "A woman hears her own voice calling from another room, but she lives alone. Nothing supernatural happened. What did she hear?",
+      "answer": "A recording",
+      "explanation": "Her voice was captured earlier and played back, so the caller was not another person.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-02",
+      "concept": "Premium hook",
+      "question": "A man reads the final page first and immediately knows the whole story is fake. Why?",
+      "answer": "It was a diary dated in the future",
+      "explanation": "A diary cannot truthfully describe dates that have not happened yet.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-03",
+      "concept": "Premium hook",
+      "question": "I become more valuable when you cut me, but worthless if you break me. What am I?",
+      "answer": "A diamond",
+      "explanation": "Diamonds are cut to improve value, but breaking one ruins it.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-04",
+      "concept": "Premium hook",
+      "question": "A room is full of people, but not one person is breathing. How?",
+      "answer": "They are in a photograph",
+      "explanation": "The people are visible, but only as an image.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-05",
+      "concept": "Premium hook",
+      "question": "I have cities but no houses, mountains but no trees, and water but no fish. What am I?",
+      "answer": "A map",
+      "explanation": "A map shows all three without containing the real objects.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-06",
+      "concept": "Echo",
+      "question": "I can repeat your words, but I never understand them. What am I?",
+      "answer": "An echo",
+      "explanation": "An echo returns sound without thinking or speaking on its own.",
+      "hint": "Look for the echo clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "ECHO",
+        "AN ECHO",
+        "RIDDLE"
+      ],
+      "choices": [
+        "An echo",
+        "A candle",
+        "A shadow",
+        "A map"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-07",
+      "concept": "Shadow",
+      "question": "I follow you all day, but disappear when the lights go out. What am I?",
+      "answer": "A shadow",
+      "explanation": "A shadow exists only when light is blocked by your body.",
+      "hint": "Look for the shadow clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "SHADOW",
+        "A SHADOW",
+        "RIDDLE"
+      ],
+      "choices": [
+        "A shadow",
+        "A map",
+        "A keyboard",
+        "A candle"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-08",
+      "concept": "Map",
+      "question": "I show every road, but I never travel. What am I?",
+      "answer": "A map",
+      "explanation": "A map contains routes, but it stays still.",
+      "hint": "Look for the map clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "MAP",
+        "A MAP",
+        "RIDDLE"
+      ],
+      "choices": [
+        "A keyboard",
+        "A candle",
+        "A clock",
+        "A map"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-09",
+      "concept": "Candle",
+      "question": "The more I work, the shorter I become. What am I?",
+      "answer": "A candle",
+      "explanation": "A candle burns down while giving light.",
+      "hint": "Look for the candle clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "CANDLE",
+        "A CANDLE",
+        "RIDDLE"
+      ],
+      "choices": [
+        "A keyboard",
+        "A candle",
+        "A clock",
+        "A mirror"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-10",
+      "concept": "Keyboard",
+      "question": "I have keys but open no doors. What am I?",
+      "answer": "A keyboard",
+      "explanation": "A keyboard has keys for typing, not locks.",
+      "hint": "Look for the keyboard clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "KEYBOARD",
+        "A KEYBOARD",
+        "RIDDLE"
+      ],
+      "choices": [
+        "A stamp",
+        "A keyboard",
+        "A clock",
+        "A mirror"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-11",
+      "concept": "Clock",
+      "question": "I have hands but cannot clap. What am I?",
+      "answer": "A clock",
+      "explanation": "Clock hands move around the face, but they are not human hands.",
+      "hint": "Look for the clock clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "CLOCK",
+        "A CLOCK",
+        "RIDDLE"
+      ],
+      "choices": [
+        "A stamp",
+        "A clock",
+        "A mirror",
+        "A river"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-12",
+      "concept": "Mirror",
+      "question": "I copy your face, but I have no memory. What am I?",
+      "answer": "A mirror",
+      "explanation": "A mirror reflects only what is in front of it.",
+      "hint": "Look for the mirror clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "MIRROR",
+        "A MIRROR",
+        "RIDDLE"
+      ],
+      "choices": [
+        "A mirror",
+        "A river",
+        "A secret",
+        "A stamp"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-13",
+      "concept": "Envelope",
+      "question": "I travel around the world while staying in a corner. What am I?",
+      "answer": "A stamp",
+      "explanation": "A stamp stays on the corner of an envelope as it travels.",
+      "hint": "Look for the envelope clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "ENVELOPE",
+        "A STAMP",
+        "RIDDLE"
+      ],
+      "choices": [
+        "A stamp",
+        "An echo",
+        "A river",
+        "A secret"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-14",
+      "concept": "River",
+      "question": "I run forever but never get tired. What am I?",
+      "answer": "A river",
+      "explanation": "A river runs continuously, but it is not alive.",
+      "hint": "Look for the river clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "RIVER",
+        "A RIVER",
+        "RIDDLE"
+      ],
+      "choices": [
+        "An echo",
+        "A river",
+        "A shadow",
+        "A secret"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "wow-riddles-premium-15",
+      "concept": "Secret",
+      "question": "The more you share me, the less I exist. What am I?",
+      "answer": "A secret",
+      "explanation": "A secret stops being secret when too many people know it.",
+      "hint": "Look for the secret clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "SECRET",
+        "A SECRET",
+        "RIDDLE"
+      ],
+      "choices": [
+        "A map",
+        "A secret",
+        "An echo",
+        "A shadow"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

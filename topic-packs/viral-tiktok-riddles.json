@@ -1,0 +1,355 @@
+{
+  "id": "viral-tiktok-riddles",
+  "title": "Latest Viral TikTok Riddles (Brand New)",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "viral-tiktok-riddles-premium-01",
+      "concept": "Premium hook",
+      "question": "What belongs to you, but other people use it more than you do?",
+      "answer": "Your name",
+      "explanation": "Other people say your name more often than you do.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-02",
+      "concept": "Premium hook",
+      "question": "A girl deletes a message and everyone in the room knows exactly what it said. Why?",
+      "answer": "It was projected on a screen",
+      "explanation": "The message was visible to everyone before deletion.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-03",
+      "concept": "Premium hook",
+      "question": "A phone rings in a silent room, but no phone exists there. What rang?",
+      "answer": "A video sound",
+      "explanation": "The ringing came from audio playing in a clip.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-04",
+      "concept": "Premium hook",
+      "question": "What gets bigger the more you take away from it?",
+      "answer": "A hole",
+      "explanation": "Removing material makes a hole larger.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-05",
+      "concept": "Premium hook",
+      "question": "A picture shows rain, but nothing in the picture is wet. Why?",
+      "answer": "It is a weather app icon",
+      "explanation": "The rain is symbolic, not physical rain.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-06",
+      "concept": "Phone trap",
+      "question": "You see a phone at 1% battery, but it never turns off. Why?",
+      "answer": "It is in a photo",
+      "explanation": "A phone inside a photo does not use battery.",
+      "hint": "Look for the phone trap clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "PHONE TRAP",
+        "IT IS IN A PHOTO",
+        "VIRAL"
+      ],
+      "choices": [
+        "They are awake",
+        "In front of an ambulance",
+        "It is in a photo",
+        "Stop imagining it"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-07",
+      "concept": "Text message",
+      "question": "A person texts 'I am asleep.' What is the obvious problem?",
+      "answer": "They are awake",
+      "explanation": "They had to be awake to send the text.",
+      "hint": "Look for the text message clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "TEXT MESSAGE",
+        "THEY ARE AWAKE",
+        "VIRAL"
+      ],
+      "choices": [
+        "A filter",
+        "They are awake",
+        "In front of an ambulance",
+        "Stop imagining it"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-08",
+      "concept": "Mirror clue",
+      "question": "You look in the mirror and see the word 'AMBULANCE' correctly. Where are you?",
+      "answer": "In front of an ambulance",
+      "explanation": "The word is reversed on the vehicle so drivers read it correctly in mirrors.",
+      "hint": "Look for the mirror clue clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "MIRROR CLUE",
+        "IN FRONT OF AN AMBULANCE",
+        "VIRAL"
+      ],
+      "choices": [
+        "A paradox",
+        "In front of an ambulance",
+        "Stop imagining it",
+        "A filter"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-09",
+      "concept": "Emoji logic",
+      "question": "A room has no doors and no windows. How do you get out?",
+      "answer": "Stop imagining it",
+      "explanation": "The room exists only in the riddle.",
+      "hint": "Look for the emoji logic clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "EMOJI LOGIC",
+        "STOP IMAGINING IT",
+        "VIRAL"
+      ],
+      "choices": [
+        "Stop imagining it",
+        "A filter",
+        "A paradox",
+        "An app"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-10",
+      "concept": "Room puzzle",
+      "question": "What gets more likes the less real it is?",
+      "answer": "A filter",
+      "explanation": "Filters can make images look better while reducing reality.",
+      "hint": "Look for the room puzzle clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "ROOM PUZZLE",
+        "A FILTER",
+        "VIRAL"
+      ],
+      "choices": [
+        "A filter",
+        "A paradox",
+        "An app",
+        "A loading bar screenshot"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-11",
+      "concept": "Shortcut trick",
+      "question": "Your friend says they never lie, then says 'I am lying now.' What is this?",
+      "answer": "A paradox",
+      "explanation": "The sentence contradicts itself either way.",
+      "hint": "Look for the shortcut trick clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "SHORTCUT TRICK",
+        "A PARADOX",
+        "VIRAL"
+      ],
+      "choices": [
+        "An app",
+        "A loading bar screenshot",
+        "A live moment",
+        "A paradox"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-12",
+      "concept": "Friend test",
+      "question": "Which word becomes shorter when you add two letters to it?",
+      "answer": "Short",
+      "explanation": "Adding the letters E and R turns short into shorter.",
+      "hint": "Look for the friend test clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "FRIEND TEST",
+        "AN APP",
+        "VIRAL"
+      ],
+      "choices": [
+        "An app",
+        "A loading bar screenshot",
+        "A live moment",
+        "The next trend"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-13",
+      "concept": "Daily object",
+      "question": "What can you catch but never throw?",
+      "answer": "A cold",
+      "explanation": "You can catch a cold, but you cannot throw one.",
+      "hint": "Look for the daily object clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "DAILY OBJECT",
+        "A LOADING BAR SCREENSHOT",
+        "VIRAL"
+      ],
+      "choices": [
+        "A loading bar screenshot",
+        "A live moment",
+        "It is in a photo",
+        "The next trend"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-14",
+      "concept": "Photo clue",
+      "question": "What has thirteen hearts but no other organs?",
+      "answer": "A deck of cards",
+      "explanation": "A standard deck includes thirteen cards in the heart suit.",
+      "hint": "Look for the photo clue clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "PHOTO CLUE",
+        "A LIVE MOMENT",
+        "VIRAL"
+      ],
+      "choices": [
+        "It is in a photo",
+        "The next trend",
+        "A live moment",
+        "They are awake"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "viral-tiktok-riddles-premium-15",
+      "concept": "Memory trap",
+      "question": "What has a head and a tail but no body?",
+      "answer": "A coin",
+      "explanation": "A coin has a head side and a tail side but no body.",
+      "hint": "Look for the memory trap clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "MEMORY TRAP",
+        "THE NEXT TREND",
+        "VIRAL"
+      ],
+      "choices": [
+        "They are awake",
+        "In front of an ambulance",
+        "It is in a photo",
+        "The next trend"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

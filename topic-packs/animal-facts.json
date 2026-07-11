@@ -1,0 +1,355 @@
+{
+  "id": "animal-facts",
+  "title": "Unbelievable Animal Facts",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "animal-facts-premium-01",
+      "concept": "Premium hook",
+      "question": "Which animal can remember human faces for years?",
+      "answer": "Crow",
+      "explanation": "Crows can recognize and remember individual people.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-02",
+      "concept": "Premium hook",
+      "question": "Which insect tells others where food is by dancing?",
+      "answer": "Honeybee",
+      "explanation": "The waggle dance communicates direction and distance.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-03",
+      "concept": "Premium hook",
+      "question": "Which animal sleeps with half its brain at a time?",
+      "answer": "Dolphin",
+      "explanation": "Some dolphins use unihemispheric sleep to keep breathing.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-04",
+      "concept": "Premium hook",
+      "question": "Which animal has fingerprints so similar to humans they can confuse investigators?",
+      "answer": "Koala",
+      "explanation": "Koalas have fingerprint-like ridge patterns.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-05",
+      "concept": "Premium hook",
+      "question": "Which bird can plan for future food needs?",
+      "answer": "Raven",
+      "explanation": "Ravens show advanced planning and problem-solving behavior.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-06",
+      "concept": "Bees",
+      "question": "Which bird is the only one that can fly backward?",
+      "answer": "Hummingbird",
+      "explanation": "Hummingbirds can reverse their wing motion and fly backward.",
+      "hint": "Look for the bees clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "BEES",
+        "HONEYBEE",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Honeybee",
+        "Octopus",
+        "Crows",
+        "Elephant"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-07",
+      "concept": "Crows",
+      "question": "Which bird family is known for solving puzzles?",
+      "answer": "Crows",
+      "explanation": "Crows can use tools and remember faces.",
+      "hint": "Look for the crows clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "CROWS",
+        "CROWS",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Ant",
+        "Octopus",
+        "Crows",
+        "Elephant"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-08",
+      "concept": "Octopus",
+      "question": "Which animal has three hearts?",
+      "answer": "Octopus",
+      "explanation": "Octopuses have three hearts and blue blood.",
+      "hint": "Look for the octopus clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "OCTOPUS",
+        "OCTOPUS",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Whale",
+        "Ant",
+        "Octopus",
+        "Elephant"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-09",
+      "concept": "Elephants",
+      "question": "Which large animal can recognize itself in a mirror?",
+      "answer": "Elephant",
+      "explanation": "Elephants have shown signs of mirror self-recognition.",
+      "hint": "Look for the elephants clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "ELEPHANTS",
+        "ELEPHANT",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Elephant",
+        "Wood frog",
+        "Whale",
+        "Ant"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-10",
+      "concept": "Ants",
+      "question": "Which tiny insect can lift many times its body weight?",
+      "answer": "Ant",
+      "explanation": "Ants are strong relative to their size.",
+      "hint": "Look for the ants clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "ANTS",
+        "ANT",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Gecko",
+        "Whale",
+        "Ant",
+        "Wood frog"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-11",
+      "concept": "Whales",
+      "question": "Which animal sings complex songs underwater?",
+      "answer": "Whale",
+      "explanation": "Some whales produce long, patterned songs.",
+      "hint": "Look for the whales clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "WHALES",
+        "WHALE",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Wood frog",
+        "Gecko",
+        "Whale",
+        "Sea turtle"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-12",
+      "concept": "Frogs",
+      "question": "Which amphibian can freeze and later revive?",
+      "answer": "Wood frog",
+      "explanation": "Wood frogs can survive partial freezing during winter.",
+      "hint": "Look for the frogs clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "FROGS",
+        "WOOD FROG",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Raven",
+        "Gecko",
+        "Sea turtle",
+        "Wood frog"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-13",
+      "concept": "Gecko",
+      "question": "Which lizard walks on walls with tiny foot structures?",
+      "answer": "Gecko",
+      "explanation": "Gecko feet use microscopic structures for grip.",
+      "hint": "Look for the gecko clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "GECKO",
+        "GECKO",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Sea turtle",
+        "Honeybee",
+        "Raven",
+        "Gecko"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-14",
+      "concept": "Turtle",
+      "question": "Which animal may return to the beach where it hatched?",
+      "answer": "Sea turtle",
+      "explanation": "Many sea turtles nest on beaches near their birthplace.",
+      "hint": "Look for the turtle clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "TURTLE",
+        "SEA TURTLE",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Crows",
+        "Raven",
+        "Sea turtle",
+        "Honeybee"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-facts-premium-15",
+      "concept": "Raven",
+      "question": "Which bird can mimic human speech and solve tasks?",
+      "answer": "Raven",
+      "explanation": "Ravens are intelligent corvids with strong problem-solving skills.",
+      "hint": "Look for the raven clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "RAVEN",
+        "RAVEN",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Honeybee",
+        "Octopus",
+        "Crows",
+        "Raven"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

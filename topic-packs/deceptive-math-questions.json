@@ -1,0 +1,379 @@
+{
+  "id": "deceptive-math-questions",
+  "title": "Math Viral Questions (Deceptive Logic)",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "deceptive-math-questions-premium-01",
+      "concept": "Premium hook",
+      "question": "A price rises 50% then falls 50%. Are you back where you started?",
+      "answer": "No",
+      "explanation": "A 50% drop from the higher price leaves 75% of the original.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-02",
+      "concept": "Premium hook",
+      "question": "A family has two children. At least one is a boy. What is the chance both are boys?",
+      "answer": "One third",
+      "explanation": "Possible pairs are BB, BG, and GB when at least one boy is known.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-03",
+      "concept": "Premium hook",
+      "question": "You flip two coins. One is heads. What is the chance both are heads?",
+      "answer": "One third",
+      "explanation": "The possible cases with at least one head are HH, HT, and TH.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-04",
+      "concept": "Premium hook",
+      "question": "A car travels 60 miles at 30 mph. How fast must it return to average 60 mph overall?",
+      "answer": "Impossible",
+      "explanation": "The entire allowed time is used on the first leg.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-05",
+      "concept": "Premium hook",
+      "question": "What is more: 10% of 90 or 90% of 10?",
+      "answer": "They are equal",
+      "explanation": "Both equal 9.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-06",
+      "concept": "Order of operations",
+      "question": "What is 6 divided by 2 times 3?",
+      "answer": "9",
+      "explanation": "Division and multiplication are evaluated left to right.",
+      "hint": "Look for the order of operations clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "ORDER OF OPERATIONS",
+        "9",
+        "MATH"
+      ],
+      "choices": [
+        "75%",
+        "9",
+        "5 cents",
+        "15"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-07",
+      "concept": "Percent",
+      "question": "A bat and ball cost $1.10. The bat costs $1 more. How much is the ball?",
+      "answer": "5 cents",
+      "explanation": "If the ball is 5 cents, the bat is $1.05, totaling $1.10.",
+      "hint": "Look for the percent clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "PERCENT",
+        "5 CENTS",
+        "MATH"
+      ],
+      "choices": [
+        "3",
+        "5 cents",
+        "15",
+        "75%"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-08",
+      "concept": "Average",
+      "question": "If a shirt is 50% off then 50% off again, what is the total discount?",
+      "answer": "75%",
+      "explanation": "Half off twice leaves 25% of the price.",
+      "hint": "Look for the average clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "AVERAGE",
+        "75%",
+        "MATH"
+      ],
+      "choices": [
+        "75%",
+        "$10",
+        "3",
+        "15"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-09",
+      "concept": "Probability",
+      "question": "What is the average of 10 and 20?",
+      "answer": "15",
+      "explanation": "Add them and divide by 2.",
+      "hint": "Look for the probability clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "PROBABILITY",
+        "15",
+        "MATH"
+      ],
+      "choices": [
+        "0",
+        "$10",
+        "3",
+        "15"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-10",
+      "concept": "Sequence",
+      "question": "What is half of two plus two?",
+      "answer": "3",
+      "explanation": "Half of two is one, plus two equals three.",
+      "hint": "Look for the sequence clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "SEQUENCE",
+        "3",
+        "MATH"
+      ],
+      "choices": [
+        "1/3",
+        "0",
+        "$10",
+        "3"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-11",
+      "concept": "Units",
+      "question": "If three people split $30 equally, how much does each get?",
+      "answer": "$10",
+      "explanation": "30 divided by 3 equals 10.",
+      "hint": "Look for the units clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "UNITS",
+        "$10",
+        "MATH"
+      ],
+      "choices": [
+        "1/3",
+        "0",
+        "$10",
+        "0%"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-12",
+      "concept": "Zero",
+      "question": "What is 0 times any huge number?",
+      "answer": "0",
+      "explanation": "Any number multiplied by zero is zero.",
+      "hint": "Look for the zero clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "ZERO",
+        "0",
+        "MATH"
+      ],
+      "choices": [
+        "0%",
+        "1/3",
+        "0",
+        "48"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-13",
+      "concept": "Fractions",
+      "question": "Which is larger: 1/3 or 0.3?",
+      "answer": "1/3",
+      "explanation": "One third is about 0.333.",
+      "hint": "Look for the fractions clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "FRACTIONS",
+        "1/3",
+        "MATH"
+      ],
+      "choices": [
+        "9",
+        "1/3",
+        "48",
+        "0%"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-14",
+      "concept": "Counting",
+      "question": "You roll one die. What is the chance of getting a 7?",
+      "answer": "0%",
+      "explanation": "A standard die only has 1 through 6.",
+      "hint": "Look for the counting clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "COUNTING",
+        "0%",
+        "MATH"
+      ],
+      "choices": [
+        "0%",
+        "9",
+        "5 cents",
+        "48"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-15",
+      "concept": "Estimation",
+      "question": "What comes next: 3, 6, 12, 24?",
+      "answer": "48",
+      "explanation": "The pattern doubles each time.",
+      "hint": "Look for the estimation clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "ESTIMATION",
+        "48",
+        "MATH"
+      ],
+      "choices": [
+        "9",
+        "5 cents",
+        "48",
+        "75%"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "deceptive-math-questions-premium-16",
+      "concept": "Percent",
+      "question": "A lily patch doubles daily and fills a lake on day 48. When was it half full?",
+      "answer": "Day 47",
+      "explanation": "If the patch doubles each day, it was half full one day earlier.",
+      "hint": "Look for the percent clue.",
+      "difficulty": "medium",
+      "visual": "impact_text",
+      "beats": [
+        "PERCENT",
+        "5 CENTS",
+        "MATH"
+      ],
+      "choices": [
+        "3",
+        "5 cents",
+        "15",
+        "75%"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 16,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

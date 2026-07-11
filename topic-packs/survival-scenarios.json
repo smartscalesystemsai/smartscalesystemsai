@@ -1,0 +1,355 @@
+{
+  "id": "survival-scenarios",
+  "title": "Survival & 'What Would You Do?' Scenarios",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "survival-scenarios-premium-01",
+      "concept": "Premium hook",
+      "question": "You are lost with 10% phone battery. What should you do before recording videos?",
+      "answer": "Send location and conserve battery",
+      "explanation": "Communication and location matter before nonessential use.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-02",
+      "concept": "Premium hook",
+      "question": "A river looks calm but is moving fast below. What danger is hidden?",
+      "answer": "Current",
+      "explanation": "Surface calm can hide strong underwater movement.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-03",
+      "concept": "Premium hook",
+      "question": "You smell gas in a building. What should you avoid first?",
+      "answer": "Switches and flames",
+      "explanation": "Sparks or flames can ignite gas.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-04",
+      "concept": "Premium hook",
+      "question": "You are caught in a rip current. What direction should you swim?",
+      "answer": "Parallel to shore",
+      "explanation": "Swimming parallel helps escape the narrow current.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-05",
+      "concept": "Premium hook",
+      "question": "You find berries in the wild and birds eat them. Are they safe?",
+      "answer": "Not guaranteed",
+      "explanation": "Animals can tolerate foods humans cannot.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-06",
+      "concept": "Desert",
+      "question": "You are lost in a desert. What should you protect first: speed or water?",
+      "answer": "Water",
+      "explanation": "Conserving water and avoiding heat matters more than moving fast.",
+      "hint": "Look for the desert clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "DESERT",
+        "WATER",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Rescuers can find you",
+        "Get dry and insulated",
+        "Three repeated signals",
+        "Water"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-07",
+      "concept": "Cold",
+      "question": "If your clothes get wet in freezing weather, what is the priority?",
+      "answer": "Get dry and insulated",
+      "explanation": "Wet clothing pulls heat away from the body.",
+      "hint": "Look for the cold clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "COLD",
+        "GET DRY AND INSULATED",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Get dry and insulated",
+        "Purify it",
+        "Three repeated signals",
+        "Rescuers can find you"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-08",
+      "concept": "Lost",
+      "question": "What universal signal often means distress?",
+      "answer": "Three repeated signals",
+      "explanation": "Three fires, whistles, or flashes are commonly used for distress.",
+      "hint": "Look for the lost clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "LOST",
+        "THREE REPEATED SIGNALS",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Stay away",
+        "Rescuers can find you",
+        "Purify it",
+        "Three repeated signals"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-09",
+      "concept": "Water",
+      "question": "If you are lost, why might staying put help?",
+      "answer": "Rescuers can find you",
+      "explanation": "Moving randomly can expand the search area.",
+      "hint": "Look for the water clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "WATER",
+        "RESCUERS CAN FIND YOU",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Rescuers can find you",
+        "Under an isolated tree",
+        "Purify it",
+        "Stay away"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-10",
+      "concept": "Signal",
+      "question": "What should you do before drinking unknown water?",
+      "answer": "Purify it",
+      "explanation": "Boiling, filtering, or treating reduces illness risk.",
+      "hint": "Look for the signal clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "SIGNAL",
+        "PURIFY IT",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Stay away",
+        "Cut heat and cover it",
+        "Under an isolated tree",
+        "Purify it"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-11",
+      "concept": "Fire",
+      "question": "What is the first rule around a downed power line?",
+      "answer": "Stay away",
+      "explanation": "Downed lines can energize the ground.",
+      "hint": "Look for the fire clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "FIRE",
+        "STAY AWAY",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Under an isolated tree",
+        "Direct pressure",
+        "Stay away",
+        "Cut heat and cover it"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-12",
+      "concept": "Storm",
+      "question": "During lightning, where should you avoid standing?",
+      "answer": "Under an isolated tree",
+      "explanation": "Tall isolated objects attract lightning risk.",
+      "hint": "Look for the storm clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "STORM",
+        "UNDER AN ISOLATED TREE",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Direct pressure",
+        "Cut heat and cover it",
+        "Not always north",
+        "Under an isolated tree"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-13",
+      "concept": "Shelter",
+      "question": "What is the safest first step with a small grease fire?",
+      "answer": "Cut heat and cover it",
+      "explanation": "Water can spread burning grease.",
+      "hint": "Look for the shelter clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "SHELTER",
+        "CUT HEAT AND COVER IT",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Cut heat and cover it",
+        "Not always north",
+        "Water",
+        "Direct pressure"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-14",
+      "concept": "First aid",
+      "question": "If someone is bleeding heavily, what helps first?",
+      "answer": "Direct pressure",
+      "explanation": "Pressure slows bleeding until help arrives.",
+      "hint": "Look for the first aid clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "FIRST AID",
+        "DIRECT PRESSURE",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Get dry and insulated",
+        "Direct pressure",
+        "Not always north",
+        "Water"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "survival-scenarios-premium-15",
+      "concept": "Navigation",
+      "question": "What direction does moss always grow?",
+      "answer": "Not always north",
+      "explanation": "The moss rule is unreliable and depends on local conditions.",
+      "hint": "Look for the navigation clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "NAVIGATION",
+        "NOT ALWAYS NORTH",
+        "SURVIVAL"
+      ],
+      "choices": [
+        "Three repeated signals",
+        "Not always north",
+        "Water",
+        "Get dry and insulated"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

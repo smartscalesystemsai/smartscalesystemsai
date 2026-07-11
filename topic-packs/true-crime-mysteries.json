@@ -1,0 +1,355 @@
+{
+  "id": "true-crime-mysteries",
+  "title": "True Crime & Unsolved Mysteries",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "true-crime-mysteries-premium-01",
+      "concept": "Premium hook",
+      "question": "A suspect's story is perfect, but one receipt breaks it. What did the receipt prove?",
+      "answer": "Timeline conflict",
+      "explanation": "A timestamp can contradict where someone claimed to be.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-02",
+      "concept": "Premium hook",
+      "question": "A room is locked from inside, but the window is open after rain. What clue matters?",
+      "answer": "Water pattern",
+      "explanation": "Rain marks can reveal when the window was opened.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-03",
+      "concept": "Premium hook",
+      "question": "A witness remembers a red jacket. Security footage shows blue. What is the lesson?",
+      "answer": "Memory is fallible",
+      "explanation": "Stress and suggestion can distort details.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-04",
+      "concept": "Premium hook",
+      "question": "A note looks handwritten but every letter is identical. What does that suggest?",
+      "answer": "It was printed or traced",
+      "explanation": "Natural handwriting varies letter shapes.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-05",
+      "concept": "Premium hook",
+      "question": "A case goes cold for years, then one tiny sample changes everything. What improved?",
+      "answer": "Forensic technology",
+      "explanation": "New testing methods can reopen old evidence.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-06",
+      "concept": "Cipher",
+      "question": "In a mystery, what does a false alibi usually protect?",
+      "answer": "Time",
+      "explanation": "An alibi tries to place someone elsewhere during the key window.",
+      "hint": "Look for the cipher clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "CIPHER",
+        "TIME",
+        "MYSTERY"
+      ],
+      "choices": [
+        "Time",
+        "A message",
+        "Missing forced entry evidence",
+        "They reveal contradictions"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-07",
+      "concept": "Alibi",
+      "question": "What clue can expose a staged break-in?",
+      "answer": "Missing forced entry evidence",
+      "explanation": "If locks and windows are intact, the story may not fit.",
+      "hint": "Look for the alibi clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "ALIBI",
+        "MISSING FORCED ENTRY EVIDENCE",
+        "MYSTERY"
+      ],
+      "choices": [
+        "An unsolved older case",
+        "Missing forced entry evidence",
+        "They reveal contradictions",
+        "A message"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-08",
+      "concept": "Timeline",
+      "question": "Why are timelines powerful in investigations?",
+      "answer": "They reveal contradictions",
+      "explanation": "Conflicting times can break a false story.",
+      "hint": "Look for the timeline clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "TIMELINE",
+        "THEY REVEAL CONTRADICTIONS",
+        "MYSTERY"
+      ],
+      "choices": [
+        "They show movement",
+        "A message",
+        "An unsolved older case",
+        "They reveal contradictions"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-09",
+      "concept": "Motive",
+      "question": "What does a cipher hide?",
+      "answer": "A message",
+      "explanation": "Ciphers transform readable messages into coded text.",
+      "hint": "Look for the motive clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "MOTIVE",
+        "A MESSAGE",
+        "MYSTERY"
+      ],
+      "choices": [
+        "It can change",
+        "An unsolved older case",
+        "They show movement",
+        "A message"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-10",
+      "concept": "Footprints",
+      "question": "What is a cold case?",
+      "answer": "An unsolved older case",
+      "explanation": "Cold cases remain unresolved after active leads slow down.",
+      "hint": "Look for the footprints clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "FOOTPRINTS",
+        "AN UNSOLVED OLDER CASE",
+        "MYSTERY"
+      ],
+      "choices": [
+        "They show movement",
+        "Why someone might act",
+        "It can change",
+        "An unsolved older case"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-11",
+      "concept": "Witness",
+      "question": "Why can footprints matter?",
+      "answer": "They show movement",
+      "explanation": "Footprints can reveal direction, size, and presence.",
+      "hint": "Look for the witness clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "WITNESS",
+        "THEY SHOW MOVEMENT",
+        "MYSTERY"
+      ],
+      "choices": [
+        "Impossible access",
+        "It can change",
+        "They show movement",
+        "Why someone might act"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-12",
+      "concept": "Cold case",
+      "question": "What makes witness memory tricky?",
+      "answer": "It can change",
+      "explanation": "Stress and suggestion can affect recall.",
+      "hint": "Look for the cold case clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "COLD CASE",
+        "IT CAN CHANGE",
+        "MYSTERY"
+      ],
+      "choices": [
+        "Tunnel vision",
+        "Why someone might act",
+        "Impossible access",
+        "It can change"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-13",
+      "concept": "Evidence",
+      "question": "What does motive answer?",
+      "answer": "Why someone might act",
+      "explanation": "Motive explains possible reason, not proof by itself.",
+      "hint": "Look for the evidence clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "EVIDENCE",
+        "WHY SOMEONE MIGHT ACT",
+        "MYSTERY"
+      ],
+      "choices": [
+        "Why someone might act",
+        "Time",
+        "Impossible access",
+        "Tunnel vision"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-14",
+      "concept": "Disguise",
+      "question": "What is a locked-room mystery built around?",
+      "answer": "Impossible access",
+      "explanation": "The puzzle asks how the event happened in a sealed space.",
+      "hint": "Look for the disguise clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "DISGUISE",
+        "IMPOSSIBLE ACCESS",
+        "MYSTERY"
+      ],
+      "choices": [
+        "Impossible access",
+        "Tunnel vision",
+        "Missing forced entry evidence",
+        "Time"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "true-crime-mysteries-premium-15",
+      "concept": "Locked room",
+      "question": "What is the danger of one perfect clue?",
+      "answer": "Tunnel vision",
+      "explanation": "Investigators can overfocus and ignore other possibilities.",
+      "hint": "Look for the locked room clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "LOCKED ROOM",
+        "TUNNEL VISION",
+        "MYSTERY"
+      ],
+      "choices": [
+        "Missing forced entry evidence",
+        "They reveal contradictions",
+        "Time",
+        "Tunnel vision"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "id": "animal-who-am-i",
+  "title": "Who Am I? (Viral Animal Riddles)",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "animal-who-am-i-premium-01",
+      "concept": "Premium hook",
+      "question": "I can recognize myself, mourn my dead, and use my nose like a hand. Who am I?",
+      "answer": "Elephant",
+      "explanation": "Elephants show complex behavior and use trunks with great control.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-02",
+      "concept": "Premium hook",
+      "question": "I have blue blood, three hearts, and can solve jars. Who am I?",
+      "answer": "Octopus",
+      "explanation": "Octopuses are intelligent mollusks with unusual biology.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-03",
+      "concept": "Premium hook",
+      "question": "I am not blind, but I use sound to build a map in darkness. Who am I?",
+      "answer": "Bat",
+      "explanation": "Bats use echolocation to navigate and hunt.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-04",
+      "concept": "Premium hook",
+      "question": "I look like I am wearing a tuxedo, but I am built for underwater flight. Who am I?",
+      "answer": "Penguin",
+      "explanation": "Penguins use flippers to swim like flying underwater.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-05",
+      "concept": "Premium hook",
+      "question": "I can change color, but not just to match backgrounds. Mood and temperature matter too. Who am I?",
+      "answer": "Chameleon",
+      "explanation": "Color change can signal mood, temperature, and communication.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-06",
+      "concept": "Elephant",
+      "question": "I build dams, have orange teeth, and slap the water with my tail. Who am I?",
+      "answer": "Beaver",
+      "explanation": "Beavers build dams and warn others by slapping the water.",
+      "hint": "Look for the elephant clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "ELEPHANT",
+        "ELEPHANT",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Elephant",
+        "Bat",
+        "Penguin",
+        "Octopus"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-07",
+      "concept": "Octopus",
+      "question": "I am the fastest animal on land and use my tail for balance. Who am I?",
+      "answer": "Cheetah",
+      "explanation": "Cheetahs are the fastest land animals and steer with their tails.",
+      "hint": "Look for the octopus clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "OCTOPUS",
+        "OCTOPUS",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Camel",
+        "Penguin",
+        "Octopus",
+        "Bat"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-08",
+      "concept": "Bat",
+      "question": "My laugh-like call carries across the savanna, and I live in clans. Who am I?",
+      "answer": "Hyena",
+      "explanation": "Hyenas live in clans and communicate with famous laugh-like calls.",
+      "hint": "Look for the bat clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "BAT",
+        "BAT",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Chameleon",
+        "Bat",
+        "Camel",
+        "Penguin"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-09",
+      "concept": "Penguin",
+      "question": "My black-and-white stripes are unique, like fingerprints. Who am I?",
+      "answer": "Zebra",
+      "explanation": "Every zebra has a unique stripe pattern.",
+      "hint": "Look for the penguin clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "PENGUIN",
+        "PENGUIN",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Camel",
+        "Penguin",
+        "Dolphin",
+        "Chameleon"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-10",
+      "concept": "Camel",
+      "question": "I store fat in humps and survive dry places. Who am I?",
+      "answer": "Camel",
+      "explanation": "Camel humps store fat for energy.",
+      "hint": "Look for the camel clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "CAMEL",
+        "CAMEL",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Dolphin",
+        "Chameleon",
+        "Owl",
+        "Camel"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-11",
+      "concept": "Chameleon",
+      "question": "I am the tallest land animal and reach leaves with my long neck. Who am I?",
+      "answer": "Giraffe",
+      "explanation": "Giraffes are the tallest living land animals.",
+      "hint": "Look for the chameleon clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "CHAMELEON",
+        "CHAMELEON",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Owl",
+        "Kangaroo",
+        "Dolphin",
+        "Chameleon"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-12",
+      "concept": "Dolphin",
+      "question": "I am a mammal that lives in the ocean and uses clicks. Who am I?",
+      "answer": "Dolphin",
+      "explanation": "Dolphins use clicks and whistles to communicate and navigate.",
+      "hint": "Look for the dolphin clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "DOLPHIN",
+        "DOLPHIN",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Shark",
+        "Dolphin",
+        "Owl",
+        "Kangaroo"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-13",
+      "concept": "Owl",
+      "question": "I can turn my head very far and hunt at night. Who am I?",
+      "answer": "Owl",
+      "explanation": "Owls have flexible necks and night vision.",
+      "hint": "Look for the owl clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "OWL",
+        "OWL",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Owl",
+        "Elephant",
+        "Kangaroo",
+        "Shark"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-14",
+      "concept": "Kangaroo",
+      "question": "I carry my baby in a pouch. Who am I?",
+      "answer": "Kangaroo",
+      "explanation": "Female kangaroos carry joeys in pouches.",
+      "hint": "Look for the kangaroo clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "KANGAROO",
+        "KANGAROO",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Kangaroo",
+        "Shark",
+        "Octopus",
+        "Elephant"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "animal-who-am-i-premium-15",
+      "concept": "Shark",
+      "question": "I keep replacing my teeth throughout life. Who am I?",
+      "answer": "Shark",
+      "explanation": "Sharks grow replacement teeth continuously.",
+      "hint": "Look for the shark clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "SHARK",
+        "SHARK",
+        "ANIMAL"
+      ],
+      "choices": [
+        "Octopus",
+        "Elephant",
+        "Bat",
+        "Shark"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

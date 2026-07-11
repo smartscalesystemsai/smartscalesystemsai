@@ -1,0 +1,355 @@
+{
+  "id": "genius-logic-puzzles",
+  "title": "Genius Level Logic Puzzles (99% Fail)",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "genius-logic-puzzles-premium-01",
+      "concept": "Premium hook",
+      "question": "You have 100 lockers and toggle every nth locker on pass n. Which lockers stay open?",
+      "answer": "Perfect squares",
+      "explanation": "Only numbers with an odd number of factors remain open, and those are squares.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-02",
+      "concept": "Premium hook",
+      "question": "Three people wear two black hats and one white hat. You see two black hats. What color is yours?",
+      "answer": "White",
+      "explanation": "If the other two hats are black and only one white hat exists, yours must be white.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-03",
+      "concept": "Premium hook",
+      "question": "You can ask one yes/no question to find whether a machine always lies or tells truth. What do you ask?",
+      "answer": "Ask a known fact",
+      "explanation": "A known truth calibrates the machine.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-04",
+      "concept": "Premium hook",
+      "question": "A bridge takes four people across with one flashlight and crossing times 1, 2, 7, 10 minutes. What matters most?",
+      "answer": "Pairing slow people",
+      "explanation": "Optimal solutions minimize repeated slow crossings.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-05",
+      "concept": "Premium hook",
+      "question": "A box has one gold coin among fakes. One weighing can identify it if fakes weigh less. What do you need?",
+      "answer": "A balance strategy",
+      "explanation": "Group comparison reveals which side contains the heavier coin.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-06",
+      "concept": "Bridge",
+      "question": "Three switches control three bulbs in another room. What do you use besides sight?",
+      "answer": "Heat",
+      "explanation": "Turn one switch on long enough to warm its bulb, then compare heat and light.",
+      "hint": "Look for the bridge clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "BRIDGE",
+        "HEAT",
+        "LOGIC"
+      ],
+      "choices": [
+        "Heat",
+        "Ask what the other guard would say",
+        "A balance scale",
+        "Burn both ends of one rope and one end of the other"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-07",
+      "concept": "Switches",
+      "question": "You have two ropes that each burn in one hour unevenly. How can you time 45 minutes?",
+      "answer": "Burn both ends of one rope and one end of the other",
+      "explanation": "The first rope ends at 30 minutes, then burn the other end of the second rope for 15 more.",
+      "hint": "Look for the switches clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "SWITCHES",
+        "BURN BOTH ENDS OF ONE ROPE AND ONE END OF THE OTHER",
+        "LOGIC"
+      ],
+      "choices": [
+        "Burn both ends of one rope and one end of the other",
+        "Take goat first",
+        "Ask what the other guard would say",
+        "A balance scale"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-08",
+      "concept": "Boxes",
+      "question": "One of twelve coins is fake and may be heavier or lighter. What tool solves it?",
+      "answer": "A balance scale",
+      "explanation": "Careful comparisons isolate the odd coin.",
+      "hint": "Look for the boxes clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "BOXES",
+        "A BALANCE SCALE",
+        "LOGIC"
+      ],
+      "choices": [
+        "Take goat first",
+        "Ask what the other guard would say",
+        "A balance scale",
+        "13"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-09",
+      "concept": "Hats",
+      "question": "Two guards: one always lies, one tells truth. What question points to the safe door?",
+      "answer": "Ask what the other guard would say",
+      "explanation": "Both answers point to the wrong door, so choose the opposite.",
+      "hint": "Look for the hats clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "HATS",
+        "ASK WHAT THE OTHER GUARD WOULD SAY",
+        "LOGIC"
+      ],
+      "choices": [
+        "Ask what the other guard would say",
+        "13",
+        "One fruit from the mixed-looking box",
+        "Take goat first"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-10",
+      "concept": "Coins",
+      "question": "How do you move a wolf, goat, and cabbage across a river safely?",
+      "answer": "Take goat first",
+      "explanation": "The goat cannot be left with wolf or cabbage without the farmer.",
+      "hint": "Look for the coins clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "COINS",
+        "TAKE GOAT FIRST",
+        "LOGIC"
+      ],
+      "choices": [
+        "Fill 5, pour into 3, leaving 2, then repeat",
+        "One fruit from the mixed-looking box",
+        "Take goat first",
+        "13"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-11",
+      "concept": "Liar",
+      "question": "What comes next: 1, 1, 2, 3, 5, 8?",
+      "answer": "13",
+      "explanation": "Each number is the sum of the previous two.",
+      "hint": "Look for the liar clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "LIAR",
+        "13",
+        "LOGIC"
+      ],
+      "choices": [
+        "Force both guards into the same false direction",
+        "13",
+        "Fill 5, pour into 3, leaving 2, then repeat",
+        "One fruit from the mixed-looking box"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-12",
+      "concept": "River crossing",
+      "question": "A box says 'not apples,' another says 'oranges,' all labels are wrong. What do you inspect?",
+      "answer": "One fruit from the mixed-looking box",
+      "explanation": "Since all labels are wrong, one sample identifies all boxes.",
+      "hint": "Look for the river crossing clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "RIVER CROSSING",
+        "ONE FRUIT FROM THE MIXED-LOOKING BOX",
+        "LOGIC"
+      ],
+      "choices": [
+        "Fill 5, pour into 3, leaving 2, then repeat",
+        "One fruit from the mixed-looking box",
+        "Force both guards into the same false direction",
+        "42"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-13",
+      "concept": "Weights",
+      "question": "You need exactly 4 liters using 3 and 5 liter jugs. What do you do?",
+      "answer": "Fill 5, pour into 3, leaving 2, then repeat",
+      "explanation": "Jug transfers can isolate exactly 4 liters.",
+      "hint": "Look for the weights clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "WEIGHTS",
+        "FILL 5, POUR INTO 3, LEAVING 2, THEN REPEAT",
+        "LOGIC"
+      ],
+      "choices": [
+        "Heat",
+        "Force both guards into the same false direction",
+        "42",
+        "Fill 5, pour into 3, leaving 2, then repeat"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-14",
+      "concept": "Doors",
+      "question": "A prisoner sees two doors and must choose one question. What strategy helps?",
+      "answer": "Force both guards into the same false direction",
+      "explanation": "The classic liar/truth-teller setup is solved by asking about the other guard.",
+      "hint": "Look for the doors clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "DOORS",
+        "FORCE BOTH GUARDS INTO THE SAME FALSE DIRECTION",
+        "LOGIC"
+      ],
+      "choices": [
+        "Burn both ends of one rope and one end of the other",
+        "Heat",
+        "Force both guards into the same false direction",
+        "42"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "genius-logic-puzzles-premium-15",
+      "concept": "Sequence",
+      "question": "What number is missing: 2, 6, 12, 20, 30, ?",
+      "answer": "42",
+      "explanation": "The pattern is n times n+1: 1x2, 2x3, 3x4, and so on.",
+      "hint": "Look for the sequence clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "SEQUENCE",
+        "42",
+        "LOGIC"
+      ],
+      "choices": [
+        "Heat",
+        "42",
+        "A balance scale",
+        "Burn both ends of one rope and one end of the other"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

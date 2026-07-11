@@ -1,0 +1,132 @@
+{
+  "version": 2,
+  "generatedAt": "2026-06-28T16:04:13.098Z",
+  "description": "Local editable quiz packs curated for clear answers, viral formats, and kinetic-text animation.",
+  "topics": [
+    {
+      "title": "10 Million View WOW Riddles (Unexpected Twists)",
+      "slug": "wow-riddles",
+      "file": "wow-riddles.json",
+      "count": 15
+    },
+    {
+      "title": "Mind-Blowing Math Tricks (Looks like Magic)",
+      "slug": "math-tricks",
+      "file": "math-tricks.json",
+      "count": 15
+    },
+    {
+      "title": "Latest Viral TikTok Riddles (Brand New)",
+      "slug": "viral-tiktok-riddles",
+      "file": "viral-tiktok-riddles.json",
+      "count": 15
+    },
+    {
+      "title": "Lateral Thinking Traps (The 1% Club)",
+      "slug": "lateral-thinking-traps",
+      "file": "lateral-thinking-traps.json",
+      "count": 15
+    },
+    {
+      "title": "Viral AI & Tech Puzzles (Mind-Blowing Reveals)",
+      "slug": "ai-tech-puzzles",
+      "file": "ai-tech-puzzles.json",
+      "count": 20
+    },
+    {
+      "title": "Visual Riddles: Spot the Hidden Object (Hard)",
+      "slug": "visual-riddles",
+      "file": "visual-riddles.json",
+      "count": 15
+    },
+    {
+      "title": "Rapid Fire: Viral Trick Questions",
+      "slug": "rapid-fire-trick-questions",
+      "file": "rapid-fire-trick-questions.json",
+      "count": 15
+    },
+    {
+      "title": "Who Am I? (Viral Animal Riddles)",
+      "slug": "animal-who-am-i",
+      "file": "animal-who-am-i.json",
+      "count": 15
+    },
+    {
+      "title": "Guess the Animal (Bizarre Traits)",
+      "slug": "guess-animal-bizarre-traits",
+      "file": "guess-animal-bizarre-traits.json",
+      "count": 15
+    },
+    {
+      "title": "Genius Level Logic Puzzles (99% Fail)",
+      "slug": "genius-logic-puzzles",
+      "file": "genius-logic-puzzles.json",
+      "count": 15
+    },
+    {
+      "title": "FAANG & Google Interview Riddles",
+      "slug": "faang-interview-riddles",
+      "file": "faang-interview-riddles.json",
+      "count": 15
+    },
+    {
+      "title": "Math Viral Questions (Deceptive Logic)",
+      "slug": "deceptive-math-questions",
+      "file": "deceptive-math-questions.json",
+      "count": 16
+    },
+    {
+      "title": "Survival & 'What Would You Do?' Scenarios",
+      "slug": "survival-scenarios",
+      "file": "survival-scenarios.json",
+      "count": 15
+    },
+    {
+      "title": "Psychology Tricks & Body Language",
+      "slug": "psychology-body-language",
+      "file": "psychology-body-language.json",
+      "count": 15
+    },
+    {
+      "title": "True Crime & Unsolved Mysteries",
+      "slug": "true-crime-mysteries",
+      "file": "true-crime-mysteries.json",
+      "count": 15
+    },
+    {
+      "title": "Sea Mysteries & Deep Ocean Secrets",
+      "slug": "sea-mysteries",
+      "file": "sea-mysteries.json",
+      "count": 15
+    },
+    {
+      "title": "Unbelievable Animal Facts",
+      "slug": "animal-facts",
+      "file": "animal-facts.json",
+      "count": 15
+    },
+    {
+      "title": "The Mandela Effect: Reality Tests",
+      "slug": "mandela-effect",
+      "file": "mandela-effect.json",
+      "count": 15
+    },
+    {
+      "title": "Optical Illusions & Brain Glitches",
+      "slug": "optical-illusions",
+      "file": "optical-illusions.json",
+      "count": 15
+    },
+    {
+      "title": "History's Biggest Secrets & Cover-ups",
+      "slug": "history-secrets",
+      "file": "history-secrets.json",
+      "count": 15
+    }
+  ],
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "totalQuestions": 306
+  }
+}

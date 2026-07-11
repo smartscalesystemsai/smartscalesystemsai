@@ -1,0 +1,355 @@
+{
+  "id": "lateral-thinking-traps",
+  "title": "Lateral Thinking Traps (The 1% Club)",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "lateral-thinking-traps-premium-01",
+      "concept": "Premium hook",
+      "question": "A man asks a bartender for water. The bartender points a gun. The man says thank you. Why?",
+      "answer": "He had hiccups",
+      "explanation": "The scare cured the hiccups, so he no longer needed water.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-02",
+      "concept": "Premium hook",
+      "question": "A surgeon says, 'I cannot operate on this boy. He is my son.' The surgeon is not the father. How?",
+      "answer": "The surgeon is his mother",
+      "explanation": "The riddle exposes an assumption about gender.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-03",
+      "concept": "Premium hook",
+      "question": "A woman buys a parrot that repeats every word it hears, but it never speaks. Why?",
+      "answer": "It is deaf",
+      "explanation": "It cannot hear words to repeat.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-04",
+      "concept": "Premium hook",
+      "question": "A man jumps from a plane without a parachute and survives. How?",
+      "answer": "The plane was on the ground",
+      "explanation": "The assumption is that the plane was flying.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-05",
+      "concept": "Premium hook",
+      "question": "A driver goes the wrong way down a one-way street and passes police. Why is he not stopped?",
+      "answer": "He is walking",
+      "explanation": "He is a driver by profession, but not driving at that moment.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-06",
+      "concept": "Word trap",
+      "question": "A man pushed his car to a hotel and lost his money. Why?",
+      "answer": "He was playing Monopoly",
+      "explanation": "The car and hotel are pieces in the board game.",
+      "hint": "Look for the word trap clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "WORD TRAP",
+        "HE WAS PLAYING MONOPOLY",
+        "LOGIC"
+      ],
+      "choices": [
+        "His horse was named Friday",
+        "Are you asleep?",
+        "He was playing Monopoly",
+        "They do not"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-07",
+      "concept": "Assumption",
+      "question": "A plane crashes on the border of two countries. Where do they bury survivors?",
+      "answer": "They do not",
+      "explanation": "Survivors are alive, so they are not buried.",
+      "hint": "Look for the assumption clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "ASSUMPTION",
+        "THEY DO NOT",
+        "LOGIC"
+      ],
+      "choices": [
+        "They do not",
+        "His horse was named Friday",
+        "A comb",
+        "Are you asleep?"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-08",
+      "concept": "Perspective",
+      "question": "What question can you never answer yes to truthfully?",
+      "answer": "Are you asleep?",
+      "explanation": "If you can answer, you are awake.",
+      "hint": "Look for the perspective clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "PERSPECTIVE",
+        "ARE YOU ASLEEP?",
+        "LOGIC"
+      ],
+      "choices": [
+        "His horse was named Friday",
+        "A comb",
+        "Are you asleep?",
+        "A conversation"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-09",
+      "concept": "Calendar",
+      "question": "A cowboy rode into town on Friday, stayed three days, and left on Friday. How?",
+      "answer": "His horse was named Friday",
+      "explanation": "Friday is the horse's name, not the day.",
+      "hint": "Look for the calendar clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "CALENDAR",
+        "HIS HORSE WAS NAMED FRIDAY",
+        "LOGIC"
+      ],
+      "choices": [
+        "A comb",
+        "Your age",
+        "A conversation",
+        "His horse was named Friday"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-10",
+      "concept": "Rules",
+      "question": "What has many teeth but cannot bite?",
+      "answer": "A comb",
+      "explanation": "The teeth are plastic or metal prongs.",
+      "hint": "Look for the rules clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "RULES",
+        "A COMB",
+        "LOGIC"
+      ],
+      "choices": [
+        "A conversation",
+        "A bottle",
+        "A comb",
+        "Your age"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-11",
+      "concept": "Hidden clue",
+      "question": "What can you hold without touching it?",
+      "answer": "A conversation",
+      "explanation": "You can hold a conversation, not physically hold it.",
+      "hint": "Look for the hidden clue clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "HIDDEN CLUE",
+        "A CONVERSATION",
+        "LOGIC"
+      ],
+      "choices": [
+        "Envelope",
+        "Your age",
+        "A conversation",
+        "A bottle"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-12",
+      "concept": "Reverse answer",
+      "question": "What goes up but never comes down?",
+      "answer": "Your age",
+      "explanation": "Age increases over time.",
+      "hint": "Look for the reverse answer clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "REVERSE ANSWER",
+        "YOUR AGE",
+        "LOGIC"
+      ],
+      "choices": [
+        "Your age",
+        "A feather",
+        "A bottle",
+        "Envelope"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-13",
+      "concept": "Silence",
+      "question": "What has a neck but no head?",
+      "answer": "A bottle",
+      "explanation": "A bottle has a neck as part of its shape.",
+      "hint": "Look for the silence clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "SILENCE",
+        "A BOTTLE",
+        "LOGIC"
+      ],
+      "choices": [
+        "A bottle",
+        "Envelope",
+        "A feather",
+        "He was playing Monopoly"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-14",
+      "concept": "Position",
+      "question": "What starts with E, ends with E, and contains one letter?",
+      "answer": "Envelope",
+      "explanation": "An envelope can contain one letter.",
+      "hint": "Look for the position clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "POSITION",
+        "ENVELOPE",
+        "LOGIC"
+      ],
+      "choices": [
+        "Envelope",
+        "A feather",
+        "He was playing Monopoly",
+        "They do not"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "lateral-thinking-traps-premium-15",
+      "concept": "Meaning",
+      "question": "What is easy to lift but hard to throw?",
+      "answer": "A feather",
+      "explanation": "A feather is light but hard to throw far.",
+      "hint": "Look for the meaning clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "MEANING",
+        "A FEATHER",
+        "LOGIC"
+      ],
+      "choices": [
+        "He was playing Monopoly",
+        "They do not",
+        "Are you asleep?",
+        "A feather"
+      ],
+      "answerIndex": 3,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "id": "mandela-effect",
+  "title": "The Mandela Effect: Reality Tests",
+  "version": 2,
+  "editable": true,
+  "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
+  "items": [
+    {
+      "id": "mandela-effect-premium-01",
+      "concept": "Premium hook",
+      "question": "Why can thousands remember the same wrong logo detail?",
+      "answer": "Shared inference",
+      "explanation": "People reconstruct likely details from cultural patterns.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-02",
+      "concept": "Premium hook",
+      "question": "A movie quote feels exact because everyone repeats it. What is the trap?",
+      "answer": "Social reinforcement",
+      "explanation": "Repeated misquotes can feel more familiar than the original.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-03",
+      "concept": "Premium hook",
+      "question": "Why does confidence make false memories harder to challenge?",
+      "answer": "Emotion adds certainty",
+      "explanation": "Feeling sure is not the same as being accurate.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-04",
+      "concept": "Premium hook",
+      "question": "What is the strongest reality test for a disputed brand memory?",
+      "answer": "Archived original material",
+      "explanation": "Old official packaging beats modern recollection.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-05",
+      "concept": "Premium hook",
+      "question": "Why do childhood memories create powerful Mandela Effects?",
+      "answer": "Nostalgia plus gaps",
+      "explanation": "The brain fills missing details with familiar patterns.",
+      "hint": "Read the wording carefully.",
+      "difficulty": "hard",
+      "visual": "diagram_checklist",
+      "beats": [
+        "READ CAREFULLY",
+        "THINK FAST",
+        "ANSWER AFTER TIMER"
+      ],
+      "choices": [],
+      "answerIndex": 0,
+      "engagementQuestion": "Did this trick you?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-06",
+      "concept": "Memory",
+      "question": "What is the Mandela Effect?",
+      "answer": "Shared false memory",
+      "explanation": "Many people remember something differently from documented reality.",
+      "hint": "Look for the memory clue.",
+      "difficulty": "easy",
+      "visual": "impact_text",
+      "beats": [
+        "MEMORY",
+        "SHARED FALSE MEMORY",
+        "MEMORY"
+      ],
+      "choices": [
+        "Paraphrasing",
+        "We remember the idea, not every detail",
+        "Shared false memory",
+        "Memory reconstructs"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-07",
+      "concept": "Logo",
+      "question": "Why do brand logos create memory traps?",
+      "answer": "We remember the idea, not every detail",
+      "explanation": "Brains store simplified versions of familiar visuals.",
+      "hint": "Look for the logo clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "LOGO",
+        "WE REMEMBER THE IDEA, NOT EVERY DETAIL",
+        "MEMORY"
+      ],
+      "choices": [
+        "We remember the idea, not every detail",
+        "Memory reconstructs",
+        "Primary evidence",
+        "Paraphrasing"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-08",
+      "concept": "Quote",
+      "question": "What makes movie quotes easy to misremember?",
+      "answer": "Paraphrasing",
+      "explanation": "Popular culture often repeats altered versions.",
+      "hint": "Look for the quote clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "QUOTE",
+        "PARAPHRASING",
+        "MEMORY"
+      ],
+      "choices": [
+        "Primary evidence",
+        "Paraphrasing",
+        "Common associations",
+        "Memory reconstructs"
+      ],
+      "answerIndex": 1,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-09",
+      "concept": "Spelling",
+      "question": "Why can childhood memories feel certain but be wrong?",
+      "answer": "Memory reconstructs",
+      "explanation": "Memory is rebuilt, not replayed perfectly.",
+      "hint": "Look for the spelling clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "SPELLING",
+        "MEMORY RECONSTRUCTS",
+        "MEMORY"
+      ],
+      "choices": [
+        "Similar spellings",
+        "Common associations",
+        "Memory reconstructs",
+        "Primary evidence"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-10",
+      "concept": "Brand",
+      "question": "What helps test a Mandela Effect claim?",
+      "answer": "Primary evidence",
+      "explanation": "Old packaging, recordings, or archived sources can verify details.",
+      "hint": "Look for the brand clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "BRAND",
+        "PRIMARY EVIDENCE",
+        "MEMORY"
+      ],
+      "choices": [
+        "Primary evidence",
+        "Similar spellings",
+        "Emotion can boost certainty",
+        "Common associations"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-11",
+      "concept": "Childhood",
+      "question": "Why do groups share the same wrong memory?",
+      "answer": "Common associations",
+      "explanation": "People may infer the same familiar pattern.",
+      "hint": "Look for the childhood clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "CHILDHOOD",
+        "COMMON ASSOCIATIONS",
+        "MEMORY"
+      ],
+      "choices": [
+        "Similar spellings",
+        "Emotion can boost certainty",
+        "Common associations",
+        "Compare archived images"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-12",
+      "concept": "Misremembering",
+      "question": "What kind of words are often misremembered?",
+      "answer": "Similar spellings",
+      "explanation": "Brand names and titles can blend with common spelling rules.",
+      "hint": "Look for the misremembering clue.",
+      "difficulty": "hard",
+      "visual": "audio_waveform",
+      "beats": [
+        "MISREMEMBERING",
+        "SIMILAR SPELLINGS",
+        "MEMORY"
+      ],
+      "choices": [
+        "Similar spellings",
+        "Emotion can boost certainty",
+        "Compare archived images",
+        "Small details matter"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-13",
+      "concept": "Culture",
+      "question": "Why does confidence not prove memory accuracy?",
+      "answer": "Emotion can boost certainty",
+      "explanation": "Strong feeling does not guarantee correctness.",
+      "hint": "Look for the culture clue.",
+      "difficulty": "viral",
+      "visual": "impact_text",
+      "beats": [
+        "CULTURE",
+        "EMOTION CAN BOOST CERTAINTY",
+        "MEMORY"
+      ],
+      "choices": [
+        "Compare archived images",
+        "Small details matter",
+        "Emotion can boost certainty",
+        "Shared false memory"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-14",
+      "concept": "Association",
+      "question": "What is a reality test for a remembered logo?",
+      "answer": "Compare archived images",
+      "explanation": "Old official materials can settle the detail.",
+      "hint": "Look for the association clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "ASSOCIATION",
+        "COMPARE ARCHIVED IMAGES",
+        "MEMORY"
+      ],
+      "choices": [
+        "We remember the idea, not every detail",
+        "Shared false memory",
+        "Compare archived images",
+        "Small details matter"
+      ],
+      "answerIndex": 2,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    },
+    {
+      "id": "mandela-effect-premium-15",
+      "concept": "Group memory",
+      "question": "Why do simple designs create big debates?",
+      "answer": "Small details matter",
+      "explanation": "A missing line or color can change what people remember.",
+      "hint": "Look for the group memory clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "GROUP MEMORY",
+        "SMALL DETAILS MATTER",
+        "MEMORY"
+      ],
+      "choices": [
+        "Small details matter",
+        "Paraphrasing",
+        "We remember the idea, not every detail",
+        "Shared false memory"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v2"
+    }
+  ],
+  "premiumCount": 15,
+  "qualityStandard": {
+    "label": "Viral Clear v2",
+    "maxQuestionWords": 22,
+    "requirements": [
+      "single clear prompt",
+      "one defensible answer",
+      "animation-friendly phrasing",
+      "no synthetic hook padding"
+    ]
+  }
+}
