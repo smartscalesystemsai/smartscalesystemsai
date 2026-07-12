@@ -50,7 +50,7 @@
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 
   nav{position:sticky;top:0;z-index:60;backdrop-filter:blur(16px);background:rgba(5,16,14,.6);border-bottom:1px solid var(--line)}
-  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:66px}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:66px;position:relative}
   .brand{display:flex;align-items:center;gap:11px;font-family:'Bricolage Grotesque';font-weight:700;font-size:1.02rem}
   .brand .mk{width:30px;height:30px;border-radius:9px;background:var(--grad);display:grid;place-items:center;box-shadow:0 4px 16px rgba(47,216,198,.4)}
   .brand .mk svg{width:18px;height:18px}
@@ -59,7 +59,19 @@
   .nav-links a:hover{color:var(--ink)}
   .nav-cta{font-family:'Bricolage Grotesque';font-weight:600;font-size:.9rem;padding:9px 18px;border-radius:999px;background:var(--grad);color:#04211a;transition:.25s}
   .nav-cta:hover{transform:translateY(-2px);box-shadow:0 10px 26px -8px rgba(47,216,198,.6)}
-  @media(max-width:720px){.nav-links{display:none}}
+  .menu-toggle{display:none;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;background:var(--panel);
+    color:var(--ink);font-family:'Bricolage Grotesque';font-weight:700;font-size:.9rem;padding:9px 14px;cursor:pointer}
+  .menu-toggle svg{width:18px;height:18px}
+  @media(max-width:720px){
+    .nav-inner{gap:12px}
+    .nav-cta{display:none}
+    .menu-toggle{display:inline-flex}
+    .nav-links{display:none;position:absolute;left:24px;right:24px;top:66px;z-index:70;flex-direction:column;align-items:stretch;gap:0;
+      border:1px solid var(--line);border-radius:18px;background:rgba(5,16,14,.96);box-shadow:0 24px 60px -28px #000;overflow:hidden}
+    .nav-links.open{display:flex}
+    .nav-links a{padding:14px 16px;border-bottom:1px solid var(--line);font-size:1rem}
+    .nav-links a:last-child{border-bottom:none}
+  }
 
   /* ---------- BANNER + IDENTITY ---------- */
   header{padding:34px 0 30px}
@@ -231,7 +243,11 @@
         <span class="mk"><svg viewBox="0 0 24 24" fill="none"><path d="M12 20V8l5 5" stroke="#04211a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 20h14" stroke="#04211a" stroke-width="2.4" stroke-linecap="round"/></svg></span>
         Smart Scale System
       </a>
-      <div class="nav-links">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        Menu
+      </button>
+      <div class="nav-links" id="site-menu">
         <a href="#free">Free tools</a>
         <a href="#products">Products</a>
         <a href="#pulse">AI Pulse</a>
@@ -456,6 +472,14 @@
 
   <script>
     document.getElementById('yr').textContent=new Date().getFullYear();
+    const menuToggle=document.querySelector('.menu-toggle');
+    const siteMenu=document.getElementById('site-menu');
+    if(menuToggle&&siteMenu){
+      const setMenu=open=>{siteMenu.classList.toggle('open',open);menuToggle.setAttribute('aria-expanded',String(open));};
+      menuToggle.addEventListener('click',()=>setMenu(!siteMenu.classList.contains('open')));
+      siteMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
+      document.addEventListener('keydown',e=>{if(e.key==='Escape')setMenu(false);});
+    }
     const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
     document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=(Math.min(i,6)*0.06)+'s';io.observe(el)});
 
