@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "InVideo AI Free Tier", desc: "All-in-one text-to-video assembly for beginners.", url: "https://invideo.io" }
             ],
             paidStack: [
-                { name: "HeyGen", desc: "End-to-end Text-to-Video generation (Your Affiliate Link)", link: "#aff-heygen" },
-                { name: "ElevenLabs", desc: "Premium voice APIs (Your Affiliate Link)", link: "https://try.elevenlabs.io/ilclr9gz1m92" },
-                { name: "Submagic", desc: "AI dynamic captions & B-roll for Shorts/Reels (Your Affiliate Link)", link: "https://submagic.co/?via=suma81" }
+                { name: "HeyGen", desc: "End-to-end Text-to-Video generation.", link: "https://heygen.com" },
+                { name: "ElevenLabs", desc: "Premium voice APIs.", link: "https://try.elevenlabs.io/ilclr9gz1m92" },
+                { name: "Submagic", desc: "AI dynamic captions & B-roll for Shorts/Reels.", link: "https://submagic.co/?via=suma81" }
             ],
             roi: {
                 timeSaved: "15+ hours/week",
@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "Claude Free Tier", desc: "Best natural writer.", url: "https://claude.ai" }
             ],
             paidStack: [
-                { name: "Skool", desc: "Community & Course Hosting (40% Recurring)", link: "https://www.skool.com/signup?ref=6573327a34f846fc9736c36a268d9aa2" },
-                { name: "Writesonic", desc: "AI copywriting and e-book generation (30% Recurring)", link: "#aff-writesonic" }
+                { name: "Skool", desc: "Community & Course Hosting.", link: "https://www.skool.com/signup?ref=6573327a34f846fc9736c36a268d9aa2" },
+                { name: "Writesonic", desc: "AI copywriting and e-book generation.", link: "https://writesonic.com" }
             ],
             roi: {
                 timeSaved: "Reduces creation time from 4 weeks to 3 days.",
@@ -44,8 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "Apollo.io Free", desc: "B2B database.", url: "https://apollo.io" }
             ],
             paidStack: [
-                { name: "GoHighLevel", desc: "The ultimate agency CRM (40% Recurring)", link: "https://www.gohighlevel.com/?fp_ref=suma58" },
-                { name: "Pabbly Connect", desc: "Zero-touch workflow automation (30% Lifetime Recurring)", link: "#aff-pabbly" }
+                { name: "GoHighLevel", desc: "The ultimate agency CRM.", link: "https://www.gohighlevel.com/?fp_ref=suma58" },
+                { name: "Pabbly Connect", desc: "Zero-touch workflow automation.", link: "https://pabbly.com/connect/" }
             ],
             roi: {
                 timeSaved: "Eliminates 10 hours/week of admin.",
@@ -60,9 +60,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "ChatGPT Free", desc: "Manual rewriting.", url: "https://chatgpt.com" }
             ],
             paidStack: [
-                { name: "vidyo.ai", desc: "AI viral short extraction (40% Recurring)", link: "#aff-vidyo" },
-                { name: "vidIQ", desc: "YouTube SEO & trend discovery (Your Affiliate Link)", link: "https://vidiq.com/smartsclaesystem" },
-                { name: "Scalenut", desc: "AI-driven blog ranking (30% Lifetime Recurring)", link: "#aff-scalenut" }
+                { name: "vidyo.ai", desc: "AI viral short extraction.", link: "https://vidyo.ai" },
+                { name: "vidIQ", desc: "YouTube SEO & trend discovery.", link: "https://vidiq.com/smartsclaesystem" },
+                { name: "Scalenut", desc: "AI-driven blog ranking.", link: "https://scalenut.com" }
             ],
             roi: {
                 timeSaved: "10x content output.",
@@ -75,11 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
     function renderStackList(stack, isPaid) {
         let html = '<ul class="ss-tool-list">';
         stack.forEach(tool => {
-            if(isPaid) {
-                html += `<li><strong>${tool.name}</strong>: ${tool.desc} <br><a href="${tool.link}" class="ss-aff-link" target="_blank">Get Started →</a></li>`;
-            } else {
-                html += `<li><strong><a href="${tool.url}" target="_blank" class="ss-free-link">${tool.name}</a></strong>: ${tool.desc}</li>`;
-            }
+            const linkHref = isPaid ? tool.link : tool.url;
+            const linkClass = isPaid ? "ss-aff-link" : "ss-free-link";
+            html += `<li><strong><a href="${linkHref}" class="${linkClass}" target="_blank">${tool.name}</a></strong>: ${tool.desc}</li>`;
         });
         html += '</ul>';
         return html;
