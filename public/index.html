@@ -50,16 +50,23 @@
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 
   nav{position:sticky;top:0;z-index:60;backdrop-filter:blur(16px);background:rgba(5,16,14,.6);border-bottom:1px solid var(--line)}
-  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:66px;position:relative}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:22px;height:66px;position:relative}
   .brand{display:flex;align-items:center;gap:11px;font-family:'Bricolage Grotesque';font-weight:700;font-size:1.02rem}
   .brand .mk{width:30px;height:30px;border-radius:9px;background:var(--grad);display:grid;place-items:center;box-shadow:0 4px 16px rgba(47,216,198,.4)}
   .brand .mk svg{width:18px;height:18px}
-  .nav-links{display:none;position:absolute;right:24px;top:66px;z-index:70;min-width:230px;flex-direction:column;align-items:stretch;gap:0;
-    border:1px solid var(--line);border-radius:18px;background:rgba(5,16,14,.96);box-shadow:0 24px 60px -28px #000;overflow:hidden}
-  .nav-links.open{display:flex}
-  .nav-links a{color:var(--ink-soft);font-size:1rem;font-weight:500;transition:.2s;padding:14px 16px;border-bottom:1px solid var(--line)}
-  .nav-links a:last-child{border-bottom:none}
+  .nav-links{display:flex;gap:24px;align-items:center;flex:1;justify-content:center}
+  .nav-links a{color:var(--ink-soft);font-size:.92rem;font-weight:500;transition:.2s}
   .nav-links a:hover{color:var(--ink)}
+  .menu-panel{display:none;position:absolute;left:24px;top:66px;z-index:70;min-width:280px;flex-direction:column;align-items:stretch;gap:0;
+    border:1px solid var(--line);border-radius:18px;background:rgba(5,16,14,.96);box-shadow:0 24px 60px -28px #000;overflow:hidden}
+  .menu-panel.open{display:flex}
+  .menu-panel a,.menu-panel summary{color:var(--ink-soft);font-size:1rem;font-weight:600;transition:.2s;padding:14px 16px;border-bottom:1px solid var(--line);cursor:pointer;list-style:none}
+  .menu-panel summary::-webkit-details-marker{display:none}
+  .menu-panel a:hover,.menu-panel summary:hover{color:var(--ink)}
+  .product-submenu[open] summary{color:var(--mint)}
+  .product-submenu-links{display:grid;background:rgba(255,255,255,.025);border-bottom:1px solid var(--line)}
+  .product-submenu-links a{padding-left:30px;font-size:.94rem;color:var(--ink-dim)}
+  .menu-panel > a:last-child{border-bottom:none}
   .nav-cta{font-family:'Bricolage Grotesque';font-weight:600;font-size:.9rem;padding:9px 18px;border-radius:999px;background:var(--grad);color:#04211a;transition:.25s}
   .nav-cta:hover{transform:translateY(-2px);box-shadow:0 10px 26px -8px rgba(47,216,198,.6)}
   .menu-toggle{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;background:var(--panel);
@@ -67,8 +74,10 @@
   .menu-toggle svg{width:18px;height:18px}
   @media(max-width:720px){
     .nav-inner{gap:12px}
+    .brand{font-size:.95rem}
+    .nav-links{display:none}
     .nav-cta{display:none}
-    .nav-links{left:24px;right:24px;min-width:0}
+    .menu-panel{left:24px;right:24px;min-width:0}
   }
 
   /* ---------- BANNER + IDENTITY ---------- */
@@ -237,15 +246,31 @@
 
   <nav>
     <div class="wrap nav-inner">
-      <a class="brand" href="#top">
-        <span class="mk"><svg viewBox="0 0 24 24" fill="none"><path d="M12 20V8l5 5" stroke="#04211a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 20h14" stroke="#04211a" stroke-width="2.4" stroke-linecap="round"/></svg></span>
-        Smart Scale System
-      </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
         Menu
       </button>
-      <div class="nav-links" id="site-menu">
+      <div class="menu-panel" id="site-menu">
+        <a href="#free">Free tools</a>
+        <a href="#smart-scale-widget">AI Blueprint Engine</a>
+        <details class="product-submenu">
+          <summary>Products</summary>
+          <div class="product-submenu-links">
+            <a href="/quiz/" target="_blank" rel="noopener">OmniFrame Quiz Studio</a>
+            <a href="https://sumbasub.gumroad.com" target="_blank" rel="noopener">Gumroad Store</a>
+            <a href="https://www.amazon.com/dp/B0H61SK9RC" target="_blank" rel="noopener">Books &amp; Guides</a>
+            <a href="https://www.etsy.com/shop/ScaleAndAutomate" target="_blank" rel="noopener">Etsy Shop</a>
+          </div>
+        </details>
+        <a href="#pulse">AI Pulse</a>
+        <a href="mailto:smartscale@smartscalesystemsai.com?subject=Smart%20Scale%20Systems%20AI%20Inquiry">Contact</a>
+        <a href="https://www.youtube.com/@SmartScaleSystemsAI" target="_blank" rel="noopener">YouTube</a>
+      </div>
+      <a class="brand" href="#top">
+        <span class="mk"><svg viewBox="0 0 24 24" fill="none"><path d="M12 20V8l5 5" stroke="#04211a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 20h14" stroke="#04211a" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+        Smart Scale System
+      </a>
+      <div class="nav-links">
         <a href="#free">Free tools</a>
         <a href="#products">Products</a>
         <a href="#pulse">AI Pulse</a>
