@@ -17,6 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;450;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="widget.css">
+<script src="widget.js" defer></script>
 
 <style>
   :root{
@@ -292,6 +294,32 @@
       </div>
     </div>
   </header>
+
+  <div id="smart-scale-widget">
+    <div class="ss-widget-container">
+        <div class="ss-header">
+            <h2>The AI Blueprint Engine</h2>
+            <p>Select your biggest bottleneck to generate your custom AI tech stack.</p>
+        </div>
+
+        <div class="ss-input-section" id="ss-step-1">
+            <div class="ss-input-group">
+                <label for="ss-category-select">What are you trying to scale?</label>
+                <select id="ss-category-select" class="ss-select">
+                    <option value="" disabled selected>Select a goal...</option>
+                    <option value="faceless">Faceless Video Channels (Shorts/TikTok)</option>
+                    <option value="digital_products">Digital Product Empire (E-books/Planners)</option>
+                    <option value="onboarding">B2B Client Onboarding & Outreach</option>
+                    <option value="repurposing">Content Repurposing & SEO</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="ss-results-section" class="ss-hidden">
+            <!-- Dynamically populated by JS -->
+        </div>
+    </div>
+</div>
 
   <section class="freebies" id="free">
     <div class="wrap">
