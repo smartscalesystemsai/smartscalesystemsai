@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "InVideo AI Free Tier", desc: "All-in-one text-to-video assembly for beginners.", url: "https://invideo.io" }
             ],
             paidStack: [
+                { name: "OmniFrame Quiz Studio", desc: "Our tool — faceless quiz videos in minutes. Voiceover, animated visuals, 1080p export. One-time payment, no subscription.", link: "https://smartscalesystemsai.com/quiz/", own: true },
                 { name: "HeyGen", desc: "End-to-end Text-to-Video generation.", link: "https://heygen.com" },
                 { name: "ElevenLabs", desc: "Premium voice APIs.", link: "https://try.elevenlabs.io/ilclr9gz1m92" },
                 { name: "Submagic", desc: "AI dynamic captions & B-roll for Shorts/Reels.", link: "https://submagic.co/?via=suma81" }
@@ -60,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "ChatGPT Free", desc: "Manual rewriting.", url: "https://chatgpt.com" }
             ],
             paidStack: [
+                { name: "OmniFrame Quiz Studio", desc: "Our tool — spin any topic or script into faceless quiz shorts for every platform. 1080p export, one-time payment.", link: "https://smartscalesystemsai.com/quiz/", own: true },
                 { name: "vidyo.ai", desc: "AI viral short extraction.", link: "https://vidyo.ai" },
                 { name: "vidIQ", desc: "YouTube SEO & trend discovery.", link: "https://vidiq.com/smartsclaesystem" },
                 { name: "Scalenut", desc: "AI-driven blog ranking.", link: "https://scalenut.com" }
@@ -76,8 +78,9 @@ document.addEventListener("DOMContentLoaded", () => {
         let html = '<ul class="ss-tool-list">';
         stack.forEach(tool => {
             const linkHref = isPaid ? tool.link : tool.url;
-            const linkClass = isPaid ? "ss-aff-link" : "ss-free-link";
-            html += `<li><strong><a href="${linkHref}" class="${linkClass}" target="_blank">${tool.name}</a></strong>: ${tool.desc}</li>`;
+            const linkClass = (isPaid ? "ss-aff-link" : "ss-free-link") + (tool.own ? " ss-own-tool" : "");
+            const badge = tool.own ? ' <span class="ss-own-badge">★ Our Tool</span>' : '';
+            html += `<li><strong><a href="${linkHref}" class="${linkClass}" target="_blank">${tool.name}</a></strong>${badge}: ${tool.desc}</li>`;
         });
         html += '</ul>';
         return html;

@@ -291,3 +291,23 @@
 .ss-btn-email:hover {
     background: var(--ss-accent-cta-hover);
 }
+
+/* "Our Tool" highlight for Smart Scale System's own products in the stack */
+.ss-own-tool {
+    color: #6ee7a8 !important;
+    font-weight: 700;
+}
+
+.ss-own-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #2ecc71, #6ee7b7);
+    color: #05100e;
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 2px 8px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    vertical-align: middle;
+    margin-left: 4px;
+}
