@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OmniFrame Quiz Studio — Faceless Quiz Videos in Minutes | Smart Scale System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#05100e; --bg2:#081814; --ink:#eafff6; --mut:#a7c4b7; --mut2:#6d887c;
+    --green:#52e08a; --teal:#8ff2d4; --amber:#ffb545;
+    --glass:rgba(255,255,255,.035); --glass2:rgba(255,255,255,.06); --line:rgba(255,255,255,.10);
+    --grad:linear-gradient(135deg,#52e08a 0%,#8ff2d4 100%);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:Inter,system-ui,-apple-system,sans-serif;
+    background:
+      radial-gradient(900px 480px at 82% -6%, rgba(82,224,138,.14) 0%, rgba(82,224,138,0) 60%),
+      radial-gradient(700px 400px at 10% 4%, rgba(143,242,212,.08) 0%, rgba(143,242,212,0) 55%),
+      var(--bg);
+    color:var(--ink); line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.brand-name{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;letter-spacing:-.5px}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+  a{color:inherit}
+
+  .btn{
+    display:inline-block;background:var(--grad);color:#05100e;font-weight:700;text-decoration:none;
+    padding:17px 40px;border-radius:999px;font-size:17px;font-family:Inter,sans-serif;
+    box-shadow:0 10px 30px rgba(82,224,138,.28); transition:transform .12s ease, box-shadow .12s ease;
+  }
+  .btn:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(82,224,138,.45)}
+  .btn-ghost{display:inline-block;margin-left:12px;background:transparent;color:var(--ink);font-weight:700;
+    text-decoration:none;padding:16px 30px;border-radius:999px;font-size:17px;border:1px solid var(--line);
+    transition:border-color .12s ease,color .12s ease}
+  .btn-ghost:hover{border-color:var(--green);color:var(--green)}
+  .btn-sub{display:block;margin-top:13px;color:var(--mut2);font-size:13px;font-weight:500}
+  @media(max-width:560px){.btn-ghost{margin-left:0;margin-top:12px}}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--green);font-weight:700;
+    letter-spacing:2.5px;font-size:12px;text-transform:uppercase;
+    background:rgba(82,224,138,.08);border:1px solid rgba(82,224,138,.25);padding:7px 14px;border-radius:999px}
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
+
+  /* NAV */
+  nav{position:sticky;top:0;z-index:20;background:rgba(5,16,14,.6);backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line)}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;padding:16px 22px;max-width:1060px;margin:0 auto}
+  .brand{display:flex;align-items:center;gap:11px}
+  .logo{width:34px;height:34px;border-radius:10px;background:var(--grad);display:flex;align-items:center;
+    justify-content:center;color:#05100e;font-weight:800;font-size:19px;font-family:"Bricolage Grotesque",sans-serif;box-shadow:0 4px 14px rgba(82,224,138,.4)}
+  .brand-name{font-size:17px;font-weight:700}
+  .nav-cta{background:var(--grad);color:#05100e;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:999px;font-size:14px}
+
+  /* HERO */
+  header{padding:74px 0 44px;text-align:center}
+  h1{font-size:clamp(36px,6.2vw,64px);line-height:1.03;margin:22px 0 20px;font-weight:800}
+  h1 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .lede{font-size:clamp(17px,2.4vw,21px);color:var(--mut);max-width:720px;margin:0 auto 30px}
+  .price-tag{display:inline-flex;align-items:baseline;gap:14px;margin:8px 0 24px;flex-wrap:wrap;justify-content:center}
+  .price-old{color:var(--mut2);text-decoration:line-through;font-size:26px;font-weight:600}
+  .price-new{font-family:"Bricolage Grotesque",sans-serif;font-size:56px;font-weight:800;letter-spacing:-1px}
+  .price-badge{background:rgba(255,181,69,.12);color:var(--amber);border:1px solid rgba(255,181,69,.4);
+    font-weight:700;font-size:12px;padding:6px 13px;border-radius:999px;text-transform:uppercase;letter-spacing:1px}
+  .trust{display:flex;flex-wrap:wrap;justify-content:center;gap:11px 22px;margin-top:36px;color:var(--mut2);font-size:14px;font-weight:500}
+  .trust span{white-space:nowrap}
+  .trust b{color:var(--ink);font-weight:600}
+
+  section{padding:58px 0;border-top:1px solid var(--line)}
+  h2{font-size:clamp(27px,4vw,40px);font-weight:800;text-align:center;margin-bottom:14px}
+  .sub{color:var(--mut);text-align:center;max-width:640px;margin:0 auto 42px;font-size:17px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+  .feat{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:26px;transition:border-color .15s, background .15s}
+  .feat:hover{border-color:rgba(82,224,138,.35);background:var(--glass2)}
+  .feat .ic{font-size:26px;margin-bottom:12px}
+  .feat h3{font-size:18px;font-weight:700;margin-bottom:6px}
+  .feat p{color:var(--mut);font-size:15px}
+
+  /* COMPARISON */
+  .cmp{max-width:760px;margin:0 auto;background:var(--glass);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+  .cmp .row{display:grid;grid-template-columns:1.4fr 1fr 1fr}
+  .cmp .row>div{padding:16px 18px;border-bottom:1px solid var(--line)}
+  .cmp .row:last-child>div{border-bottom:none}
+  .cmp .head>div{font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.5px;background:rgba(255,255,255,.03);font-family:"Bricolage Grotesque",sans-serif}
+  .cmp .head .us{color:var(--green)}
+  .cmp .us{background:rgba(82,224,138,.06)}
+  .cmp .lbl{color:var(--mut);font-weight:500}
+  .cmp .yes{color:var(--green);font-weight:700}
+  .cmp .no{color:#ff8b8b;font-weight:600}
+
+  /* STEPS */
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;counter-reset:s}
+  .step{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:28px 24px;position:relative}
+  .step::before{counter-increment:s;content:counter(s);position:absolute;top:-16px;left:24px;
+    width:38px;height:38px;border-radius:11px;background:var(--grad);color:#05100e;font-weight:800;
+    font-family:"Bricolage Grotesque",sans-serif;display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:0 6px 16px rgba(82,224,138,.4)}
+  .step h3{margin:14px 0 6px;font-size:19px;font-weight:700}
+  .step p{color:var(--mut);font-size:15px}
+
+  /* GUARANTEE */
+  .guar{max-width:720px;margin:0 auto;text-align:center;background:linear-gradient(180deg,rgba(82,224,138,.06),var(--glass));
+    border:1px solid rgba(82,224,138,.3);border-radius:22px;padding:42px 30px}
+  .guar .seal{font-size:40px}
+  .guar h2{margin:10px 0 10px}
+  .guar p{color:var(--mut);max-width:520px;margin:0 auto;font-size:16px}
+
+  /* FAQ */
+  .faq{max-width:760px;margin:0 auto}
+  details{background:var(--glass);border:1px solid var(--line);border-radius:14px;padding:2px 20px;margin-bottom:12px}
+  summary{cursor:pointer;font-weight:700;font-size:16px;padding:17px 0;list-style:none;display:flex;justify-content:space-between;align-items:center;font-family:"Bricolage Grotesque",sans-serif}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--green);font-size:24px;font-weight:700}
+  details[open] summary::after{content:"–"}
+  details p{color:var(--mut);padding:0 0 18px;font-size:15px}
+
+  .final{text-align:center}
+  footer{padding:40px 0 60px;text-align:center;color:var(--mut2);font-size:13px;border-top:1px solid var(--line)}
+  footer .tag{color:var(--mut);font-weight:600;margin-bottom:6px;font-family:"Bricolage Grotesque",sans-serif}
+  @media(max-width:560px){
+    .cmp .row{grid-template-columns:1.3fr .85fr .85fr}
+    .cmp .row>div{padding:13px 12px;font-size:14px}
+    .price-new{font-size:46px}
+    .nav-cta{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav>
+  <div class="nav-in">
+    <div class="brand">
+      <div class="logo">S</div>
+      <span class="brand-name">Smart Scale System</span>
+    </div>
+    <a class="nav-cta" href="https://sumbasub.gumroad.com/l/quizstudio" target="_blank" rel="noopener">Get access →</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header>
+  <div class="wrap">
+    <span class="eyebrow"><span class="dot"></span>Faceless Quiz Studio</span>
+    <h1>Make Faceless Quiz Videos<br>in <span class="hl">Minutes</span> — Not Hours</h1>
+    <p class="lede">Turn any topic or script into a finished, scroll-stopping quiz video — voiceover, animated visuals, 1080p export. Runs in your browser. Pay once. No subscription, ever. Stop grinding, start scaling.</p>
+
+    <div class="price-tag">
+      <span class="price-old">$79</span>
+      <span class="price-new">$29</span>
+      <span class="price-badge">Launch price · 63% off</span>
+    </div>
+    <br>
+    <a class="btn" href="https://sumbasub.gumroad.com/l/quizstudio" target="_blank" rel="noopener">Get Instant Access →</a>
+    <a class="btn-ghost" href="/quiz/">Try the free demo →</a>
+    <span class="btn-sub">30-day money-back guarantee · Works on Windows &amp; Mac · No watermark</span>
+
+    <div class="trust">
+      <span><b>306</b> ready-made quizzes</span>
+      <span>Shorts <b>9:16</b> + YouTube <b>16:9</b></span>
+      <span>Built-in <b>voiceover</b></span>
+      <span><b>1080p</b> MP4 export</span>
+      <span><b>No</b> monthly fee</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ PROBLEM ============ -->
+<section>
+  <div class="wrap">
+    <h2>Quiz videos blow up. Making them shouldn't cost a subscription.</h2>
+    <p class="sub">Every other tool bills you $10–$30 every month, forever — and adds limits and watermarks on top. OmniFrame is one payment. Make unlimited videos, keep every one, cancel nothing.</p>
+  </div>
+</section>
+
+<!-- ============ COMPARISON ============ -->
+<section>
+  <div class="wrap">
+    <h2>One payment vs. paying forever</h2>
+    <p class="sub">Here's the math over a single year.</p>
+    <div class="cmp">
+      <div class="row head">
+        <div class="lbl" style="color:var(--ink)">&nbsp;</div>
+        <div class="us">OmniFrame</div>
+        <div>Typical tool</div>
+      </div>
+      <div class="row">
+        <div class="lbl">Cost</div>
+        <div class="us"><b>$29 once</b></div>
+        <div>$10–$30 / month</div>
+      </div>
+      <div class="row">
+        <div class="lbl">Cost after 1 year</div>
+        <div class="us yes">$29</div>
+        <div class="no">$120–$360</div>
+      </div>
+      <div class="row">
+        <div class="lbl">Videos you can make</div>
+        <div class="us yes">Unlimited</div>
+        <div class="no">Credit-limited</div>
+      </div>
+      <div class="row">
+        <div class="lbl">Watermark</div>
+        <div class="us yes">None</div>
+        <div class="no">Often yes</div>
+      </div>
+      <div class="row">
+        <div class="lbl">Runs in your browser</div>
+        <div class="us yes">Yes</div>
+        <div class="no">Cloud-locked</div>
+      </div>
+      <div class="row">
+        <div class="lbl">Ongoing fees</div>
+        <div class="us yes">$0 forever</div>
+        <div class="no">Every month</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section>
+  <div class="wrap">
+    <h2>Everything you need to publish today</h2>
+    <p class="sub">No camera. No editing suite. No monthly bill.</p>
+    <div class="grid">
+      <div class="feat"><div class="ic">🎯</div><h3>306 ready-made quizzes</h3><p>Each with its own custom illustration. Or paste your own script and go.</p></div>
+      <div class="feat"><div class="ic">🎙️</div><h3>Built-in voiceover</h3><p>Natural narration on every question, answer, and explanation — no extra tools.</p></div>
+      <div class="feat"><div class="ic">📱</div><h3>Vertical &amp; horizontal</h3><p>Export 9:16 for Shorts, Reels &amp; TikTok, or 16:9 for YouTube — same click.</p></div>
+      <div class="feat"><div class="ic">🎬</div><h3>1080p MP4 export</h3><p>Crisp, full-HD files with no watermark, ready to upload anywhere.</p></div>
+      <div class="feat"><div class="ic">🙈</div><h3>Show or hide choices</h3><p>Run A/B/C/D multiple-choice or clean reveal-only quizzes — your call.</p></div>
+      <div class="feat"><div class="ic">🔒</div><h3>Yours forever</h3><p>One license, no subscription, no cloud lock-in. Pay once, own it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section>
+  <div class="wrap">
+    <h2>From idea to upload in 3 steps</h2>
+    <p class="sub" style="margin-bottom:52px">Genuinely this simple.</p>
+    <div class="steps">
+      <div class="step"><h3>Pick a topic or paste a script</h3><p>Choose from 306 built-in quizzes or drop in your own.</p></div>
+      <div class="step"><h3>Preview &amp; tweak</h3><p>Set the format, voice, timer, and choices. Watch it build live.</p></div>
+      <div class="step"><h3>Export &amp; post</h3><p>Hit export, get a 1080p MP4, and upload to YouTube, TikTok or Reels.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GUARANTEE ============ -->
+<section>
+  <div class="wrap">
+    <div class="guar">
+      <div class="seal">🛡️</div>
+      <h2>30-Day Money-Back Guarantee</h2>
+      <p>Try it risk-free. If OmniFrame doesn't make quiz videos faster than whatever you're using now, email us within 30 days for a full refund — no questions asked.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section>
+  <div class="wrap">
+    <h2>Questions, answered</h2>
+    <p class="sub">Everything you might be wondering.</p>
+    <div class="faq">
+      <details open><summary>Do I need to install anything?</summary><p>No. OmniFrame runs right in your browser — open it, paste your license key, and start creating. An optional offline download is included if you'd rather keep a local copy.</p></details>
+      <details><summary>Is it really a one-time payment?</summary><p>Yes. Pay $29 once and it's yours — no subscription, no monthly fees, no credit limits, ever.</p></details>
+      <details><summary>What formats can I export?</summary><p>1080p MP4 in vertical (9:16) for Shorts, Reels and TikTok, or horizontal (16:9) for YouTube. No watermark.</p></details>
+      <details><summary>Does it work on Windows and Mac?</summary><p>Both. It runs in any modern browser (Chrome, Edge, Firefox, Safari) on either platform.</p></details>
+      <details><summary>Can I use the videos commercially?</summary><p>Yes — the videos you create are yours to post and monetize on your own channels.</p></details>
+      <details><summary>What if it's not for me?</summary><p>You're covered by a 30-day money-back guarantee. Email us and we'll refund you in full.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final" id="buy">
+  <div class="wrap">
+    <h2>Start making quiz videos today</h2>
+    <div class="price-tag" style="justify-content:center">
+      <span class="price-old">$79</span>
+      <span class="price-new">$29</span>
+      <span class="price-badge">Launch price</span>
+    </div>
+    <br>
+    <a class="btn" href="https://sumbasub.gumroad.com/l/quizstudio" target="_blank" rel="noopener">Get OmniFrame Quiz Studio →</a>
+    <a class="btn-ghost" href="/quiz/">Try the free demo →</a>
+    <span class="btn-sub">Instant access · 30-day money-back guarantee · One-time payment</span>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="tag">Smart Scale System · Stop grinding. Start scaling.</div>
+    OmniFrame Quiz Studio · Pay once, create forever · <a href="https://sumbasub.gumroad.com/l/quizstudio" target="_blank" rel="noopener" style="color:var(--green);text-decoration:none">Get access →</a>
+  </div>
+</footer>
+
+</body>
+</html>
