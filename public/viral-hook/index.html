@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral Hook Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hook-widget.css">
+    <script src="hook-widget.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 50px 20px;
+            background-color: #05100e;
+            font-family: 'Inter', sans-serif;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: radial-gradient(circle at 50% 0%, #1a3630 0%, #05100e 50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="smart-scale-hook-widget">
+        <div class="ss-hw-container">
+            <div class="ss-hw-header">
+                <h2>The Viral Hook Engine</h2>
+                <p>Generate 5 viral hooks guaranteed to spike your CTR.</p>
+            </div>
+
+            <div class="ss-hw-input-section" id="ss-hw-step-1">
+                <div class="ss-hw-input-group">
+                    <label for="ss-hw-input-data">Paste a Topic, YouTube URL, or Video Script</label>
+                    <textarea id="ss-hw-input-data" class="ss-hw-textarea" placeholder="e.g. 'AI Marketing' OR https://youtube.com/... OR your raw video script..." rows="3"></textarea>
+                </div>
+                <div class="ss-hw-input-group">
+                    <label for="ss-hw-platform">Target Platform</label>
+                    <select id="ss-hw-platform" class="ss-hw-select">
+                        <option value="shorts">Shorts, Reels & TikTok</option>
+                        <option value="youtube">Long-Form YouTube</option>
+                    </select>
+                </div>
+                <button id="ss-hw-generate-btn" class="ss-hw-btn ss-hw-btn-primary">Generate Hooks (Free)</button>
+            </div>
+
+            <div id="ss-hw-loading-section" class="ss-hw-hidden">
+                <div class="ss-hw-spinner-container">
+                    <div class="ss-hw-spinner"></div>
+                </div>
+                <p id="ss-hw-loading-text" class="ss-hw-loading-text">Analyzing transcript...</p>
+                <div class="ss-hw-progress-bar">
+                    <div id="ss-hw-progress-fill" class="ss-hw-progress-fill"></div>
+                </div>
+            </div>
+
+            <div id="ss-hw-success-section" class="ss-hw-hidden ss-hw-success-box">
+                <h3 class="ss-hw-success-title">🔥 Your Viral Hooks</h3>
+                <ul id="ss-hw-hooks-list" class="ss-hw-hooks-list">
+                    <!-- Populated by JS -->
+                </ul>
+                <div class="ss-hw-success-cta">
+                    <p>Hooks generated! Want to turn these into a fully edited video instantly?</p>
+                    <a href="#" id="ss-hw-success-affiliate" class="ss-hw-btn ss-hw-btn-primary" target="_blank">
+                        Automate with <span id="ss-hw-success-partner">Submagic</span> →
+                    </a>
+                    <div style="text-align: center; margin-top: 1.5rem;">
+                        <a href="#" id="ss-hw-reset-btn" style="color: #a0aec0; text-decoration: underline; font-size: 0.9rem; cursor: pointer;">Generate hooks for another Topic, URL, or Script</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ss-hw-error-section" class="ss-hw-hidden ss-hw-error-trap">
+                <div class="ss-hw-error-icon">⚠️</div>
+                <h3 class="ss-hw-error-title">System Overloaded</h3>
+                <p class="ss-hw-error-desc">We are currently processing maximum capacity and cannot accept new requests right now.</p>
+                
+                <div class="ss-hw-trap-box">
+                    <p class="ss-hw-trap-hook">Need viral hooks <strong>instantly?</strong></p>
+                    <p class="ss-hw-trap-sub">Bypass the wait and generate hooks directly using our recommended AI partner.</p>
+                    <a href="#" id="ss-hw-affiliate-link" class="ss-hw-btn ss-hw-btn-trap" target="_blank">
+                        Generate Hooks on <span id="ss-hw-partner-name">Submagic</span> →
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
