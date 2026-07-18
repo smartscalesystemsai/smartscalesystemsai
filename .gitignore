@@ -1,0 +1,15 @@
+# Wrangler local state and secrets
+.wrangler/
+.dev.vars*
+!.dev.vars.example
+node_modules/
+
+# Local-only rollback and scratch files
+backups/
+public/homepage-layout-sample.html
+public/illustrations/images_21_to_105_all.zip
+public/samples/workflow-screen-demo.mp4
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
