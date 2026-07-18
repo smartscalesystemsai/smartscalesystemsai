@@ -86,6 +86,21 @@ document.addEventListener("DOMContentLoaded", () => {
         return html;
     }
 
+    function blueprintMailto(categoryKey, data) {
+        const categoryLabel = categorySelect.options[categorySelect.selectedIndex]?.text || categoryKey;
+        const subject = `Step-by-step AI Blueprint request - ${categoryLabel}`;
+        const body = [
+            "Hi Smart Scale Systems,",
+            "",
+            `Please send me the step-by-step PDF blueprint for: ${categoryLabel}.`,
+            "",
+            `My bottleneck: ${data.problem}`,
+            "",
+            "Thanks,"
+        ].join("\n");
+        return `mailto:smartscalesystem@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    }
+
     categorySelect.addEventListener("change", (e) => {
         const categoryKey = e.target.value;
         const data = engineData[categoryKey];
@@ -96,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (data.tutorial.type === 'video') {
             tutorialHTML = `<a href="${data.tutorial.url}" target="_blank" class="ss-btn ss-btn-video">▶ ${data.tutorial.cta}</a>`;
         } else {
-            tutorialHTML = `<button class="ss-btn ss-btn-email" onclick="alert('Email capture modal would open here!')">📄 ${data.tutorial.cta}</button>`;
+            tutorialHTML = `<a href="${blueprintMailto(categoryKey, data)}" class="ss-btn ss-btn-email">📄 ${data.tutorial.cta}</a>`;
         }
 
         resultsSection.innerHTML = `

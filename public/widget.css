@@ -1,5 +1,5 @@
 :root {
-    /* Brand Colors matching Smart Scale System AI */
+    /* Brand Colors matching Smart Scale Systems */
     --ss-bg: #05100e;
     --ss-surface: rgba(26, 54, 48, 0.7);
     --ss-border: rgba(46, 204, 113, 0.2);
@@ -16,10 +16,10 @@
     background-color: var(--ss-bg);
     color: var(--ss-text-primary);
     font-family: var(--ss-font);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 1rem;
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 1.25rem auto;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
     background-image: radial-gradient(circle at top right, rgba(46, 204, 113, 0.1), transparent 50%),
                       radial-gradient(circle at bottom left, rgba(26, 54, 48, 0.3), transparent 50%);
@@ -32,7 +32,7 @@
 
 .ss-header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
 }
 
 .ss-header h2 {
@@ -54,8 +54,8 @@
     background: var(--ss-surface);
     border: 1px solid var(--ss-border);
     border-radius: 0.75rem;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .ss-input-group {
@@ -292,7 +292,7 @@
     background: var(--ss-accent-cta-hover);
 }
 
-/* "Our Tool" highlight for Smart Scale System's own products in the stack */
+/* "Our Tool" highlight for Smart Scale Systems' own products in the stack */
 .ss-own-tool {
     color: #6ee7a8 !important;
     font-weight: 700;
