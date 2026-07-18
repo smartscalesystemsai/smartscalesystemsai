@@ -1,7 +1,7 @@
 {
   "id": "animal-who-am-i",
   "title": "Who Am I? (Viral Animal Riddles)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Elephant",
+        "Rhinoceros",
+        "Tapir",
+        "Hippopotamus"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Squid",
+        "Octopus",
+        "Nautilus",
+        "Jellyfish"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Owl",
+        "Flying squirrel",
+        "Bat",
+        "Moth"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Puffin",
+        "Seal",
+        "Cormorant",
+        "Penguin"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Chameleon",
+        "Cuttlefish",
+        "Tree frog",
+        "Anole"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-06",
@@ -115,14 +165,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Elephant",
-        "Bat",
-        "Penguin",
-        "Octopus"
+        "Otter",
+        "Beaver",
+        "Muskrat",
+        "Capybara"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-07",
@@ -139,14 +194,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Camel",
-        "Penguin",
-        "Octopus",
-        "Bat"
+        "Leopard",
+        "Gazelle",
+        "Cheetah",
+        "Greyhound"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-08",
@@ -163,14 +223,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Chameleon",
-        "Bat",
-        "Camel",
-        "Penguin"
+        "Jackal",
+        "Lion",
+        "Baboon",
+        "Hyena"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-09",
@@ -187,14 +252,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Camel",
-        "Penguin",
-        "Dolphin",
-        "Chameleon"
+        "Zebra",
+        "Okapi",
+        "Tiger",
+        "Skunk"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-10",
@@ -211,14 +281,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Dolphin",
-        "Chameleon",
-        "Owl",
-        "Camel"
+        "Camel",
+        "Bison",
+        "Llama",
+        "Rhinoceros"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-11",
@@ -235,14 +310,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Owl",
-        "Kangaroo",
-        "Dolphin",
-        "Chameleon"
+        "Ostrich",
+        "Giraffe",
+        "Elephant",
+        "Moose"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-12",
@@ -259,14 +339,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Shark",
+        "Whale",
+        "Seal",
         "Dolphin",
-        "Owl",
-        "Kangaroo"
+        "Manatee"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-13",
@@ -283,14 +368,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Owl",
-        "Elephant",
-        "Kangaroo",
-        "Shark"
+        "Hawk",
+        "Bat",
+        "Raccoon",
+        "Owl"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-14",
@@ -308,20 +398,25 @@
       ],
       "choices": [
         "Kangaroo",
-        "Shark",
-        "Octopus",
-        "Elephant"
+        "Koala",
+        "Opossum",
+        "Wombat"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-who-am-i-premium-15",
       "concept": "Shark",
-      "question": "I keep replacing my teeth throughout life. Who am I?",
+      "question": "Rows of replacement teeth move forward through my jaws like a conveyor belt. Who am I?",
       "answer": "Shark",
-      "explanation": "Sharks grow replacement teeth continuously.",
+      "explanation": "Sharks continually replace teeth from rows behind the active teeth.",
       "hint": "Look for the shark clue.",
       "difficulty": "medium",
       "visual": "diagram_compare",
@@ -331,25 +426,35 @@
         "ANIMAL"
       ],
       "choices": [
-        "Octopus",
-        "Elephant",
-        "Bat",
-        "Shark"
+        "Tuna",
+        "Shark",
+        "Piranha",
+        "Moray eel"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

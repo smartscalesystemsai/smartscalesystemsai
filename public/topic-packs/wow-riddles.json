@@ -1,7 +1,7 @@
 {
   "id": "wow-riddles",
   "title": "10 Million View WOW Riddles (Unexpected Twists)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,17 +19,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "An echo from another person",
+        "A neighbor speaking",
+        "A radio host",
+        "A recording"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-02",
       "concept": "Premium hook",
-      "question": "A man reads the final page first and immediately knows the whole story is fake. Why?",
-      "answer": "It was a diary dated in the future",
-      "explanation": "A diary cannot truthfully describe dates that have not happened yet.",
+      "question": "A supposed current diary contains an entry dated next year. What proves it is not genuine?",
+      "answer": "The entry has a future date",
+      "explanation": "A genuine diary written now cannot contain a completed personal entry from a future date.",
       "hint": "Read the wording carefully.",
       "difficulty": "viral",
       "visual": "action_cards",
@@ -38,17 +48,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "The entry has a future date",
+        "The cover was torn",
+        "The pages were numbered",
+        "The diary was handwritten"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-03",
       "concept": "Premium hook",
-      "question": "I become more valuable when you cut me, but worthless if you break me. What am I?",
+      "question": "Which gemstone is shaped by careful cutting but loses value if badly fractured?",
       "answer": "A diamond",
-      "explanation": "Diamonds are cut to improve value, but breaking one ruins it.",
+      "explanation": "Diamonds are deliberately cut for brilliance, while unintended fractures generally reduce their value.",
       "hint": "Read the wording carefully.",
       "difficulty": "hard",
       "visual": "diagram_checklist",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "A pearl",
+        "A diamond",
+        "A glass bead",
+        "A coin"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "They are holding their breath",
+        "They are all asleep",
+        "They are in a photograph",
+        "The room has no air"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "A globe",
+        "A photograph",
+        "A road sign",
+        "A map"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-06",
@@ -116,13 +166,18 @@
       ],
       "choices": [
         "An echo",
-        "A candle",
-        "A shadow",
-        "A map"
+        "A parrot",
+        "A recorder",
+        "A translator"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-07",
@@ -139,14 +194,19 @@
         "RIDDLE"
       ],
       "choices": [
+        "A reflection",
         "A shadow",
-        "A map",
-        "A keyboard",
-        "A candle"
+        "A footprint",
+        "A clock"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-08",
@@ -163,14 +223,19 @@
         "RIDDLE"
       ],
       "choices": [
-        "A keyboard",
-        "A candle",
-        "A clock",
-        "A map"
+        "A car",
+        "A compass",
+        "A map",
+        "A suitcase"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-09",
@@ -187,14 +252,19 @@
         "RIDDLE"
       ],
       "choices": [
-        "A keyboard",
-        "A candle",
-        "A clock",
-        "A mirror"
+        "A pencil",
+        "A ruler",
+        "A book",
+        "A candle"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-10",
@@ -211,14 +281,19 @@
         "RIDDLE"
       ],
       "choices": [
-        "A stamp",
-        "A keyboard",
-        "A clock",
-        "A mirror"
+        "A piano",
+        "A lockpick",
+        "A map",
+        "A keyboard"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-11",
@@ -235,14 +310,19 @@
         "RIDDLE"
       ],
       "choices": [
-        "A stamp",
         "A clock",
-        "A mirror",
-        "A river"
+        "A statue",
+        "A chair",
+        "A glove"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-12",
@@ -259,14 +339,19 @@
         "RIDDLE"
       ],
       "choices": [
+        "A camera",
         "A mirror",
-        "A river",
-        "A secret",
-        "A stamp"
+        "A portrait",
+        "A window"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-13",
@@ -283,21 +368,26 @@
         "RIDDLE"
       ],
       "choices": [
+        "A postcard",
+        "A passport",
         "A stamp",
-        "An echo",
-        "A river",
-        "A secret"
+        "A coin"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-14",
       "concept": "River",
-      "question": "I run forever but never get tired. What am I?",
+      "question": "I run day and night but never get tired. What am I?",
       "answer": "A river",
-      "explanation": "A river runs continuously, but it is not alive.",
+      "explanation": "A river can be described as running continuously, though it is not alive.",
       "hint": "Look for the river clue.",
       "difficulty": "easy",
       "visual": "diagram_flow",
@@ -307,14 +397,19 @@
         "RIDDLE"
       ],
       "choices": [
-        "An echo",
-        "A river",
-        "A shadow",
-        "A secret"
+        "A train",
+        "A runner",
+        "A clock",
+        "A river"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "wow-riddles-premium-15",
@@ -331,25 +426,35 @@
         "RIDDLE"
       ],
       "choices": [
-        "A map",
         "A secret",
-        "An echo",
-        "A shadow"
+        "A rumor",
+        "A gift",
+        "A photograph"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

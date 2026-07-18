@@ -1,7 +1,7 @@
 {
   "id": "mandela-effect",
   "title": "The Mandela Effect: Reality Tests",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "A hidden logo update",
+        "Perfect photographic recall",
+        "Shared inference",
+        "A parallel universe proven by evidence"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Camera distortion",
+        "Private encryption",
+        "Color blindness",
+        "Social reinforcement"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Emotion adds certainty",
+        "Confidence preserves exact detail",
+        "Emotion prevents reconstruction",
+        "Certainty verifies the source"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "A recent meme",
+        "Archived original material",
+        "A friend's recollection",
+        "An online poll"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Perfect childhood records",
+        "No emotional attachment",
+        "Nostalgia plus gaps",
+        "Exact source memory"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-06",
@@ -115,14 +165,19 @@
         "MEMORY"
       ],
       "choices": [
-        "Paraphrasing",
-        "We remember the idea, not every detail",
-        "Shared false memory",
-        "Memory reconstructs"
+        "A private accurate memory",
+        "A deliberate hoax",
+        "A printing defect",
+        "Shared false memory"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-07",
@@ -140,13 +195,18 @@
       ],
       "choices": [
         "We remember the idea, not every detail",
-        "Memory reconstructs",
-        "Primary evidence",
-        "Paraphrasing"
+        "Every logo changes daily",
+        "Logos cannot be archived",
+        "Colors are never remembered"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-08",
@@ -163,14 +223,19 @@
         "MEMORY"
       ],
       "choices": [
-        "Primary evidence",
+        "Exact repetition",
         "Paraphrasing",
-        "Common associations",
-        "Memory reconstructs"
+        "Official transcripts",
+        "Unedited recordings"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-09",
@@ -187,14 +252,19 @@
         "MEMORY"
       ],
       "choices": [
-        "Similar spellings",
-        "Common associations",
+        "Memory plays back like video",
+        "Confidence locks every detail",
         "Memory reconstructs",
-        "Primary evidence"
+        "Childhood prevents suggestion"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-10",
@@ -211,14 +281,19 @@
         "MEMORY"
       ],
       "choices": [
+        "Popularity",
+        "A vivid anecdote",
         "Primary evidence",
-        "Similar spellings",
-        "Emotion can boost certainty",
-        "Common associations"
+        "A current parody"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-11",
@@ -235,14 +310,19 @@
         "MEMORY"
       ],
       "choices": [
-        "Similar spellings",
-        "Emotion can boost certainty",
-        "Common associations",
-        "Compare archived images"
+        "Independent perfect recall",
+        "Identical camera footage",
+        "A secret announcement",
+        "Common associations"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-12",
@@ -260,13 +340,18 @@
       ],
       "choices": [
         "Similar spellings",
-        "Emotion can boost certainty",
-        "Compare archived images",
-        "Small details matter"
+        "Completely unrelated words",
+        "Random numbers only",
+        "Words never seen before"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-13",
@@ -283,14 +368,19 @@
         "MEMORY"
       ],
       "choices": [
-        "Compare archived images",
-        "Small details matter",
+        "Confidence is a timestamp",
         "Emotion can boost certainty",
-        "Shared false memory"
+        "Certainty prevents errors",
+        "Strong feelings preserve wording"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-14",
@@ -307,14 +397,19 @@
         "MEMORY"
       ],
       "choices": [
-        "We remember the idea, not every detail",
-        "Shared false memory",
+        "Ask which version feels right",
+        "Count social-media votes",
         "Compare archived images",
-        "Small details matter"
+        "Use the newest recreation"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "mandela-effect-premium-15",
@@ -331,25 +426,35 @@
         "MEMORY"
       ],
       "choices": [
-        "Small details matter",
-        "Paraphrasing",
-        "We remember the idea, not every detail",
-        "Shared false memory"
+        "Every viewer sees identical pixels",
+        "Simple designs contain no detail",
+        "Archives cannot preserve logos",
+        "Small details matter"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

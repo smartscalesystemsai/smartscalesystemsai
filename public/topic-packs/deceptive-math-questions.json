@@ -1,7 +1,7 @@
 {
   "id": "deceptive-math-questions",
   "title": "Math Viral Questions (Deceptive Logic)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,17 +19,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Yes, exactly",
+        "Yes, with a 25% gain",
+        "No",
+        "Only if the price is under $100"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-02",
       "concept": "Premium hook",
-      "question": "A family has two children. At least one is a boy. What is the chance both are boys?",
+      "question": "Assume two independent, equally likely child sexes. Given at least one boy, what is the chance both are boys?",
       "answer": "One third",
-      "explanation": "Possible pairs are BB, BG, and GB when at least one boy is known.",
+      "explanation": "Conditioning on at least one boy leaves BB, BG, and GB as equally likely possibilities; one is BB.",
       "hint": "Read the wording carefully.",
       "difficulty": "viral",
       "visual": "action_cards",
@@ -38,17 +48,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "One half",
+        "Two thirds",
+        "One quarter",
+        "One third"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-03",
       "concept": "Premium hook",
-      "question": "You flip two coins. One is heads. What is the chance both are heads?",
+      "question": "Two fair coins are flipped. Given at least one head, what is the chance both are heads?",
       "answer": "One third",
-      "explanation": "The possible cases with at least one head are HH, HT, and TH.",
+      "explanation": "The remaining equally likely outcomes are HH, HT, and TH; one of the three is HH.",
       "hint": "Read the wording carefully.",
       "difficulty": "hard",
       "visual": "diagram_checklist",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "One third",
+        "One half",
+        "Two thirds",
+        "One quarter"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "90 mph",
+        "Impossible",
+        "120 mph",
+        "180 mph"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "10% of 90",
+        "90% of 10",
+        "They are equal",
+        "Cannot be compared"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-06",
@@ -115,14 +165,19 @@
         "MATH"
       ],
       "choices": [
-        "75%",
-        "9",
-        "5 cents",
-        "15"
+        "1",
+        "6",
+        "18",
+        "9"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-07",
@@ -139,14 +194,19 @@
         "MATH"
       ],
       "choices": [
-        "3",
         "5 cents",
-        "15",
-        "75%"
+        "10 cents",
+        "15 cents",
+        "$1.00"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-08",
@@ -163,14 +223,19 @@
         "MATH"
       ],
       "choices": [
+        "50%",
         "75%",
-        "$10",
-        "3",
-        "15"
+        "100%",
+        "25%"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-09",
@@ -187,14 +252,19 @@
         "MATH"
       ],
       "choices": [
-        "0",
-        "$10",
-        "3",
-        "15"
+        "10",
+        "20",
+        "15",
+        "30"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-10",
@@ -211,14 +281,19 @@
         "MATH"
       ],
       "choices": [
-        "1/3",
-        "0",
-        "$10",
-        "3"
+        "2",
+        "4",
+        "3",
+        "6"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-11",
@@ -235,14 +310,19 @@
         "MATH"
       ],
       "choices": [
-        "1/3",
-        "0",
-        "$10",
-        "0%"
+        "$5",
+        "$15",
+        "$20",
+        "$10"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-12",
@@ -259,14 +339,19 @@
         "MATH"
       ],
       "choices": [
-        "0%",
-        "1/3",
         "0",
-        "48"
+        "The huge number",
+        "1",
+        "Undefined"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-13",
@@ -283,14 +368,19 @@
         "MATH"
       ],
       "choices": [
-        "9",
+        "0.3",
         "1/3",
-        "48",
-        "0%"
+        "They are equal",
+        "It depends on rounding"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-14",
@@ -307,14 +397,19 @@
         "MATH"
       ],
       "choices": [
+        "1/6",
+        "1%",
         "0%",
-        "9",
-        "5 cents",
-        "48"
+        "Impossible to know"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-15",
@@ -331,14 +426,19 @@
         "MATH"
       ],
       "choices": [
-        "9",
-        "5 cents",
-        "48",
-        "75%"
+        "36",
+        "42",
+        "60",
+        "48"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "deceptive-math-questions-premium-16",
@@ -355,25 +455,35 @@
         "MATH"
       ],
       "choices": [
-        "3",
-        "5 cents",
-        "15",
-        "75%"
+        "Day 47",
+        "Day 24",
+        "Day 46",
+        "Day 48"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 16,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

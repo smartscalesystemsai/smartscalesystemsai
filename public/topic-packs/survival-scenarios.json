@@ -1,7 +1,7 @@
 {
   "id": "survival-scenarios",
   "title": "Survival & 'What Would You Do?' Scenarios",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Record video continuously",
+        "Increase screen brightness",
+        "Send location and conserve battery",
+        "Stream music"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Calm water has no danger",
+        "Only cold temperature",
+        "A harmless reflection",
+        "Current"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Switches and flames",
+        "Opening a window",
+        "Leaving the area",
+        "Calling emergency services from outside"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Directly against the current",
+        "Parallel to shore",
+        "Straight toward shore",
+        "Farther out to sea"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-05",
@@ -95,17 +135,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Yes, always",
+        "Yes, if they are red",
+        "Not guaranteed",
+        "Yes, after one bird eats them"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-06",
       "concept": "Desert",
-      "question": "You are lost in a desert. What should you protect first: speed or water?",
-      "answer": "Water",
-      "explanation": "Conserving water and avoiding heat matters more than moving fast.",
+      "question": "In desert heat, which is safer: rushing at midday or conserving water while resting in shade?",
+      "answer": "Conserve water in shade",
+      "explanation": "Reducing exertion and heat exposure while conserving water lowers dehydration and heat-illness risk.",
       "hint": "Look for the desert clue.",
       "difficulty": "easy",
       "visual": "impact_text",
@@ -115,14 +165,19 @@
         "SURVIVAL"
       ],
       "choices": [
-        "Rescuers can find you",
-        "Get dry and insulated",
-        "Three repeated signals",
-        "Water"
+        "Speed",
+        "Carry extra weight",
+        "Travel at midday",
+        "Conserve water in shade"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-07",
@@ -140,13 +195,18 @@
       ],
       "choices": [
         "Get dry and insulated",
-        "Purify it",
-        "Three repeated signals",
-        "Rescuers can find you"
+        "Keep the wet clothes on",
+        "Exercise until exhausted",
+        "Lie on bare snow"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-08",
@@ -163,14 +223,19 @@
         "SURVIVAL"
       ],
       "choices": [
-        "Stay away",
-        "Rescuers can find you",
-        "Purify it",
-        "Three repeated signals"
+        "One long signal",
+        "Three repeated signals",
+        "Two random signals",
+        "Four silent signals"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-09",
@@ -187,14 +252,19 @@
         "SURVIVAL"
       ],
       "choices": [
+        "You become invisible",
+        "It guarantees rescue immediately",
         "Rescuers can find you",
-        "Under an isolated tree",
-        "Purify it",
-        "Stay away"
+        "Weather cannot reach you"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-10",
@@ -211,14 +281,19 @@
         "SURVIVAL"
       ],
       "choices": [
-        "Stay away",
-        "Cut heat and cover it",
-        "Under an isolated tree",
-        "Purify it"
+        "Drink it immediately",
+        "Judge safety by clarity",
+        "Purify it",
+        "Add salt only"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-11",
@@ -235,21 +310,26 @@
         "SURVIVAL"
       ],
       "choices": [
-        "Under an isolated tree",
-        "Direct pressure",
-        "Stay away",
-        "Cut heat and cover it"
+        "Touch it with dry wood",
+        "Drive over it",
+        "Move it yourself",
+        "Stay away"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-12",
       "concept": "Storm",
-      "question": "During lightning, where should you avoid standing?",
+      "question": "During lightning, which shelter is especially dangerous?",
       "answer": "Under an isolated tree",
-      "explanation": "Tall isolated objects attract lightning risk.",
+      "explanation": "An isolated tree can attract a strike and expose a nearby person to side flash and ground current.",
       "hint": "Look for the storm clue.",
       "difficulty": "hard",
       "visual": "audio_waveform",
@@ -259,14 +339,19 @@
         "SURVIVAL"
       ],
       "choices": [
-        "Direct pressure",
-        "Cut heat and cover it",
-        "Not always north",
-        "Under an isolated tree"
+        "Under an isolated tree",
+        "Inside a substantial building",
+        "In a hard-topped vehicle",
+        "Inside an underground station"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-13",
@@ -283,14 +368,19 @@
         "SURVIVAL"
       ],
       "choices": [
+        "Throw water on it",
         "Cut heat and cover it",
-        "Not always north",
-        "Water",
-        "Direct pressure"
+        "Carry the pan outside",
+        "Fan the flames"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-14",
@@ -307,21 +397,26 @@
         "SURVIVAL"
       ],
       "choices": [
-        "Get dry and insulated",
+        "Wash the wound for ten minutes first",
+        "Remove embedded objects",
         "Direct pressure",
-        "Not always north",
-        "Water"
+        "Wait without applying pressure"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "survival-scenarios-premium-15",
       "concept": "Navigation",
-      "question": "What direction does moss always grow?",
-      "answer": "Not always north",
-      "explanation": "The moss rule is unreliable and depends on local conditions.",
+      "question": "Can moss direction reliably tell you which way is north?",
+      "answer": "No",
+      "explanation": "Moss growth depends on local moisture, shade, and surface conditions, so it is not a reliable compass.",
       "hint": "Look for the navigation clue.",
       "difficulty": "medium",
       "visual": "diagram_compare",
@@ -331,25 +426,35 @@
         "SURVIVAL"
       ],
       "choices": [
-        "Three repeated signals",
-        "Not always north",
-        "Water",
-        "Get dry and insulated"
+        "Always north",
+        "Always south",
+        "Always east",
+        "No"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

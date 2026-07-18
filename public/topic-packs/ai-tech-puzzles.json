@@ -1,7 +1,7 @@
 {
   "id": "ai-tech-puzzles",
   "title": "Viral AI & Tech Puzzles (Mind-Blowing Reveals)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The more confident tool",
+        "The faster tool",
+        "The tool with the longer answer",
+        "The one that asks for sources"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Context window",
+        "Rate limit",
+        "Training cutoff",
+        "GPU memory"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Weak encryption",
+        "Password reuse",
+        "A short username",
+        "Slow authentication"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Context window",
+        "Token limit",
+        "Temperature",
+        "Top-k retrieval"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Accuracy versus storage",
+        "Cost versus screen size",
+        "Latency versus battery life",
+        "Privacy versus speed"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-06",
@@ -114,10 +164,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "An API key",
+        "A browser cookie",
+        "A file extension",
+        "A model weight"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-07",
@@ -133,10 +193,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The GPU overheated",
+        "It skipped or lost context",
+        "The font was too small",
+        "The model learned the warning"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-08",
@@ -152,10 +222,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Ransomware",
+        "A denial-of-service attack",
+        "Phishing",
+        "SQL injection"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-09",
@@ -171,10 +251,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Data compression",
+        "Rate limiting",
+        "Model quantization",
+        "Prompt injection"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-10",
@@ -190,10 +280,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Public documentation",
+        "Model temperature",
+        "File metadata",
+        "Sensitive personal data"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-11",
@@ -210,14 +310,19 @@
         "TECH"
       ],
       "choices": [
-        "Tokens",
-        "The model's instructions",
-        "Parallel math",
-        "Hallucination"
+        "Hallucination",
+        "Overfitting",
+        "Encryption",
+        "Caching"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-12",
@@ -234,14 +339,19 @@
         "TECH"
       ],
       "choices": [
-        "The model's instructions",
-        "Parallel math",
+        "Pixels",
         "Tokens",
-        "Multi-factor authentication"
+        "Sentences",
+        "Database rows"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-13",
@@ -258,14 +368,19 @@
         "TECH"
       ],
       "choices": [
-        "Cache",
-        "Multi-factor authentication",
-        "The model's instructions",
-        "Parallel math"
+        "More storage space",
+        "A faster clock speed only",
+        "Parallel math",
+        "Longer prompts"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-14",
@@ -282,14 +397,19 @@
         "TECH"
       ],
       "choices": [
-        "Multi-factor authentication",
-        "Training data",
-        "The model's instructions",
-        "Cache"
+        "The network password",
+        "The screen resolution",
+        "The billing plan",
+        "The model's instructions"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-15",
@@ -306,14 +426,19 @@
         "TECH"
       ],
       "choices": [
-        "Cache",
-        "Sandbox",
         "Multi-factor authentication",
-        "Training data"
+        "A longer username",
+        "A password hint",
+        "A public profile"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-16",
@@ -330,14 +455,19 @@
         "TECH"
       ],
       "choices": [
-        "Sandbox",
-        "Training data",
-        "A software password",
-        "Cache"
+        "Firewall",
+        "Cache",
+        "Compiler",
+        "Load balancer"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-17",
@@ -354,14 +484,19 @@
         "TECH"
       ],
       "choices": [
-        "A software password",
-        "Credential leak",
-        "Sandbox",
-        "Training data"
+        "Source code",
+        "Raw telemetry",
+        "Training data",
+        "Model weights"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-18",
@@ -378,14 +513,19 @@
         "TECH"
       ],
       "choices": [
-        "Hallucination",
-        "Credential leak",
-        "Sandbox",
-        "A software password"
+        "Production",
+        "Repository",
+        "Data lake",
+        "Sandbox"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-19",
@@ -403,13 +543,18 @@
       ],
       "choices": [
         "A software password",
-        "Hallucination",
-        "Tokens",
-        "Credential leak"
+        "A public username",
+        "A file checksum",
+        "A model label"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "ai-tech-puzzles-premium-20",
@@ -426,25 +571,2935 @@
         "TECH"
       ],
       "choices": [
-        "Parallel math",
-        "Hallucination",
-        "Tokens",
-        "Credential leak"
+        "Credential leak",
+        "Slower downloads",
+        "Lower screen brightness",
+        "Duplicate filenames"
+      ],
+      "answerIndex": 0,
+      "engagementQuestion": "Did you get it before the reveal?",
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-21",
+      "concept": "Semantic vectors",
+      "question": "A search engine finds similar ideas even when words differ. What representation makes that possible?",
+      "answer": "Embeddings",
+      "explanation": "Embeddings place semantically related content near each other in a numeric vector space.",
+      "hint": "Look for the semantic vectors clue.",
+      "difficulty": "easy",
+      "visual": "ai_terminal",
+      "beats": [
+        "SEMANTIC VECTORS",
+        "EMBEDDINGS",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Cookies",
+        "Embeddings",
+        "Pixels",
+        "Checksums"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-22",
+      "concept": "Model inference",
+      "question": "A trained model answers a new prompt without updating its weights. What phase is this?",
+      "answer": "Inference",
+      "explanation": "Inference uses learned parameters to generate or predict outputs for new inputs.",
+      "hint": "Look for the model inference clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "MODEL INFERENCE",
+        "INFERENCE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Training",
+        "Labeling",
+        "Inference",
+        "Backpropagation"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-23",
+      "concept": "Transformer attention",
+      "question": "Which transformer mechanism weighs relevant words against each other while processing a sequence?",
+      "answer": "Attention",
+      "explanation": "Attention assigns different weights to tokens based on their relevance to the current representation.",
+      "hint": "Look for the transformer attention clue.",
+      "difficulty": "hard",
+      "visual": "chaotic_data",
+      "beats": [
+        "TRANSFORMER ATTENTION",
+        "ATTENTION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Compression",
+        "Caching",
+        "Encryption",
+        "Attention"
       ],
       "answerIndex": 3,
-      "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-24",
+      "concept": "Context limits",
+      "question": "A chatbot forgets early instructions after a huge conversation. Which limit was exceeded?",
+      "answer": "Context window",
+      "explanation": "The context window limits how much input the model can consider at one time.",
+      "hint": "Look for the context limits clue.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "CONTEXT LIMITS",
+        "CONTEXT WINDOW",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Context window",
+        "Refresh rate",
+        "Disk quota",
+        "Screen buffer"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-25",
+      "concept": "Model adaptation",
+      "question": "A base model is trained further on curated customer-service examples. What process is this?",
+      "answer": "Fine-tuning",
+      "explanation": "Fine-tuning adapts a pretrained model using a smaller task-specific dataset.",
+      "hint": "Look for the model adaptation clue.",
+      "difficulty": "easy",
+      "visual": "diagram_compare",
+      "beats": [
+        "MODEL ADAPTATION",
+        "FINE-TUNING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Tokenization",
+        "Fine-tuning",
+        "Quantization",
+        "Web scraping"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-26",
+      "concept": "Grounded retrieval",
+      "question": "A chatbot searches company documents before answering. Which architecture is it using?",
+      "answer": "Retrieval-augmented generation",
+      "explanation": "RAG retrieves relevant external information and supplies it to the model before generation.",
+      "hint": "Look for the grounded retrieval clue.",
+      "difficulty": "medium",
+      "visual": "ai_terminal",
+      "beats": [
+        "GROUNDED RETRIEVAL",
+        "RETRIEVAL-AUGMENTED GENERATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Image diffusion",
+        "Password hashing",
+        "Retrieval-augmented generation",
+        "Load balancing"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-27",
+      "concept": "Tokenization",
+      "question": "Before a language model reads text, what process splits it into smaller units?",
+      "answer": "Tokenization",
+      "explanation": "Tokenization converts text into token IDs the model can process.",
+      "hint": "Look for the tokenization clue.",
+      "difficulty": "hard",
+      "visual": "diagram_flow",
+      "beats": [
+        "TOKENIZATION",
+        "TOKENIZATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Encryption",
+        "Rendering",
+        "Index sharding",
+        "Tokenization"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-28",
+      "concept": "Sampling temperature",
+      "question": "The same prompt suddenly produces wilder answers. Which randomness control probably increased?",
+      "answer": "Temperature",
+      "explanation": "Higher temperature generally makes token selection more varied and less predictable.",
+      "hint": "Look for the sampling temperature clue.",
+      "difficulty": "viral",
+      "visual": "chaotic_data",
+      "beats": [
+        "SAMPLING TEMPERATURE",
+        "TEMPERATURE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Temperature",
+        "Context length",
+        "Batch size",
+        "File size"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-29",
+      "concept": "Nucleus sampling",
+      "question": "Which sampling control restricts choices to a cumulative probability mass?",
+      "answer": "Top-p",
+      "explanation": "Top-p sampling draws from the smallest token set whose cumulative probability reaches the chosen threshold.",
+      "hint": "Look for the nucleus sampling clue.",
+      "difficulty": "easy",
+      "visual": "action_cards",
+      "beats": [
+        "NUCLEUS SAMPLING",
+        "TOP-P",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Top-k storage",
+        "Top-p",
+        "Page rank",
+        "Loss scaling"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-30",
+      "concept": "Instruction hierarchy",
+      "question": "Which instruction layer defines an assistant's highest-level role and behavior?",
+      "answer": "System prompt",
+      "explanation": "A system prompt sets high-priority behavior before ordinary user messages.",
+      "hint": "Look for the instruction hierarchy clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "INSTRUCTION HIERARCHY",
+        "SYSTEM PROMPT",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Alt text",
+        "System prompt",
+        "File header",
+        "Search query"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-31",
+      "concept": "Example prompting",
+      "question": "You show a model three labeled examples before asking a similar task. What technique is this?",
+      "answer": "Few-shot prompting",
+      "explanation": "Few-shot prompting demonstrates the desired pattern with a small number of examples.",
+      "hint": "Look for the example prompting clue.",
+      "difficulty": "hard",
+      "visual": "ai_terminal",
+      "beats": [
+        "EXAMPLE PROMPTING",
+        "FEW-SHOT PROMPTING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Zero-shot prompting",
+        "Model pruning",
+        "Few-shot prompting",
+        "Data encryption"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-32",
+      "concept": "Instruction prompting",
+      "question": "You ask a model to classify text without giving any examples. What technique is this?",
+      "answer": "Zero-shot prompting",
+      "explanation": "Zero-shot prompting asks for a task using instructions but no demonstrations.",
+      "hint": "Look for the instruction prompting clue.",
+      "difficulty": "viral",
+      "visual": "diagram_flow",
+      "beats": [
+        "INSTRUCTION PROMPTING",
+        "ZERO-SHOT PROMPTING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Few-shot prompting",
+        "Fine-tuning",
+        "Batch training",
+        "Zero-shot prompting"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-33",
+      "concept": "Evidence grounding",
+      "question": "An answer is checked against an approved document instead of model memory. What improves?",
+      "answer": "Grounding",
+      "explanation": "Grounding ties a model response to supplied evidence rather than unsupported recall.",
+      "hint": "Look for the evidence grounding clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "EVIDENCE GROUNDING",
+        "GROUNDING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Grounding",
+        "Randomness",
+        "Compression",
+        "Animation"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-34",
+      "concept": "Multimodal AI",
+      "question": "One model accepts text, images, and audio. What kind of model is it?",
+      "answer": "Multimodal",
+      "explanation": "A multimodal model can process or generate more than one type of media.",
+      "hint": "Look for the multimodal ai clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "MULTIMODAL AI",
+        "MULTIMODAL",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Monolithic",
+        "Multimodal",
+        "Deterministic",
+        "Relational"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-35",
+      "concept": "Response latency",
+      "question": "Users wait five seconds after clicking Generate. Which product metric is hurting?",
+      "answer": "Latency",
+      "explanation": "Latency measures the delay between a request and its response.",
+      "hint": "Look for the response latency clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "RESPONSE LATENCY",
+        "LATENCY",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Accuracy",
+        "Retention",
+        "Latency",
+        "Resolution"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-36",
+      "concept": "Model compression",
+      "question": "A model becomes smaller by storing weights with fewer bits. What technique was used?",
+      "answer": "Quantization",
+      "explanation": "Quantization reduces numerical precision to lower memory and compute requirements.",
+      "hint": "Look for the model compression clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "MODEL COMPRESSION",
+        "QUANTIZATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Tokenization",
+        "Vector search",
+        "Data labeling",
+        "Quantization"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-37",
+      "concept": "Model distillation",
+      "question": "A small model learns to imitate a larger model's outputs. What is this called?",
+      "answer": "Knowledge distillation",
+      "explanation": "Distillation trains a smaller student model using signals from a larger teacher model.",
+      "hint": "Look for the model distillation clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "MODEL DISTILLATION",
+        "KNOWLEDGE DISTILLATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Knowledge distillation",
+        "Data sharding",
+        "Prompt chaining",
+        "Image masking"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-38",
+      "concept": "Model parameters",
+      "question": "What are the learned numerical values inside a neural network commonly called?",
+      "answer": "Parameters",
+      "explanation": "Parameters are adjusted during training and determine how the model transforms inputs.",
+      "hint": "Look for the model parameters clue.",
+      "difficulty": "medium",
+      "visual": "chaotic_data",
+      "beats": [
+        "MODEL PARAMETERS",
+        "PARAMETERS",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Prompts",
+        "Parameters",
+        "Pixels",
+        "Folders"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-39",
+      "concept": "Training optimization",
+      "question": "Which optimization method repeatedly adjusts weights to reduce model error?",
+      "answer": "Gradient descent",
+      "explanation": "Gradient descent updates parameters in a direction that lowers the loss function.",
+      "hint": "Look for the training optimization clue.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "TRAINING OPTIMIZATION",
+        "GRADIENT DESCENT",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Binary search",
+        "Round robin",
+        "Gradient descent",
+        "Hash lookup"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-40",
+      "concept": "Training epoch",
+      "question": "One complete pass through a training dataset is called what?",
+      "answer": "An epoch",
+      "explanation": "An epoch is one full traversal of the available training examples.",
+      "hint": "Look for the training epoch clue.",
+      "difficulty": "viral",
+      "visual": "diagram_compare",
+      "beats": [
+        "TRAINING EPOCH",
+        "AN EPOCH",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A token",
+        "A shard",
+        "An epoch",
+        "A checkpoint prompt"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-41",
+      "concept": "Hallucination",
+      "question": "A model states a false fact with total confidence. What failure occurred?",
+      "answer": "Hallucination",
+      "explanation": "A hallucination is fluent model output that is unsupported or false.",
+      "hint": "Look for the hallucination clue.",
+      "difficulty": "easy",
+      "visual": "ai_terminal",
+      "beats": [
+        "HALLUCINATION",
+        "HALLUCINATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Quantization",
+        "Caching",
+        "Tokenization",
+        "Hallucination"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-42",
+      "concept": "Evaluation split",
+      "question": "Which dataset should remain separate until final model evaluation?",
+      "answer": "Test set",
+      "explanation": "A held-out test set estimates performance on data not used for training or tuning.",
+      "hint": "Look for the evaluation split clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "EVALUATION SPLIT",
+        "TEST SET",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Test set",
+        "Training set",
+        "Prompt history",
+        "Vector index"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-43",
+      "concept": "Evaluation leakage",
+      "question": "A model scores highly because test questions appeared in its training data. What happened?",
+      "answer": "Benchmark contamination",
+      "explanation": "Contamination makes evaluation results misleading because the model may have seen the answers.",
+      "hint": "Look for the evaluation leakage clue.",
+      "difficulty": "hard",
+      "visual": "chaotic_data",
+      "beats": [
+        "EVALUATION LEAKAGE",
+        "BENCHMARK CONTAMINATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Data compression",
+        "Benchmark contamination",
+        "Model pruning",
+        "Rate limiting"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-44",
+      "concept": "Model generalization",
+      "question": "A model memorizes training examples but performs poorly on new data. What is this?",
+      "answer": "Overfitting",
+      "explanation": "Overfitting occurs when a model learns training details that do not generalize.",
+      "hint": "Look for the model generalization clue.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "MODEL GENERALIZATION",
+        "OVERFITTING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Underclocking",
+        "Caching",
+        "Overfitting",
+        "Encryption"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-45",
+      "concept": "Algorithmic bias",
+      "question": "An AI hiring tool disadvantages one group because historical data reflects past inequality. What risk appeared?",
+      "answer": "Bias",
+      "explanation": "Models can reproduce unfair patterns present in data, labels, or deployment decisions.",
+      "hint": "Look for the algorithmic bias clue.",
+      "difficulty": "easy",
+      "visual": "diagram_compare",
+      "beats": [
+        "ALGORITHMIC BIAS",
+        "BIAS",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Latency",
+        "Compression",
+        "Packet loss",
+        "Bias"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-46",
+      "concept": "Human oversight",
+      "question": "A medical AI flags a serious case, but a clinician makes the final decision. What safeguard is this?",
+      "answer": "Human-in-the-loop review",
+      "explanation": "Human review keeps accountable experts involved in consequential decisions.",
+      "hint": "Look for the human oversight clue.",
+      "difficulty": "medium",
+      "visual": "ai_terminal",
+      "beats": [
+        "HUMAN OVERSIGHT",
+        "HUMAN-IN-THE-LOOP REVIEW",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Human-in-the-loop review",
+        "Full automation",
+        "Random sampling",
+        "Data caching"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-47",
+      "concept": "Confidence calibration",
+      "question": "A model's 90% confidence predictions are correct only half the time. What is poor?",
+      "answer": "Calibration",
+      "explanation": "Calibration measures whether stated confidence levels match observed accuracy.",
+      "hint": "Look for the confidence calibration clue.",
+      "difficulty": "hard",
+      "visual": "diagram_flow",
+      "beats": [
+        "CONFIDENCE CALIBRATION",
+        "CALIBRATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Compression",
+        "Calibration",
+        "Token count",
+        "Screen contrast"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-48",
+      "concept": "Deterministic output",
+      "question": "You need repeatable outputs for a strict workflow. Which setting should usually be lowered?",
+      "answer": "Temperature",
+      "explanation": "Lower temperature generally reduces sampling randomness and improves repeatability.",
+      "hint": "Look for the deterministic output clue.",
+      "difficulty": "viral",
+      "visual": "chaotic_data",
+      "beats": [
+        "DETERMINISTIC OUTPUT",
+        "TEMPERATURE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Context window",
+        "Image resolution",
+        "Temperature",
+        "Storage quota"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-49",
+      "concept": "Structured output",
+      "question": "An app must receive valid JSON from a model every time. What should constrain the output?",
+      "answer": "A JSON schema",
+      "explanation": "Schema-constrained generation defines required fields, types, and structure.",
+      "hint": "Look for the structured output clue.",
+      "difficulty": "easy",
+      "visual": "action_cards",
+      "beats": [
+        "STRUCTURED OUTPUT",
+        "A JSON SCHEMA",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A longer paragraph",
+        "A brighter interface",
+        "A random seed only",
+        "A JSON schema"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-50",
+      "concept": "Source verification",
+      "question": "A research answer includes links that do not support its claims. What verification step failed?",
+      "answer": "Citation checking",
+      "explanation": "Citations must be opened and matched to the specific claims they supposedly support.",
+      "hint": "Look for the source verification clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "SOURCE VERIFICATION",
+        "CITATION CHECKING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Spell checking",
+        "Image cropping",
+        "Token counting",
+        "Citation checking"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-51",
+      "concept": "Document chunking",
+      "question": "A 500-page manual overwhelms retrieval. What preprocessing step divides it into searchable sections?",
+      "answer": "Chunking",
+      "explanation": "Chunking splits long documents into smaller passages for indexing and retrieval.",
+      "hint": "Look for the document chunking clue.",
+      "difficulty": "hard",
+      "visual": "ai_terminal",
+      "beats": [
+        "DOCUMENT CHUNKING",
+        "CHUNKING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Chunking",
+        "Quantization",
+        "Encryption",
+        "Color grading"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-52",
+      "concept": "Retrieval reranking",
+      "question": "Search retrieves twenty passages, then a second model orders the best five. What is that step?",
+      "answer": "Reranking",
+      "explanation": "A reranker scores retrieved candidates again to improve final relevance.",
+      "hint": "Look for the retrieval reranking clue.",
+      "difficulty": "viral",
+      "visual": "diagram_flow",
+      "beats": [
+        "RETRIEVAL RERANKING",
+        "RERANKING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Tokenization",
+        "Reranking",
+        "Fine-tuning",
+        "Caching"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-53",
+      "concept": "Semantic search",
+      "question": "A search finds 'automobile' when the query says 'car.' What kind of search is this?",
+      "answer": "Semantic search",
+      "explanation": "Semantic search uses meaning-based representations rather than exact keyword matches alone.",
+      "hint": "Look for the semantic search clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "SEMANTIC SEARCH",
+        "SEMANTIC SEARCH",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Exact string search",
+        "File sorting",
+        "Semantic search",
+        "Checksum lookup"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-54",
+      "concept": "Vector similarity",
+      "question": "Which measure commonly compares the direction of two embedding vectors?",
+      "answer": "Cosine similarity",
+      "explanation": "Cosine similarity measures the angle between vectors and is widely used for embedding comparison.",
+      "hint": "Look for the vector similarity clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "VECTOR SIMILARITY",
+        "COSINE SIMILARITY",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Pixel density",
+        "Edit distance only",
+        "Clock speed",
+        "Cosine similarity"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-55",
+      "concept": "AI guardrails",
+      "question": "A chatbot refuses to reveal private account data even when asked creatively. What control helped?",
+      "answer": "A guardrail",
+      "explanation": "Guardrails constrain behavior around safety, privacy, or business rules.",
+      "hint": "Look for the ai guardrails clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "AI GUARDRAILS",
+        "A GUARDRAIL",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A guardrail",
+        "A cache",
+        "A color theme",
+        "A larger context window"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-56",
+      "concept": "AI red teaming",
+      "question": "A team deliberately attacks its own AI before launch. What practice is this?",
+      "answer": "Red teaming",
+      "explanation": "Red teaming probes a system for abuse paths, failures, and unsafe behavior.",
+      "hint": "Look for the ai red teaming clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "AI RED TEAMING",
+        "RED TEAMING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Load balancing",
+        "Red teaming",
+        "Blue-green deployment",
+        "Data labeling"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-57",
+      "concept": "Prompt regression",
+      "question": "A prompt update quietly breaks ten working use cases. What test should catch this?",
+      "answer": "Regression test",
+      "explanation": "Regression tests rerun known cases to detect behavior that changed unexpectedly.",
+      "hint": "Look for the prompt regression clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "PROMPT REGRESSION",
+        "REGRESSION TEST",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Speed test only",
+        "Color check",
+        "Regression test",
+        "Password reset"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-58",
+      "concept": "AI experimentation",
+      "question": "Half of users see one AI summary design and half see another. What experiment is this?",
+      "answer": "A/B test",
+      "explanation": "An A/B test compares measured outcomes between two controlled variants.",
+      "hint": "Look for the ai experimentation clue.",
+      "difficulty": "medium",
+      "visual": "chaotic_data",
+      "beats": [
+        "AI EXPERIMENTATION",
+        "A/B TEST",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Unit test",
+        "Penetration test",
+        "Data migration",
+        "A/B test"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-59",
+      "concept": "Model recall",
+      "question": "A cancer screener must avoid missing positive cases. Which metric deserves special attention?",
+      "answer": "Recall",
+      "explanation": "Recall measures how many actual positive cases the system successfully identifies.",
+      "hint": "Look for the model recall clue.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "MODEL RECALL",
+        "RECALL",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Recall",
+        "Compression ratio",
+        "Frame rate",
+        "Cache hit rate"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-60",
+      "concept": "Classification error",
+      "question": "A spam filter blocks a legitimate invoice. What kind of error is that?",
+      "answer": "False positive",
+      "explanation": "A false positive incorrectly labels a negative case as positive.",
+      "hint": "Look for the classification error clue.",
+      "difficulty": "viral",
+      "visual": "diagram_compare",
+      "beats": [
+        "CLASSIFICATION ERROR",
+        "FALSE POSITIVE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "False positive",
+        "True positive",
+        "False negative",
+        "Data shard"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-61",
+      "concept": "Prompt injection",
+      "question": "A user message says to ignore policy and expose secrets. What attack is this?",
+      "answer": "Prompt injection",
+      "explanation": "Prompt injection places malicious instructions in model-visible input to manipulate behavior.",
+      "hint": "Look for the prompt injection clue.",
+      "difficulty": "easy",
+      "visual": "ai_terminal",
+      "beats": [
+        "PROMPT INJECTION",
+        "PROMPT INJECTION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Model compression",
+        "Prompt injection",
+        "Data backup",
+        "Network caching"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-62",
+      "concept": "Indirect injection",
+      "question": "A hidden instruction inside a webpage manipulates the AI reading it. What attack is this?",
+      "answer": "Indirect prompt injection",
+      "explanation": "Indirect injection embeds malicious instructions in external content an AI later processes.",
+      "hint": "Look for the indirect injection clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "INDIRECT INJECTION",
+        "INDIRECT PROMPT INJECTION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Direct password guessing",
+        "Image upscaling",
+        "Indirect prompt injection",
+        "Database indexing"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-63",
+      "concept": "AI jailbreak",
+      "question": "A user repeatedly rephrases requests to bypass an AI's safety policy. What are they attempting?",
+      "answer": "A jailbreak",
+      "explanation": "A jailbreak is an attempt to circumvent a model's intended safety restrictions.",
+      "hint": "Look for the ai jailbreak clue.",
+      "difficulty": "hard",
+      "visual": "chaotic_data",
+      "beats": [
+        "AI JAILBREAK",
+        "A JAILBREAK",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Fine-tuning",
+        "Vector search",
+        "Load testing",
+        "A jailbreak"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-64",
+      "concept": "Training data poisoning",
+      "question": "Attackers insert malicious examples into training data to alter future behavior. What attack is this?",
+      "answer": "Data poisoning",
+      "explanation": "Poisoning corrupts training or feedback data to influence a model.",
+      "hint": "Look for the training data poisoning clue.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "TRAINING DATA POISONING",
+        "DATA POISONING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Data poisoning",
+        "Rate limiting",
+        "Tokenization",
+        "Model caching"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-65",
+      "concept": "Model inversion",
+      "question": "Someone queries a model to reconstruct details from its training records. What privacy attack is this?",
+      "answer": "Model inversion",
+      "explanation": "Model inversion attempts to infer sensitive attributes or representative inputs from model behavior.",
+      "hint": "Look for the model inversion clue.",
+      "difficulty": "easy",
+      "visual": "diagram_compare",
+      "beats": [
+        "MODEL INVERSION",
+        "MODEL INVERSION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Prompt caching",
+        "Model inversion",
+        "Image rotation",
+        "Network sharding"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-66",
+      "concept": "Membership inference",
+      "question": "An attacker tests whether one person's record was used for training. What attack is this?",
+      "answer": "Membership inference",
+      "explanation": "Membership inference estimates whether a specific example belonged to a model's training data.",
+      "hint": "Look for the membership inference clue.",
+      "difficulty": "medium",
+      "visual": "ai_terminal",
+      "beats": [
+        "MEMBERSHIP INFERENCE",
+        "MEMBERSHIP INFERENCE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Semantic search",
+        "Password spraying",
+        "Membership inference",
+        "Data compression"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-67",
+      "concept": "Privacy redaction",
+      "question": "Before sending support logs to an AI, names and phone numbers are removed. What step is this?",
+      "answer": "PII redaction",
+      "explanation": "Redaction removes or masks personally identifiable information before processing.",
+      "hint": "Look for the privacy redaction clue.",
+      "difficulty": "hard",
+      "visual": "diagram_flow",
+      "beats": [
+        "PRIVACY REDACTION",
+        "PII REDACTION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Token sampling",
+        "Image sharpening",
+        "Model distillation",
+        "PII redaction"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-68",
+      "concept": "Least privilege",
+      "question": "An AI assistant can read invoices but cannot delete them. Which security principle is this?",
+      "answer": "Least privilege",
+      "explanation": "Least privilege grants only the permissions required for the task.",
+      "hint": "Look for the least privilege clue.",
+      "difficulty": "viral",
+      "visual": "chaotic_data",
+      "beats": [
+        "LEAST PRIVILEGE",
+        "LEAST PRIVILEGE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Least privilege",
+        "Open access",
+        "Shared passwords",
+        "Maximum retention"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-69",
+      "concept": "Code sandboxing",
+      "question": "Untrusted AI-generated code runs inside an isolated environment. What protects the host?",
+      "answer": "A sandbox",
+      "explanation": "A sandbox limits the code's access to files, processes, and networks.",
+      "hint": "Look for the code sandboxing clue.",
+      "difficulty": "easy",
+      "visual": "action_cards",
+      "beats": [
+        "CODE SANDBOXING",
+        "A SANDBOX",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A spreadsheet",
+        "A sandbox",
+        "A CDN",
+        "A font loader"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-70",
+      "concept": "Secret detection",
+      "question": "A repository blocks commits containing API keys. What automated control is running?",
+      "answer": "Secret scanning",
+      "explanation": "Secret scanning detects credential patterns before or after they enter source control.",
+      "hint": "Look for the secret detection clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "SECRET DETECTION",
+        "SECRET SCANNING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Spell checking",
+        "Secret scanning",
+        "Image compression",
+        "Load balancing"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-71",
+      "concept": "Synthetic media",
+      "question": "A realistic video makes a public figure appear to say words they never spoke. What is it?",
+      "answer": "A deepfake",
+      "explanation": "A deepfake uses synthetic media techniques to imitate a person's appearance or voice.",
+      "hint": "Look for the synthetic media clue.",
+      "difficulty": "hard",
+      "visual": "ai_terminal",
+      "beats": [
+        "SYNTHETIC MEDIA",
+        "A DEEPFAKE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A time-lapse",
+        "A screen recording",
+        "A deepfake",
+        "A compression artifact"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-72",
+      "concept": "Media provenance",
+      "question": "Which metadata can record where digital media came from and how it changed?",
+      "answer": "Content provenance",
+      "explanation": "Provenance records can document a media asset's origin and editing history.",
+      "hint": "Look for the media provenance clue.",
+      "difficulty": "viral",
+      "visual": "diagram_flow",
+      "beats": [
+        "MEDIA PROVENANCE",
+        "CONTENT PROVENANCE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Screen brightness",
+        "File color",
+        "Audio volume",
+        "Content provenance"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-73",
+      "concept": "AI phishing",
+      "question": "An urgent email uses AI-written language and a fake login page. What attack remains the core threat?",
+      "answer": "Phishing",
+      "explanation": "AI can improve the message, but the attack still tricks users into revealing credentials.",
+      "hint": "Look for the ai phishing clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "AI PHISHING",
+        "PHISHING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Phishing",
+        "Quantization",
+        "Model distillation",
+        "Caching"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-74",
+      "concept": "Voice-clone fraud",
+      "question": "A caller perfectly imitates your manager and demands money. What should you verify through another channel?",
+      "answer": "The person's identity",
+      "explanation": "A separate trusted channel helps detect voice-cloning and impersonation scams.",
+      "hint": "Look for the voice-clone fraud clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "VOICE-CLONE FRAUD",
+        "THE PERSON'S IDENTITY",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "The audio volume",
+        "The person's identity",
+        "The phone color",
+        "The call duration"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-75",
+      "concept": "Account security",
+      "question": "A stolen password alone cannot open an account because a second proof is required. What protected it?",
+      "answer": "Multi-factor authentication",
+      "explanation": "MFA requires an additional factor beyond the password.",
+      "hint": "Look for the account security clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "ACCOUNT SECURITY",
+        "MULTI-FACTOR AUTHENTICATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A password hint",
+        "A public username",
+        "Multi-factor authentication",
+        "A longer email address"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-76",
+      "concept": "Transport encryption",
+      "question": "Data is encrypted while moving between an app and its AI provider. What protection is this?",
+      "answer": "Encryption in transit",
+      "explanation": "Transport encryption protects data as it travels across networks.",
+      "hint": "Look for the transport encryption clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "TRANSPORT ENCRYPTION",
+        "ENCRYPTION IN TRANSIT",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Encryption at rest",
+        "Data deletion",
+        "Model pruning",
+        "Encryption in transit"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-77",
+      "concept": "Storage encryption",
+      "question": "Stored AI conversation logs are unreadable without a key. What protection is this?",
+      "answer": "Encryption at rest",
+      "explanation": "Encryption at rest protects stored files and databases from unauthorized reading.",
+      "hint": "Look for the storage encryption clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "STORAGE ENCRYPTION",
+        "ENCRYPTION AT REST",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Encryption at rest",
+        "Encryption in transit",
+        "Rate limiting",
+        "Token sampling"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-78",
+      "concept": "AI auditability",
+      "question": "A company needs to know who asked an AI to access a customer record. What should it keep?",
+      "answer": "Audit logs",
+      "explanation": "Audit logs record actions, identities, and timestamps for later review.",
+      "hint": "Look for the ai auditability clue.",
+      "difficulty": "medium",
+      "visual": "chaotic_data",
+      "beats": [
+        "AI AUDITABILITY",
+        "AUDIT LOGS",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Larger prompts",
+        "Audit logs",
+        "More animations",
+        "Public passwords"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-79",
+      "concept": "Data retention",
+      "question": "An AI vendor keeps prompts forever without a business need. Which policy should limit this?",
+      "answer": "Data retention policy",
+      "explanation": "A retention policy defines how long data is stored and when it is deleted.",
+      "hint": "Look for the data retention clue.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "DATA RETENTION",
+        "DATA RETENTION POLICY",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Color policy",
+        "Sampling temperature",
+        "Data retention policy",
+        "Screen timeout"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-80",
+      "concept": "Local AI privacy",
+      "question": "A model runs entirely on a laptop without sending prompts away. What privacy advantage does this provide?",
+      "answer": "Local processing",
+      "explanation": "Local processing can keep sensitive inputs on the user's device.",
+      "hint": "Look for the local ai privacy clue.",
+      "difficulty": "viral",
+      "visual": "diagram_compare",
+      "beats": [
+        "LOCAL AI PRIVACY",
+        "LOCAL PROCESSING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Public indexing",
+        "Unlimited accuracy",
+        "Local processing",
+        "Automatic consent"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-81",
+      "concept": "Agent tools",
+      "question": "An AI agent checks a calendar by calling an external service. What capability is it using?",
+      "answer": "Tool use",
+      "explanation": "Tool use lets a model invoke software functions or external systems.",
+      "hint": "Look for the agent tools clue.",
+      "difficulty": "easy",
+      "visual": "ai_terminal",
+      "beats": [
+        "AGENT TOOLS",
+        "TOOL USE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Fine-tuning",
+        "Quantization",
+        "Image diffusion",
+        "Tool use"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-82",
+      "concept": "Agent planning",
+      "question": "An agent divides a travel request into flights, hotels, and scheduling steps. What capability is this?",
+      "answer": "Planning",
+      "explanation": "Planning decomposes a goal into ordered subtasks and decisions.",
+      "hint": "Look for the agent planning clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "AGENT PLANNING",
+        "PLANNING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Planning",
+        "Tokenization",
+        "Encryption",
+        "Upscaling"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-83",
+      "concept": "Agent memory",
+      "question": "An assistant remembers a user's preferred writing style next week. What feature stores that preference?",
+      "answer": "Persistent memory",
+      "explanation": "Persistent memory carries selected information across separate sessions.",
+      "hint": "Look for the agent memory clue.",
+      "difficulty": "hard",
+      "visual": "chaotic_data",
+      "beats": [
+        "AGENT MEMORY",
+        "PERSISTENT MEMORY",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Temperature",
+        "Persistent memory",
+        "Tokenization",
+        "Image cache only"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-84",
+      "concept": "Approval gates",
+      "question": "An AI drafts a bank transfer, but a person must approve it before sending. What control is this?",
+      "answer": "Human approval",
+      "explanation": "Approval gates prevent high-impact actions from executing without accountable review.",
+      "hint": "Look for the approval gates clue.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "APPROVAL GATES",
+        "HUMAN APPROVAL",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Automatic retry",
+        "Open permissions",
+        "Human approval",
+        "Random sampling"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-85",
+      "concept": "Idempotent tools",
+      "question": "A payment tool receives the same AI request twice but charges only once. What property prevented duplication?",
+      "answer": "Idempotency",
+      "explanation": "An idempotent operation can be repeated without creating additional effects.",
+      "hint": "Look for the idempotent tools clue.",
+      "difficulty": "easy",
+      "visual": "diagram_compare",
+      "beats": [
+        "IDEMPOTENT TOOLS",
+        "IDEMPOTENCY",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Parallelism",
+        "Tokenization",
+        "Compression",
+        "Idempotency"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-86",
+      "concept": "Retry strategy",
+      "question": "An API fails temporarily, so the agent waits longer after each retry. What strategy is this?",
+      "answer": "Exponential backoff",
+      "explanation": "Backoff spaces retries progressively to reduce overload and allow recovery.",
+      "hint": "Look for the retry strategy clue.",
+      "difficulty": "medium",
+      "visual": "ai_terminal",
+      "beats": [
+        "RETRY STRATEGY",
+        "EXPONENTIAL BACKOFF",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Exponential backoff",
+        "Binary search",
+        "Prompt injection",
+        "Data labeling"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-87",
+      "concept": "API limits",
+      "question": "An AI service rejects requests after too many arrive per minute. What control triggered?",
+      "answer": "Rate limiting",
+      "explanation": "Rate limiting caps request frequency to protect capacity and prevent abuse.",
+      "hint": "Look for the api limits clue.",
+      "difficulty": "hard",
+      "visual": "diagram_flow",
+      "beats": [
+        "API LIMITS",
+        "RATE LIMITING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Fine-tuning",
+        "Rate limiting",
+        "Vectorization",
+        "Image cropping"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-88",
+      "concept": "Tool timeout",
+      "question": "A tool call hangs forever unless the agent stops waiting after thirty seconds. What limit is needed?",
+      "answer": "A timeout",
+      "explanation": "A timeout ends work that exceeds an allowed duration.",
+      "hint": "Look for the tool timeout clue.",
+      "difficulty": "viral",
+      "visual": "chaotic_data",
+      "beats": [
+        "TOOL TIMEOUT",
+        "A TIMEOUT",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A larger prompt",
+        "A higher temperature",
+        "A timeout",
+        "A new font"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-89",
+      "concept": "Agent rollback",
+      "question": "An agent edits the wrong record and restores the previous state. What recovery action occurred?",
+      "answer": "Rollback",
+      "explanation": "A rollback reverses a change by returning to a known earlier state.",
+      "hint": "Look for the agent rollback clue.",
+      "difficulty": "easy",
+      "visual": "action_cards",
+      "beats": [
+        "AGENT ROLLBACK",
+        "ROLLBACK",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Reranking",
+        "Tokenization",
+        "Distillation",
+        "Rollback"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-90",
+      "concept": "Agent audit trail",
+      "question": "A regulated workflow must reconstruct every AI action and tool result. What record is essential?",
+      "answer": "An audit trail",
+      "explanation": "An audit trail preserves the sequence of decisions, inputs, actions, and outcomes.",
+      "hint": "Look for the agent audit trail clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "AGENT AUDIT TRAIL",
+        "AN AUDIT TRAIL",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A color palette",
+        "A larger model",
+        "A public prompt",
+        "An audit trail"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-91",
+      "concept": "Prompt operations",
+      "question": "A team tracks which prompt produced each release result. What practice supports this?",
+      "answer": "Prompt versioning",
+      "explanation": "Prompt versioning records changes so outputs can be reproduced and compared.",
+      "hint": "Look for the prompt operations clue.",
+      "difficulty": "hard",
+      "visual": "ai_terminal",
+      "beats": [
+        "PROMPT OPERATIONS",
+        "PROMPT VERSIONING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Prompt versioning",
+        "Image masking",
+        "GPU overclocking",
+        "Password sharing"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-92",
+      "concept": "AI orchestration",
+      "question": "Several AI steps run in a controlled order with data passed between them. What manages this?",
+      "answer": "Workflow orchestration",
+      "explanation": "Orchestration coordinates steps, dependencies, state, and failures across a workflow.",
+      "hint": "Look for the ai orchestration clue.",
+      "difficulty": "viral",
+      "visual": "diagram_flow",
+      "beats": [
+        "AI ORCHESTRATION",
+        "WORKFLOW ORCHESTRATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Token counting",
+        "Workflow orchestration",
+        "Image filtering",
+        "File compression"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-93",
+      "concept": "Function calling",
+      "question": "A model selects a typed function and supplies its arguments. What feature is this?",
+      "answer": "Function calling",
+      "explanation": "Function calling lets a model request a defined operation using structured arguments.",
+      "hint": "Look for the function calling clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "FUNCTION CALLING",
+        "FUNCTION CALLING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Model training",
+        "Image generation",
+        "Function calling",
+        "Database sharding"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-94",
+      "concept": "Action validation",
+      "question": "Before an agent sends an email, software checks the address and required fields. What step is this?",
+      "answer": "Validation",
+      "explanation": "Validation checks that generated data satisfies rules before an action runs.",
+      "hint": "Look for the action validation clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "ACTION VALIDATION",
+        "VALIDATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Quantization",
+        "Sampling",
+        "Caching",
+        "Validation"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-95",
+      "concept": "Model fallback",
+      "question": "The primary AI provider fails, and the app switches to another model. What resilience pattern is this?",
+      "answer": "Model fallback",
+      "explanation": "A fallback provides an alternate path when the preferred model is unavailable.",
+      "hint": "Look for the model fallback clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "MODEL FALLBACK",
+        "MODEL FALLBACK",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Model fallback",
+        "Model poisoning",
+        "Prompt leakage",
+        "Image tiling"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-96",
+      "concept": "Agent cost control",
+      "question": "An agent stops before a tool call would exceed its spending limit. What control protected the budget?",
+      "answer": "A cost cap",
+      "explanation": "A cost cap prevents an automated workflow from spending beyond an approved threshold.",
+      "hint": "Look for the agent cost control clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "AGENT COST CONTROL",
+        "A COST CAP",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A context window",
+        "A cost cap",
+        "A color theme",
+        "A larger batch"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-97",
+      "concept": "Agent loop safety",
+      "question": "An agent repeats the same two actions without progress. What safeguard should stop it?",
+      "answer": "Loop detection",
+      "explanation": "Loop detection identifies repeated states or actions and terminates stalled workflows.",
+      "hint": "Look for the agent loop safety clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "AGENT LOOP SAFETY",
+        "LOOP DETECTION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Image detection",
+        "Token expansion",
+        "Loop detection",
+        "Password rotation"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-98",
+      "concept": "Agent permissions",
+      "question": "A research agent may search the web but cannot send emails. Which principle limits its tools?",
+      "answer": "Least privilege",
+      "explanation": "Restricting tools and permissions reduces the damage an agent can cause.",
+      "hint": "Look for the agent permissions clue.",
+      "difficulty": "medium",
+      "visual": "chaotic_data",
+      "beats": [
+        "AGENT PERMISSIONS",
+        "LEAST PRIVILEGE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Maximum access",
+        "Shared credentials",
+        "Unlimited retries",
+        "Least privilege"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-99",
+      "concept": "Tool grounding",
+      "question": "An agent answers using the actual database result instead of guessing. What is the response grounded in?",
+      "answer": "Tool output",
+      "explanation": "Using returned tool data grounds the answer in observed system state.",
+      "hint": "Look for the tool grounding clue.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "TOOL GROUNDING",
+        "TOOL OUTPUT",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Tool output",
+        "Model mood",
+        "Screen color",
+        "Random sampling"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-100",
+      "concept": "Workflow state",
+      "question": "A workflow moves through Draft, Review, Approved, and Sent. What structure controls these transitions?",
+      "answer": "A state machine",
+      "explanation": "A state machine defines allowed states and transitions between them.",
+      "hint": "Look for the workflow state clue.",
+      "difficulty": "viral",
+      "visual": "diagram_compare",
+      "beats": [
+        "WORKFLOW STATE",
+        "A STATE MACHINE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A vector index",
+        "A diffusion model",
+        "A font stack",
+        "A state machine"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-101",
+      "concept": "Image diffusion",
+      "question": "An image begins as random noise and becomes a scene through repeated denoising. What model process is this?",
+      "answer": "Diffusion",
+      "explanation": "Diffusion image generation iteratively removes predicted noise to form an image.",
+      "hint": "Look for the image diffusion clue.",
+      "difficulty": "easy",
+      "visual": "ai_terminal",
+      "beats": [
+        "IMAGE DIFFUSION",
+        "DIFFUSION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Diffusion",
+        "Tokenization",
+        "Database replication",
+        "Password hashing"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-102",
+      "concept": "Adversarial generation",
+      "question": "Two neural networks compete, with one generating images and one judging them. What architecture is this?",
+      "answer": "A GAN",
+      "explanation": "A generative adversarial network trains a generator against a discriminator.",
+      "hint": "Look for the adversarial generation clue.",
+      "difficulty": "medium",
+      "visual": "diagram_flow",
+      "beats": [
+        "ADVERSARIAL GENERATION",
+        "A GAN",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A CDN",
+        "A GAN",
+        "A decision tree",
+        "A vector database"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-103",
+      "concept": "Image prompting",
+      "question": "An image prompt says what must not appear in the result. What is that instruction called?",
+      "answer": "A negative prompt",
+      "explanation": "A negative prompt describes elements the generation process should avoid.",
+      "hint": "Look for the image prompting clue.",
+      "difficulty": "hard",
+      "visual": "chaotic_data",
+      "beats": [
+        "IMAGE PROMPTING",
+        "A NEGATIVE PROMPT",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A system log",
+        "A model checkpoint",
+        "A negative prompt",
+        "A file checksum"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-104",
+      "concept": "AI upscaling",
+      "question": "AI increases a small image's resolution while reconstructing detail. What process is this?",
+      "answer": "Upscaling",
+      "explanation": "AI upscaling predicts higher-resolution pixels from a lower-resolution source.",
+      "hint": "Look for the ai upscaling clue.",
+      "difficulty": "viral",
+      "visual": "action_cards",
+      "beats": [
+        "AI UPSCALING",
+        "UPSCALING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Tokenization",
+        "Speech synthesis",
+        "Data sharding",
+        "Upscaling"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-105",
+      "concept": "Speech recognition",
+      "question": "A meeting recording becomes searchable text. Which AI task performed the conversion?",
+      "answer": "Speech recognition",
+      "explanation": "Automatic speech recognition converts spoken audio into text.",
+      "hint": "Look for the speech recognition clue.",
+      "difficulty": "easy",
+      "visual": "diagram_compare",
+      "beats": [
+        "SPEECH RECOGNITION",
+        "SPEECH RECOGNITION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Speech recognition",
+        "Text-to-speech",
+        "Image segmentation",
+        "Recommendation"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-106",
+      "concept": "Speech synthesis",
+      "question": "Written narration becomes a natural-sounding voice. Which AI task created it?",
+      "answer": "Text-to-speech",
+      "explanation": "Text-to-speech synthesizes spoken audio from written text.",
+      "hint": "Look for the speech synthesis clue.",
+      "difficulty": "medium",
+      "visual": "ai_terminal",
+      "beats": [
+        "SPEECH SYNTHESIS",
+        "TEXT-TO-SPEECH",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Speech recognition",
+        "Text-to-speech",
+        "Object detection",
+        "Vector search"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-107",
+      "concept": "Synthetic training data",
+      "question": "Artificial examples are generated to supplement scarce real training records. What are these examples called?",
+      "answer": "Synthetic data",
+      "explanation": "Synthetic data is artificially created to resemble useful properties of real data.",
+      "hint": "Look for the synthetic training data clue.",
+      "difficulty": "hard",
+      "visual": "diagram_flow",
+      "beats": [
+        "SYNTHETIC TRAINING DATA",
+        "SYNTHETIC DATA",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Encrypted data",
+        "Cached data",
+        "Synthetic data",
+        "Deleted data"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-108",
+      "concept": "Recommendations",
+      "question": "A shopping app predicts products a user may like. What type of system is this?",
+      "answer": "A recommender system",
+      "explanation": "Recommender systems rank items using user behavior, item features, or both.",
+      "hint": "Look for the recommendations clue.",
+      "difficulty": "viral",
+      "visual": "chaotic_data",
+      "beats": [
+        "RECOMMENDATIONS",
+        "A RECOMMENDER SYSTEM",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A compiler",
+        "A firewall",
+        "A file system",
+        "A recommender system"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-109",
+      "concept": "AI classification",
+      "question": "An AI labels each email as urgent or normal. What machine-learning task is this?",
+      "answer": "Classification",
+      "explanation": "Classification assigns an input to one of a defined set of categories.",
+      "hint": "Look for the ai classification clue.",
+      "difficulty": "easy",
+      "visual": "action_cards",
+      "beats": [
+        "AI CLASSIFICATION",
+        "CLASSIFICATION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Classification",
+        "Clustering",
+        "Generation",
+        "Compression"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-110",
+      "concept": "Unsupervised clustering",
+      "question": "An AI groups customers by behavior without predefined labels. What task is this?",
+      "answer": "Clustering",
+      "explanation": "Clustering discovers groups based on similarity without requiring known class labels.",
+      "hint": "Look for the unsupervised clustering clue.",
+      "difficulty": "medium",
+      "visual": "diagram_compare",
+      "beats": [
+        "UNSUPERVISED CLUSTERING",
+        "CLUSTERING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Clustering",
+        "Classification",
+        "Translation",
+        "Encryption"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-111",
+      "concept": "Anomaly detection",
+      "question": "A payment suddenly differs from a customer's normal pattern. What AI task can flag it?",
+      "answer": "Anomaly detection",
+      "explanation": "Anomaly detection identifies observations that deviate strongly from expected patterns.",
+      "hint": "Look for the anomaly detection clue.",
+      "difficulty": "hard",
+      "visual": "ai_terminal",
+      "beats": [
+        "ANOMALY DETECTION",
+        "ANOMALY DETECTION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Image captioning",
+        "Anomaly detection",
+        "Speech synthesis",
+        "Tokenization"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-112",
+      "concept": "AI forecasting",
+      "question": "A model predicts next month's demand from historical sales. What task is this?",
+      "answer": "Forecasting",
+      "explanation": "Forecasting estimates future values from past patterns and relevant variables.",
+      "hint": "Look for the ai forecasting clue.",
+      "difficulty": "viral",
+      "visual": "diagram_flow",
+      "beats": [
+        "AI FORECASTING",
+        "FORECASTING",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Clustering",
+        "Image segmentation",
+        "Forecasting",
+        "Password hashing"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-113",
+      "concept": "AI detection limits",
+      "question": "An AI detector labels human writing as generated. Why should its verdict not be treated as proof?",
+      "answer": "Detectors can be wrong",
+      "explanation": "AI-text detectors can produce false positives and should not be the sole evidence.",
+      "hint": "Look for the ai detection limits clue.",
+      "difficulty": "easy",
+      "visual": "chaotic_data",
+      "beats": [
+        "AI DETECTION LIMITS",
+        "DETECTORS CAN BE WRONG",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Human text has no patterns",
+        "Every detector is encrypted",
+        "Generated text is always labeled",
+        "Detectors can be wrong"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-114",
+      "concept": "Causal inference",
+      "question": "Sales rose after an AI tool launched. What must be tested before claiming the AI caused it?",
+      "answer": "Alternative explanations",
+      "explanation": "Timing alone shows correlation; experiments or stronger evidence are needed to establish causation.",
+      "hint": "Look for the causal inference clue.",
+      "difficulty": "medium",
+      "visual": "action_cards",
+      "beats": [
+        "CAUSAL INFERENCE",
+        "ALTERNATIVE EXPLANATIONS",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Alternative explanations",
+        "A larger logo",
+        "More tokens",
+        "A higher temperature"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-115",
+      "concept": "Automation bias",
+      "question": "A manager accepts an AI recommendation without checking obvious errors. What bias is this?",
+      "answer": "Automation bias",
+      "explanation": "Automation bias is overreliance on automated output despite reasons to question it.",
+      "hint": "Look for the automation bias clue.",
+      "difficulty": "hard",
+      "visual": "diagram_compare",
+      "beats": [
+        "AUTOMATION BIAS",
+        "AUTOMATION BIAS",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Recency bias",
+        "Automation bias",
+        "Survivorship bias",
+        "Color constancy"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-116",
+      "concept": "AI anthropomorphism",
+      "question": "A chatbot says 'I feel worried.' Why is treating that sentence as proof of emotion risky?",
+      "answer": "Anthropomorphism",
+      "explanation": "Human-like language can cause people to attribute feelings or intentions that have not been established.",
+      "hint": "Look for the ai anthropomorphism clue.",
+      "difficulty": "viral",
+      "visual": "ai_terminal",
+      "beats": [
+        "AI ANTHROPOMORPHISM",
+        "ANTHROPOMORPHISM",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Tokenization",
+        "Encryption",
+        "Anthropomorphism",
+        "Image scaling"
+      ],
+      "answerIndex": 2,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-117",
+      "concept": "AI energy use",
+      "question": "Training a larger model uses more computation and electricity. What operational concern grows?",
+      "answer": "Energy consumption",
+      "explanation": "More training compute generally requires more electrical energy and supporting infrastructure.",
+      "hint": "Look for the ai energy use clue.",
+      "difficulty": "easy",
+      "visual": "diagram_flow",
+      "beats": [
+        "AI ENERGY USE",
+        "ENERGY CONSUMPTION",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Screen brightness",
+        "Keyboard wear",
+        "File naming",
+        "Energy consumption"
+      ],
+      "answerIndex": 3,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-118",
+      "concept": "Edge AI",
+      "question": "A phone analyzes a photo without sending it to the cloud. Where is the AI running?",
+      "answer": "On the edge device",
+      "explanation": "Edge AI performs inference on or near the device producing the data.",
+      "hint": "Look for the edge ai clue.",
+      "difficulty": "medium",
+      "visual": "chaotic_data",
+      "beats": [
+        "EDGE AI",
+        "ON THE EDGE DEVICE",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "On the edge device",
+        "In a paper archive",
+        "Only in a browser cookie",
+        "Inside a public dataset"
+      ],
+      "answerIndex": 0,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-119",
+      "concept": "AI hardware",
+      "question": "A large model will not fit on a graphics card. Which hardware resource is exhausted?",
+      "answer": "GPU memory",
+      "explanation": "Model weights, activations, and caches must fit within available GPU memory.",
+      "hint": "Look for the ai hardware clue.",
+      "difficulty": "hard",
+      "visual": "action_cards",
+      "beats": [
+        "AI HARDWARE",
+        "GPU MEMORY",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "Screen resolution",
+        "GPU memory",
+        "Network name",
+        "Audio volume"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
+    },
+    {
+      "id": "ai-tech-puzzles-premium-120",
+      "concept": "Current AI data",
+      "question": "A model answers with today's private inventory even though training ended last year. What likely supplied the update?",
+      "answer": "Retrieval or a tool",
+      "explanation": "External retrieval or tool access can provide current data not stored in the model's training weights.",
+      "hint": "Look for the current ai data clue.",
+      "difficulty": "viral",
+      "visual": "diagram_compare",
+      "beats": [
+        "CURRENT AI DATA",
+        "RETRIEVAL OR A TOOL",
+        "AI"
+      ],
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
+      "choices": [
+        "A higher temperature",
+        "Retrieval or a tool",
+        "More animation",
+        "A smaller font"
+      ],
+      "answerIndex": 1,
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 20,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

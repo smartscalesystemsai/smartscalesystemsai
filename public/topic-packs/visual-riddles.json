@@ -1,7 +1,7 @@
 {
   "id": "visual-riddles",
   "title": "Visual Riddles: Spot the Hidden Object (Hard)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The clock frames",
+        "The wall color",
+        "The hour and minute hands",
+        "The brand labels"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Shoe size",
+        "Name order",
+        "Caption font",
+        "Lighting direction"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Your brain groups similarity",
+        "Every icon is a different color",
+        "Rotation is always obvious",
+        "The pattern has no repetition"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "High color saturation",
+        "Low detail contrast",
+        "A loud sound cue",
+        "A moving border"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "They count only red shapes",
+        "Triangles cannot overlap",
+        "They count only obvious shapes",
+        "The image has no composite shapes"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-06",
@@ -115,14 +165,19 @@
         "VISUAL"
       ],
       "choices": [
-        "The changed corner",
-        "Negative space",
-        "A hidden object",
+        "The center color",
+        "The row length",
+        "The background label",
         "The stretched edge"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-07",
@@ -139,14 +194,19 @@
         "VISUAL"
       ],
       "choices": [
-        "The changed corner",
         "Negative space",
-        "Pattern recognition",
-        "A hidden object"
+        "The darkest line",
+        "The page title",
+        "The border thickness"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-08",
@@ -163,14 +223,19 @@
         "VISUAL"
       ],
       "choices": [
-        "The changed corner",
-        "Pattern recognition",
+        "A missing label",
         "A hidden object",
-        "The one matching the background"
+        "A duplicate caption",
+        "A brighter background"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-09",
@@ -187,14 +252,19 @@
         "VISUAL"
       ],
       "choices": [
-        "The reversed text",
-        "The one matching the background",
+        "The center only",
+        "The largest object",
         "The changed corner",
-        "Pattern recognition"
+        "The caption"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-10",
@@ -211,14 +281,19 @@
         "VISUAL"
       ],
       "choices": [
-        "The one matching the background",
+        "Color blindness",
+        "Audio processing",
         "Pattern recognition",
-        "The reversed text",
-        "The uneven gap"
+        "Number estimation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-11",
@@ -235,14 +310,19 @@
         "VISUAL"
       ],
       "choices": [
-        "The hands and numbers",
-        "The reversed text",
-        "The uneven gap",
+        "The brightest object",
+        "The largest object",
+        "The object with a unique texture",
         "The one matching the background"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-12",
@@ -260,13 +340,18 @@
       ],
       "choices": [
         "The reversed text",
-        "The uneven gap",
-        "The obvious repeated pattern",
-        "The hands and numbers"
+        "The page number",
+        "The original font size",
+        "The border color"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-13",
@@ -283,14 +368,19 @@
         "VISUAL"
       ],
       "choices": [
-        "The stretched edge",
-        "The obvious repeated pattern",
-        "The hands and numbers",
-        "The uneven gap"
+        "The total number of rows",
+        "The uneven gap",
+        "The grid's title",
+        "The corner color"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-14",
@@ -307,14 +397,19 @@
         "VISUAL"
       ],
       "choices": [
+        "The clock's brand",
+        "The wall behind it",
         "The hands and numbers",
-        "The stretched edge",
-        "The obvious repeated pattern",
-        "Negative space"
+        "The frame material"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "visual-riddles-premium-15",
@@ -331,25 +426,35 @@
         "VISUAL"
       ],
       "choices": [
-        "The stretched edge",
-        "The obvious repeated pattern",
-        "Negative space",
-        "A hidden object"
+        "The empty margin",
+        "The photo caption only",
+        "The largest isolated object",
+        "The obvious repeated pattern"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

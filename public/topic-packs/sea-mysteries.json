@@ -1,7 +1,7 @@
 {
   "id": "sea-mysteries",
   "title": "Sea Mysteries & Deep Ocean Secrets",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Light travels farther underwater",
+        "Sound travels far underwater",
+        "Sound cannot cross currents",
+        "The source must be visible"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Low gravity",
+        "Dry air",
+        "Pressure",
+        "Sunlight"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Photosynthetic forest",
+        "Coral powered by moonlight",
+        "Floating grassland",
+        "Chemosynthetic life"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Communication and hunting",
+        "To warm the entire ocean",
+        "To remove water pressure",
+        "To create oxygen for ships"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Mountain winds",
+        "Currents",
+        "Desert heat",
+        "Earth's magnetic poles"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-06",
@@ -115,14 +165,19 @@
         "OCEAN"
       ],
       "choices": [
+        "Warm air and bright light",
+        "Low gravity and dry rock",
         "Pressure and darkness",
-        "Living light",
-        "Sonar",
-        "Mariana Trench"
+        "Shallow water and strong winds"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-07",
@@ -139,14 +194,19 @@
         "OCEAN"
       ],
       "choices": [
-        "Living light",
-        "Sonar",
-        "They create structure",
-        "Mariana Trench"
+        "Reflected moonlight",
+        "Electrical light from machines",
+        "Heat without light",
+        "Living light"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-08",
@@ -163,14 +223,19 @@
         "OCEAN"
       ],
       "choices": [
-        "Mariana Trench",
-        "Giant squid",
         "Sonar",
-        "They create structure"
+        "Radar",
+        "Microscope",
+        "Barometer"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-09",
@@ -187,14 +252,19 @@
         "OCEAN"
       ],
       "choices": [
-        "Giant squid",
-        "They create structure",
-        "Hot seafloor springs",
-        "Mariana Trench"
+        "Java Trench",
+        "Mariana Trench",
+        "Puerto Rico Trench",
+        "Tonga Trench"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-10",
@@ -211,14 +281,19 @@
         "OCEAN"
       ],
       "choices": [
+        "They remove all surfaces",
         "They create structure",
-        "Hot seafloor springs",
-        "Giant squid",
-        "It travels far"
+        "They stop water movement",
+        "They prevent organisms attaching"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-11",
@@ -235,14 +310,19 @@
         "OCEAN"
       ],
       "choices": [
-        "Currents",
+        "Blue whale",
+        "Megalodon",
         "Giant squid",
-        "It travels far",
-        "Hot seafloor springs"
+        "Sea turtle"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-12",
@@ -259,14 +339,19 @@
         "OCEAN"
       ],
       "choices": [
-        "It travels far",
-        "Hot seafloor springs",
-        "They adapt to extreme conditions",
-        "Currents"
+        "Cold freshwater rivers",
+        "Floating ice caves",
+        "Underwater sand dunes",
+        "Hot seafloor springs"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-13",
@@ -283,14 +368,19 @@
         "OCEAN"
       ],
       "choices": [
-        "They adapt to extreme conditions",
-        "Pressure and darkness",
-        "Currents",
-        "It travels far"
+        "It travels far",
+        "It is brighter than light",
+        "It ignores all obstacles",
+        "It only moves at the surface"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-14",
@@ -307,14 +397,19 @@
         "OCEAN"
       ],
       "choices": [
+        "Tides only",
         "Currents",
-        "Living light",
-        "They adapt to extreme conditions",
-        "Pressure and darkness"
+        "Clouds",
+        "Sea ice"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "sea-mysteries-premium-15",
@@ -331,25 +426,35 @@
         "OCEAN"
       ],
       "choices": [
-        "Living light",
-        "Sonar",
+        "They live in warm sunlight",
+        "They face no pressure",
         "They adapt to extreme conditions",
-        "Pressure and darkness"
+        "Food is always abundant"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

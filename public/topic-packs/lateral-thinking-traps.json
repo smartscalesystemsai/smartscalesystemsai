@@ -1,7 +1,7 @@
 {
   "id": "lateral-thinking-traps",
   "title": "Lateral Thinking Traps (The 1% Club)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The water was poisoned",
+        "The gun was empty",
+        "He recognized the bartender",
+        "He had hiccups"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "The surgeon is his mother",
+        "The surgeon is his uncle",
+        "The boy has two fathers",
+        "The surgeon is unrelated"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "It was asleep",
+        "It is deaf",
+        "It spoke another language",
+        "It was a toy"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "He landed in water",
+        "He wore a wingsuit",
+        "The plane was on the ground",
+        "He jumped from low altitude"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The street was closed",
+        "He was a police officer",
+        "The sign was broken",
+        "He is walking"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-06",
@@ -115,14 +165,19 @@
         "LOGIC"
       ],
       "choices": [
-        "His horse was named Friday",
-        "Are you asleep?",
         "He was playing Monopoly",
-        "They do not"
+        "His car was stolen",
+        "The hotel charged a fee",
+        "He lost a race"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-07",
@@ -139,14 +194,19 @@
         "LOGIC"
       ],
       "choices": [
+        "On the nearest side",
         "They do not",
-        "His horse was named Friday",
-        "A comb",
-        "Are you asleep?"
+        "In their home countries",
+        "At the crash site"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-08",
@@ -163,14 +223,19 @@
         "LOGIC"
       ],
       "choices": [
-        "His horse was named Friday",
-        "A comb",
+        "Are you awake?",
+        "Are you tired?",
         "Are you asleep?",
-        "A conversation"
+        "Did you sleep?"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-09",
@@ -187,14 +252,19 @@
         "LOGIC"
       ],
       "choices": [
-        "A comb",
-        "Your age",
-        "A conversation",
+        "The town uses two Fridays",
+        "He stayed one week",
+        "Friday was the town's name",
         "His horse was named Friday"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-10",
@@ -211,14 +281,19 @@
         "LOGIC"
       ],
       "choices": [
-        "A conversation",
-        "A bottle",
-        "A comb",
-        "Your age"
+        "A zipper",
+        "A saw",
+        "A shark",
+        "A comb"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-11",
@@ -235,14 +310,19 @@
         "LOGIC"
       ],
       "choices": [
-        "Envelope",
-        "Your age",
         "A conversation",
-        "A bottle"
+        "A glass",
+        "A stone",
+        "A suitcase"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-12",
@@ -259,14 +339,19 @@
         "LOGIC"
       ],
       "choices": [
+        "A balloon",
         "Your age",
-        "A feather",
-        "A bottle",
-        "Envelope"
+        "Rain",
+        "The temperature"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-13",
@@ -283,14 +368,19 @@
         "LOGIC"
       ],
       "choices": [
+        "A shirt",
+        "A river",
         "A bottle",
-        "Envelope",
-        "A feather",
-        "He was playing Monopoly"
+        "A mountain"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-14",
@@ -307,14 +397,19 @@
         "LOGIC"
       ],
       "choices": [
-        "Envelope",
-        "A feather",
-        "He was playing Monopoly",
-        "They do not"
+        "Eagle",
+        "Eve",
+        "Engine",
+        "Envelope"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "lateral-thinking-traps-premium-15",
@@ -331,25 +426,35 @@
         "LOGIC"
       ],
       "choices": [
-        "He was playing Monopoly",
-        "They do not",
-        "Are you asleep?",
-        "A feather"
+        "A feather",
+        "A coin",
+        "A brick",
+        "A paper airplane"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

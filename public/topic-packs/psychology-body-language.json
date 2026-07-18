@@ -1,7 +1,7 @@
 {
   "id": "psychology-body-language",
   "title": "Psychology Tricks & Body Language",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -9,8 +9,8 @@
       "id": "psychology-body-language-premium-01",
       "concept": "Premium hook",
       "question": "A person says they are fine, but their feet point toward the exit. What might that signal?",
-      "answer": "Desire to leave",
-      "explanation": "Feet often reveal intended direction before words do.",
+      "answer": "Possible desire to leave, not proof",
+      "explanation": "Foot direction can be a context clue, but a single body-language cue cannot establish intent.",
       "hint": "Read the wording carefully.",
       "difficulty": "viral",
       "visual": "diagram_checklist",
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Proof of deception",
+        "Certain anger",
+        "A medical diagnosis",
+        "Possible desire to leave, not proof"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Scarcity pressure",
+        "Better arithmetic",
+        "Improved memory",
+        "Reduced screen glare"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Sunk-cost fallacy",
+        "Price-placebo effect",
+        "Bystander effect",
+        "Zeigarnik effect"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Dunning-Kruger effect",
+        "Halo effect",
+        "Illusory truth effect",
+        "Choice overload"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Permanent recording",
+        "Exact playback",
+        "Photographic storage",
+        "Reconstruction"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-06",
@@ -115,14 +165,19 @@
         "PSYCHOLOGY"
       ],
       "choices": [
+        "Frequency illusion",
+        "Anchoring",
         "Recency bias",
-        "Subtle mirroring",
-        "Open loop",
-        "Frequency illusion"
+        "Confirmation bias"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-07",
@@ -139,14 +194,19 @@
         "PSYCHOLOGY"
       ],
       "choices": [
-        "Recency bias",
-        "2 options",
+        "Speaking louder",
         "Subtle mirroring",
-        "Open loop"
+        "Avoiding all eye contact",
+        "Crossing the arms"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-08",
@@ -163,14 +223,19 @@
         "PSYCHOLOGY"
       ],
       "choices": [
-        "Seeking evidence that agrees with you",
-        "Recency bias",
-        "2 options",
-        "Open loop"
+        "Closure is already complete",
+        "The ending is irrelevant",
+        "Open loop",
+        "Attention ignores missing information"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-09",
@@ -187,14 +252,19 @@
         "PSYCHOLOGY"
       ],
       "choices": [
-        "Seeking evidence that agrees with you",
-        "Recency bias",
-        "2 options",
-        "Eye involvement"
+        "Anchoring",
+        "Availability from distant events",
+        "Sunk-cost bias",
+        "Recency bias"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-10",
@@ -211,14 +281,19 @@
         "PSYCHOLOGY"
       ],
       "choices": [
-        "Eye involvement",
-        "Urgency",
-        "Seeking evidence that agrees with you",
+        "12 options",
+        "Both are always equal",
+        "Choice count never matters",
         "2 options"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-11",
@@ -235,21 +310,26 @@
         "PSYCHOLOGY"
       ],
       "choices": [
-        "First number influence",
-        "Urgency",
         "Seeking evidence that agrees with you",
-        "Eye involvement"
+        "Rejecting supporting evidence",
+        "Forgetting every prior belief",
+        "Choosing evidence randomly"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-12",
       "concept": "Stress",
-      "question": "What does a forced smile usually lack?",
-      "answer": "Eye involvement",
-      "explanation": "Natural smiles often involve muscles around the eyes.",
+      "question": "A classic Duchenne smile involves which area besides the mouth?",
+      "answer": "Muscles around the eyes",
+      "explanation": "A Duchenne smile includes contraction around the eyes as well as lifting at the mouth.",
       "hint": "Look for the stress clue.",
       "difficulty": "hard",
       "visual": "audio_waveform",
@@ -259,14 +339,19 @@
         "PSYCHOLOGY"
       ],
       "choices": [
-        "Eye involvement",
-        "First number influence",
-        "Peak-end effect",
-        "Urgency"
+        "Shoulder movement",
+        "Muscles around the eyes",
+        "Foot tapping",
+        "A louder voice"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-13",
@@ -283,14 +368,19 @@
         "PSYCHOLOGY"
       ],
       "choices": [
-        "Frequency illusion",
-        "First number influence",
-        "Peak-end effect",
-        "Urgency"
+        "Reduced relevance",
+        "Perfect certainty",
+        "Urgency",
+        "More available time"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-14",
@@ -307,14 +397,19 @@
         "PSYCHOLOGY"
       ],
       "choices": [
-        "Subtle mirroring",
-        "Frequency illusion",
-        "First number influence",
-        "Peak-end effect"
+        "Last number influence",
+        "Random-number immunity",
+        "Ignoring all starting values",
+        "First number influence"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "psychology-body-language-premium-15",
@@ -331,25 +426,35 @@
         "PSYCHOLOGY"
       ],
       "choices": [
-        "Subtle mirroring",
-        "Open loop",
-        "Frequency illusion",
-        "Peak-end effect"
+        "Peak-end effect",
+        "Primacy effect",
+        "Confirmation bias",
+        "Mere-exposure effect"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

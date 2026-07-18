@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-10T03:46:56.078Z",
+  "generatedAt": "2026-07-17T00:51:28.537Z",
   "voices": {
     "guy": "en-US-GuyNeural",
     "chris": "en-US-ChristopherNeural"
@@ -303,6 +303,1506 @@
           "question": "/bundled-voices/chris/ai-tech-puzzles-premium-20-question.mp3",
           "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-20-answer.mp3",
           "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-20-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-21": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-21-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-21-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-21-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-21-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-21-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-21-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-22": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-22-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-22-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-22-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-22-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-22-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-22-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-23": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-23-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-23-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-23-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-23-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-23-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-23-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-24": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-24-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-24-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-24-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-24-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-24-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-24-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-25": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-25-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-25-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-25-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-25-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-25-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-25-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-26": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-26-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-26-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-26-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-26-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-26-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-26-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-27": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-27-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-27-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-27-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-27-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-27-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-27-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-28": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-28-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-28-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-28-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-28-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-28-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-28-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-29": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-29-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-29-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-29-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-29-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-29-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-29-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-30": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-30-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-30-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-30-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-30-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-30-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-30-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-31": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-31-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-31-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-31-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-31-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-31-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-31-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-32": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-32-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-32-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-32-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-32-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-32-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-32-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-33": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-33-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-33-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-33-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-33-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-33-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-33-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-34": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-34-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-34-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-34-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-34-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-34-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-34-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-35": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-35-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-35-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-35-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-35-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-35-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-35-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-36": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-36-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-36-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-36-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-36-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-36-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-36-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-37": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-37-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-37-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-37-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-37-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-37-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-37-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-38": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-38-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-38-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-38-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-38-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-38-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-38-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-39": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-39-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-39-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-39-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-39-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-39-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-39-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-40": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-40-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-40-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-40-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-40-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-40-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-40-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-41": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-41-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-41-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-41-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-41-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-41-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-41-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-42": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-42-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-42-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-42-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-42-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-42-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-42-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-43": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-43-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-43-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-43-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-43-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-43-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-43-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-44": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-44-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-44-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-44-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-44-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-44-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-44-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-45": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-45-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-45-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-45-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-45-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-45-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-45-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-46": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-46-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-46-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-46-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-46-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-46-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-46-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-47": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-47-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-47-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-47-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-47-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-47-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-47-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-48": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-48-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-48-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-48-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-48-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-48-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-48-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-49": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-49-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-49-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-49-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-49-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-49-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-49-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-50": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-50-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-50-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-50-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-50-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-50-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-50-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-51": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-51-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-51-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-51-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-51-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-51-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-51-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-52": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-52-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-52-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-52-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-52-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-52-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-52-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-53": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-53-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-53-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-53-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-53-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-53-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-53-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-54": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-54-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-54-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-54-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-54-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-54-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-54-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-55": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-55-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-55-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-55-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-55-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-55-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-55-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-56": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-56-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-56-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-56-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-56-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-56-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-56-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-57": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-57-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-57-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-57-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-57-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-57-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-57-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-58": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-58-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-58-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-58-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-58-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-58-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-58-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-59": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-59-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-59-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-59-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-59-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-59-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-59-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-60": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-60-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-60-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-60-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-60-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-60-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-60-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-61": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-61-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-61-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-61-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-61-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-61-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-61-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-62": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-62-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-62-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-62-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-62-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-62-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-62-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-63": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-63-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-63-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-63-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-63-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-63-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-63-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-64": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-64-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-64-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-64-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-64-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-64-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-64-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-65": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-65-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-65-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-65-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-65-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-65-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-65-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-66": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-66-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-66-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-66-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-66-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-66-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-66-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-67": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-67-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-67-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-67-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-67-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-67-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-67-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-68": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-68-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-68-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-68-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-68-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-68-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-68-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-69": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-69-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-69-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-69-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-69-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-69-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-69-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-70": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-70-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-70-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-70-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-70-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-70-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-70-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-71": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-71-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-71-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-71-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-71-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-71-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-71-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-72": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-72-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-72-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-72-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-72-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-72-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-72-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-73": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-73-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-73-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-73-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-73-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-73-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-73-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-74": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-74-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-74-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-74-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-74-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-74-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-74-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-75": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-75-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-75-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-75-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-75-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-75-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-75-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-76": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-76-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-76-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-76-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-76-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-76-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-76-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-77": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-77-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-77-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-77-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-77-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-77-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-77-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-78": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-78-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-78-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-78-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-78-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-78-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-78-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-79": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-79-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-79-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-79-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-79-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-79-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-79-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-80": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-80-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-80-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-80-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-80-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-80-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-80-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-81": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-81-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-81-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-81-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-81-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-81-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-81-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-82": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-82-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-82-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-82-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-82-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-82-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-82-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-83": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-83-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-83-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-83-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-83-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-83-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-83-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-84": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-84-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-84-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-84-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-84-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-84-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-84-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-85": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-85-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-85-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-85-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-85-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-85-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-85-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-86": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-86-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-86-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-86-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-86-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-86-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-86-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-87": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-87-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-87-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-87-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-87-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-87-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-87-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-88": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-88-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-88-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-88-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-88-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-88-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-88-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-89": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-89-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-89-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-89-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-89-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-89-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-89-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-90": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-90-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-90-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-90-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-90-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-90-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-90-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-91": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-91-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-91-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-91-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-91-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-91-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-91-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-92": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-92-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-92-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-92-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-92-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-92-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-92-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-93": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-93-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-93-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-93-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-93-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-93-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-93-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-94": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-94-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-94-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-94-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-94-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-94-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-94-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-95": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-95-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-95-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-95-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-95-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-95-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-95-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-96": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-96-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-96-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-96-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-96-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-96-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-96-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-97": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-97-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-97-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-97-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-97-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-97-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-97-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-98": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-98-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-98-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-98-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-98-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-98-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-98-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-99": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-99-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-99-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-99-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-99-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-99-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-99-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-100": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-100-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-100-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-100-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-100-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-100-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-100-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-101": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-101-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-101-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-101-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-101-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-101-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-101-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-102": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-102-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-102-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-102-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-102-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-102-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-102-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-103": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-103-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-103-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-103-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-103-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-103-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-103-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-104": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-104-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-104-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-104-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-104-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-104-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-104-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-105": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-105-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-105-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-105-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-105-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-105-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-105-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-106": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-106-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-106-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-106-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-106-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-106-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-106-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-107": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-107-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-107-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-107-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-107-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-107-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-107-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-108": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-108-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-108-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-108-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-108-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-108-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-108-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-109": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-109-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-109-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-109-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-109-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-109-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-109-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-110": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-110-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-110-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-110-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-110-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-110-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-110-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-111": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-111-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-111-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-111-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-111-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-111-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-111-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-112": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-112-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-112-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-112-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-112-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-112-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-112-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-113": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-113-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-113-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-113-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-113-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-113-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-113-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-114": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-114-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-114-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-114-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-114-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-114-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-114-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-115": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-115-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-115-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-115-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-115-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-115-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-115-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-116": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-116-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-116-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-116-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-116-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-116-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-116-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-117": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-117-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-117-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-117-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-117-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-117-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-117-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-118": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-118-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-118-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-118-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-118-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-118-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-118-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-119": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-119-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-119-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-119-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-119-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-119-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-119-explanation.mp3"
+        }
+      }
+    },
+    "ai-tech-puzzles-premium-120": {
+      "packId": "ai-tech-puzzles",
+      "voices": {
+        "guy": {
+          "question": "/bundled-voices/guy/ai-tech-puzzles-premium-120-question.mp3",
+          "answer": "/bundled-voices/guy/ai-tech-puzzles-premium-120-answer.mp3",
+          "explanation": "/bundled-voices/guy/ai-tech-puzzles-premium-120-explanation.mp3"
+        },
+        "chris": {
+          "question": "/bundled-voices/chris/ai-tech-puzzles-premium-120-question.mp3",
+          "answer": "/bundled-voices/chris/ai-tech-puzzles-premium-120-answer.mp3",
+          "explanation": "/bundled-voices/chris/ai-tech-puzzles-premium-120-explanation.mp3"
         }
       }
     },

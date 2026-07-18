@@ -1,7 +1,7 @@
 {
   "id": "viral-tiktok-riddles",
   "title": "Latest Viral TikTok Riddles (Brand New)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Your phone",
+        "Your password",
+        "Your money",
+        "Your name"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-02",
@@ -38,15 +48,25 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "It was projected on a screen",
+        "Someone guessed it",
+        "The message was blank",
+        "The room was empty"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-03",
       "concept": "Premium hook",
-      "question": "A phone rings in a silent room, but no phone exists there. What rang?",
+      "question": "You hear a phone ring in a room with no phone. What produced the sound?",
       "answer": "A video sound",
       "explanation": "The ringing came from audio playing in a clip.",
       "hint": "Read the wording carefully.",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "A wall clock",
+        "A video sound",
+        "A doorbell",
+        "An alarm with no speaker"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-04",
@@ -76,17 +106,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "A mountain",
+        "A shadow",
+        "A hole",
+        "A balloon"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-05",
       "concept": "Premium hook",
-      "question": "A picture shows rain, but nothing in the picture is wet. Why?",
-      "answer": "It is a weather app icon",
-      "explanation": "The rain is symbolic, not physical rain.",
+      "question": "A weather app shows rain, but nothing on the screen is wet. Why?",
+      "answer": "It is only an icon",
+      "explanation": "The rain is a symbol in the interface, not physical water.",
       "hint": "Read the wording carefully.",
       "difficulty": "hard",
       "visual": "diagram_checklist",
@@ -95,17 +135,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The rain stopped",
+        "The picture was waterproof",
+        "The room was warm",
+        "It is only an icon"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-06",
       "concept": "Phone trap",
-      "question": "You see a phone at 1% battery, but it never turns off. Why?",
+      "question": "A printed photo shows a phone at 1% battery, but it never shuts down. Why?",
       "answer": "It is in a photo",
-      "explanation": "A phone inside a photo does not use battery.",
+      "explanation": "A phone depicted in a printed photo does not consume battery power.",
       "hint": "Look for the phone trap clue.",
       "difficulty": "easy",
       "visual": "impact_text",
@@ -115,14 +165,19 @@
         "VIRAL"
       ],
       "choices": [
-        "They are awake",
-        "In front of an ambulance",
         "It is in a photo",
-        "Stop imagining it"
+        "It had unlimited battery",
+        "It was plugged in",
+        "The percentage was rounded"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-07",
@@ -139,14 +194,19 @@
         "VIRAL"
       ],
       "choices": [
-        "A filter",
+        "Their phone was asleep",
         "They are awake",
-        "In front of an ambulance",
-        "Stop imagining it"
+        "The text was scheduled years ago",
+        "The message has no words"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-08",
@@ -163,14 +223,19 @@
         "VIRAL"
       ],
       "choices": [
-        "A paradox",
+        "Behind the ambulance",
+        "Inside a hospital",
         "In front of an ambulance",
-        "Stop imagining it",
-        "A filter"
+        "Across from a normal sign"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-09",
@@ -187,21 +252,26 @@
         "VIRAL"
       ],
       "choices": [
-        "Stop imagining it",
-        "A filter",
-        "A paradox",
-        "An app"
+        "Break a wall",
+        "Climb through the ceiling",
+        "Wait for a door",
+        "Stop imagining it"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-10",
       "concept": "Room puzzle",
-      "question": "What gets more likes the less real it is?",
+      "question": "What can make a selfie look polished while making it less realistic?",
       "answer": "A filter",
-      "explanation": "Filters can make images look better while reducing reality.",
+      "explanation": "A filter can alter a selfie's appearance away from the unedited scene.",
       "hint": "Look for the room puzzle clue.",
       "difficulty": "easy",
       "visual": "chaotic_data",
@@ -211,14 +281,19 @@
         "VIRAL"
       ],
       "choices": [
-        "A filter",
-        "A paradox",
-        "An app",
-        "A loading bar screenshot"
+        "A camera lens",
+        "A phone case",
+        "A charger",
+        "A filter"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-11",
@@ -235,14 +310,19 @@
         "VIRAL"
       ],
       "choices": [
-        "An app",
-        "A loading bar screenshot",
-        "A live moment",
-        "A paradox"
+        "A paradox",
+        "A confession",
+        "A promise",
+        "A prediction"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-12",
@@ -259,14 +339,19 @@
         "VIRAL"
       ],
       "choices": [
-        "An app",
-        "A loading bar screenshot",
-        "A live moment",
-        "The next trend"
+        "Tiny",
+        "Short",
+        "Brief",
+        "Long"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-13",
@@ -283,14 +368,19 @@
         "VIRAL"
       ],
       "choices": [
-        "A loading bar screenshot",
-        "A live moment",
-        "It is in a photo",
-        "The next trend"
+        "A ball",
+        "A fish",
+        "A cold",
+        "A bus"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-14",
@@ -307,14 +397,19 @@
         "VIRAL"
       ],
       "choices": [
-        "It is in a photo",
-        "The next trend",
-        "A live moment",
-        "They are awake"
+        "An octopus",
+        "A human body",
+        "A heart monitor",
+        "A deck of cards"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "viral-tiktok-riddles-premium-15",
@@ -331,25 +426,35 @@
         "VIRAL"
       ],
       "choices": [
-        "They are awake",
-        "In front of an ambulance",
-        "It is in a photo",
-        "The next trend"
+        "A coin",
+        "A snake",
+        "A comet",
+        "A shirt"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

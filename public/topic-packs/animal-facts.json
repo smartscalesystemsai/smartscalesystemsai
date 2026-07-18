@@ -1,16 +1,16 @@
 {
   "id": "animal-facts",
   "title": "Unbelievable Animal Facts",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
     {
       "id": "animal-facts-premium-01",
       "concept": "Premium hook",
-      "question": "Which animal can remember human faces for years?",
+      "question": "Which bird can remember a threatening human face for years?",
       "answer": "Crow",
-      "explanation": "Crows can recognize and remember individual people.",
+      "explanation": "Research on wild crows shows long-lasting recognition of human faces associated with danger.",
       "hint": "Read the wording carefully.",
       "difficulty": "viral",
       "visual": "diagram_checklist",
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Pigeon",
+        "Sparrow",
+        "Crow",
+        "Ostrich"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Ant",
+        "Butterfly",
+        "Dragonfly",
+        "Honeybee"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Dolphin",
+        "Seal",
+        "Otter",
+        "Manatee"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Panda",
+        "Koala",
+        "Sloth",
+        "Wombat"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Falcon",
+        "Pelican",
+        "Raven",
+        "Flamingo"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-06",
@@ -115,14 +165,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Honeybee",
-        "Octopus",
-        "Crows",
-        "Elephant"
+        "Swift",
+        "Albatross",
+        "Kingfisher",
+        "Hummingbird"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-07",
@@ -139,14 +194,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Ant",
-        "Octopus",
         "Crows",
-        "Elephant"
+        "Gulls",
+        "Penguins",
+        "Swallows"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-08",
@@ -163,14 +223,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Whale",
-        "Ant",
+        "Crab",
         "Octopus",
-        "Elephant"
+        "Jellyfish",
+        "Starfish"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-09",
@@ -187,14 +252,19 @@
         "ANIMAL"
       ],
       "choices": [
+        "Rhinoceros",
+        "Hippopotamus",
         "Elephant",
-        "Wood frog",
-        "Whale",
-        "Ant"
+        "Giraffe"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-10",
@@ -211,14 +281,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Gecko",
-        "Whale",
+        "Bee",
+        "Beetle",
         "Ant",
-        "Wood frog"
+        "Moth"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-11",
@@ -235,14 +310,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Wood frog",
-        "Gecko",
-        "Whale",
-        "Sea turtle"
+        "Shark",
+        "Seal",
+        "Dolphin",
+        "Whale"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-12",
@@ -259,14 +339,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Raven",
-        "Gecko",
-        "Sea turtle",
-        "Wood frog"
+        "Wood frog",
+        "Bullfrog",
+        "Salamander",
+        "Tree frog"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-13",
@@ -283,14 +368,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Sea turtle",
-        "Honeybee",
-        "Raven",
-        "Gecko"
+        "Iguana",
+        "Gecko",
+        "Chameleon",
+        "Skink"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-14",
@@ -307,21 +397,26 @@
         "ANIMAL"
       ],
       "choices": [
-        "Crows",
-        "Raven",
+        "Walrus",
+        "Penguin",
         "Sea turtle",
-        "Honeybee"
+        "Dugong"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "animal-facts-premium-15",
       "concept": "Raven",
-      "question": "Which bird can mimic human speech and solve tasks?",
+      "question": "Which bird is known for both vocal mimicry and solving multi-step problems?",
       "answer": "Raven",
-      "explanation": "Ravens are intelligent corvids with strong problem-solving skills.",
+      "explanation": "Ravens can imitate sounds and have demonstrated sophisticated problem-solving abilities.",
       "hint": "Look for the raven clue.",
       "difficulty": "medium",
       "visual": "diagram_compare",
@@ -331,25 +426,35 @@
         "ANIMAL"
       ],
       "choices": [
-        "Honeybee",
-        "Octopus",
-        "Crows",
+        "Falcon",
+        "Pelican",
+        "Flamingo",
         "Raven"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

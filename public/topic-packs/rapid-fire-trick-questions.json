@@ -1,7 +1,7 @@
 {
   "id": "rapid-fire-trick-questions",
   "title": "Rapid Fire: Viral Trick Questions",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,17 +19,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "K2",
+        "Kangchenjunga",
+        "No mountain was tallest",
+        "Mount Everest"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-02",
       "concept": "Premium hook",
-      "question": "A red house uses red bricks; a blue house uses blue bricks. What is a greenhouse made of?",
+      "question": "In the classic trick question, what transparent material is the greenhouse made from?",
       "answer": "Glass",
-      "explanation": "A greenhouse is not named for brick color.",
+      "explanation": "The word greenhouse describes its purpose, not a green building material; the classic answer is glass.",
       "hint": "Read the wording carefully.",
       "difficulty": "viral",
       "visual": "action_cards",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Glass",
+        "Green bricks",
+        "Wood",
+        "Plastic"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "All the way",
+        "Halfway",
+        "One third of the way",
+        "Until sunset"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "A mountain",
+        "A bottle",
+        "Your legs",
+        "A staircase"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Left",
+        "Right",
+        "Down the steepest side",
+        "It does not"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-06",
@@ -115,14 +165,19 @@
         "RAPID"
       ],
       "choices": [
-        "A sponge",
         "All 12",
-        "Wrong",
-        "Second"
+        "Only February",
+        "Eleven months",
+        "Leap-year months only"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-07",
@@ -139,14 +194,19 @@
         "RAPID"
       ],
       "choices": [
+        "A bucket",
         "A sponge",
-        "Wrong",
-        "Second",
-        "An egg"
+        "A net",
+        "A sieve"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-08",
@@ -163,14 +223,19 @@
         "RAPID"
       ],
       "choices": [
-        "Second",
-        "An egg",
-        "A towel",
-        "Wrong"
+        "Dictionary",
+        "Spelled",
+        "Wrong",
+        "Every"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-09",
@@ -187,14 +252,19 @@
         "RAPID"
       ],
       "choices": [
-        "An egg",
-        "Light",
-        "A towel",
+        "First",
+        "Third",
+        "It depends on your speed",
         "Second"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-10",
@@ -211,14 +281,19 @@
         "RAPID"
       ],
       "choices": [
-        "A needle",
-        "An egg",
-        "Light",
-        "A towel"
+        "A chair",
+        "A spoon",
+        "A towel",
+        "An egg"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-11",
@@ -235,14 +310,19 @@
         "RAPID"
       ],
       "choices": [
-        "A library",
-        "Light",
         "A towel",
-        "A needle"
+        "Soap",
+        "A sponge",
+        "Rain"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-12",
@@ -259,14 +339,19 @@
         "RAPID"
       ],
       "choices": [
-        "A needle",
-        "A library",
+        "Air",
         "Light",
-        "A book"
+        "Furniture",
+        "Water"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-13",
@@ -283,14 +368,19 @@
         "RAPID"
       ],
       "choices": [
+        "A camera",
+        "A storm",
         "A needle",
-        "A library",
-        "A book",
-        "All 12"
+        "A potato"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-14",
@@ -307,14 +397,19 @@
         "RAPID"
       ],
       "choices": [
-        "A book",
-        "A sponge",
-        "All 12",
+        "A skyscraper",
+        "A school",
+        "A hotel",
         "A library"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "rapid-fire-trick-questions-premium-15",
@@ -331,25 +426,35 @@
         "RAPID"
       ],
       "choices": [
-        "All 12",
-        "Wrong",
         "A book",
-        "A sponge"
+        "A radio",
+        "A parrot",
+        "A teacher"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

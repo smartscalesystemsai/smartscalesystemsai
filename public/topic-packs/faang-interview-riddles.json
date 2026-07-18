@@ -1,16 +1,16 @@
 {
   "id": "faang-interview-riddles",
   "title": "FAANG & Google Interview Riddles",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
     {
       "id": "faang-interview-riddles-premium-01",
       "concept": "Premium hook",
-      "question": "Design a feed for 100 million users. What is the first question you ask?",
+      "question": "Which workload detail helps choose between fan-out-on-write and fan-out-on-read for a large social feed?",
       "answer": "Read/write pattern",
-      "explanation": "Architecture depends on whether reads or writes dominate.",
+      "explanation": "The balance of reads, writes, and follower distribution drives the appropriate feed fan-out strategy.",
       "hint": "Read the wording carefully.",
       "difficulty": "viral",
       "visual": "diagram_checklist",
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Which color is the feed?",
+        "Read/write pattern",
+        "Which framework is newest?",
+        "How many office desks exist?"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Compression",
+        "Replication",
+        "Invalidation",
+        "Pagination"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Queue",
+        "Cache",
+        "Mutex",
+        "Index"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Regional failure",
+        "Font rendering",
+        "Local disk size",
+        "Keyboard layout"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Compression",
+        "Idempotency",
+        "Eventual rendering",
+        "Round-robin DNS"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-06",
@@ -115,14 +165,19 @@
         "INTERVIEW"
       ],
       "choices": [
-        "Hash table",
+        "Use an exact census",
+        "Guess one large number",
         "Use a Fermi estimate",
-        "Speed versus freshness",
-        "To buffer work"
+        "Run binary search"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-07",
@@ -139,14 +194,19 @@
         "INTERVIEW"
       ],
       "choices": [
-        "Speed versus freshness",
-        "To buffer work",
-        "Hash table",
-        "Sorted data"
+        "Linked list",
+        "Stack",
+        "Queue",
+        "Hash table"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-08",
@@ -163,14 +223,19 @@
         "INTERVIEW"
       ],
       "choices": [
-        "To buffer work",
-        "Sorted data",
-        "Growth rate",
-        "Speed versus freshness"
+        "Speed versus freshness",
+        "Speed versus encryption",
+        "Storage versus color",
+        "Bandwidth versus syntax"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-09",
@@ -187,14 +252,19 @@
         "INTERVIEW"
       ],
       "choices": [
-        "Use a set",
-        "Growth rate",
+        "To sort every record",
         "To buffer work",
-        "Sorted data"
+        "To replace all databases",
+        "To encrypt passwords"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-10",
@@ -211,14 +281,19 @@
         "INTERVIEW"
       ],
       "choices": [
-        "To split load",
+        "Random data",
         "Sorted data",
-        "Use a set",
-        "Growth rate"
+        "A larger monitor",
+        "A queue"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-11",
@@ -235,14 +310,19 @@
         "INTERVIEW"
       ],
       "choices": [
-        "Use a set",
+        "Exact runtime in seconds",
+        "The programming language",
         "Growth rate",
-        "Network failure",
-        "To split load"
+        "The number of developers"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-12",
@@ -259,14 +339,19 @@
         "INTERVIEW"
       ],
       "choices": [
-        "Network failure",
-        "To split load",
-        "Optimize for user value",
+        "Use a queue",
+        "Sort with recursion only",
+        "Use a linked list",
         "Use a set"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-13",
@@ -283,14 +368,19 @@
         "INTERVIEW"
       ],
       "choices": [
-        "Optimize for user value",
-        "Use a Fermi estimate",
-        "Network failure",
-        "To split load"
+        "To split load",
+        "To increase font size",
+        "To eliminate backups",
+        "To remove all indexes"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-14",
@@ -307,14 +397,19 @@
         "INTERVIEW"
       ],
       "choices": [
-        "Optimize for user value",
-        "Use a Fermi estimate",
+        "Perfect clocks",
         "Network failure",
-        "Hash table"
+        "Unlimited storage",
+        "Identical hardware"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "faang-interview-riddles-premium-15",
@@ -331,25 +426,35 @@
         "INTERVIEW"
       ],
       "choices": [
-        "Speed versus freshness",
-        "Hash table",
+        "Optimize for clever code",
+        "Maximize feature count",
         "Optimize for user value",
-        "Use a Fermi estimate"
+        "Avoid measuring outcomes"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

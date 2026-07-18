@@ -1,7 +1,7 @@
 {
   "id": "genius-logic-puzzles",
   "title": "Genius Level Logic Puzzles (99% Fail)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Prime-numbered lockers",
+        "Even-numbered lockers",
+        "Perfect squares",
+        "Multiples of ten"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Black",
+        "Either color",
+        "Impossible to infer",
+        "White"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-03",
@@ -57,17 +77,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Ask a known fact",
+        "Ask whether it is lying",
+        "Ask a random opinion",
+        "Ask it to stay silent"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-04",
       "concept": "Premium hook",
-      "question": "A bridge takes four people across with one flashlight and crossing times 1, 2, 7, 10 minutes. What matters most?",
-      "answer": "Pairing slow people",
-      "explanation": "Optimal solutions minimize repeated slow crossings.",
+      "question": "Four people cross a bridge in 1, 2, 7, and 10 minutes with one flashlight. What is the minimum total?",
+      "answer": "17 minutes",
+      "explanation": "Send 1 and 2, return 1, send 7 and 10, return 2, then send 1 and 2: 17 minutes.",
       "hint": "Read the wording carefully.",
       "difficulty": "hard",
       "visual": "action_cards",
@@ -76,17 +106,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "19 minutes",
+        "17 minutes",
+        "20 minutes",
+        "21 minutes"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-05",
       "concept": "Premium hook",
-      "question": "A box has one gold coin among fakes. One weighing can identify it if fakes weigh less. What do you need?",
-      "answer": "A balance strategy",
-      "explanation": "Group comparison reveals which side contains the heavier coin.",
+      "question": "Nine coins include one lighter fake. With two balance weighings, what should the first weighing compare?",
+      "answer": "Three coins against three",
+      "explanation": "A 3-versus-3 weighing identifies which group of three contains the lighter coin; the second finds it.",
       "hint": "Read the wording carefully.",
       "difficulty": "hard",
       "visual": "diagram_checklist",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Weigh one coin against one",
+        "Weigh four against four",
+        "Three coins against three",
+        "Weigh all nine together"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-06",
@@ -115,14 +165,19 @@
         "LOGIC"
       ],
       "choices": [
-        "Heat",
-        "Ask what the other guard would say",
-        "A balance scale",
-        "Burn both ends of one rope and one end of the other"
+        "Sound",
+        "Bulb color",
+        "Wire length",
+        "Heat"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-07",
@@ -140,13 +195,18 @@
       ],
       "choices": [
         "Burn both ends of one rope and one end of the other",
-        "Take goat first",
-        "Ask what the other guard would say",
-        "A balance scale"
+        "Burn one rope from one end for 45 minutes",
+        "Cut one rope into four equal lengths",
+        "Burn both ropes from one end"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-08",
@@ -163,21 +223,26 @@
         "LOGIC"
       ],
       "choices": [
-        "Take goat first",
-        "Ask what the other guard would say",
+        "A spring scale",
         "A balance scale",
-        "13"
+        "A stopwatch",
+        "A measuring cup"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-09",
       "concept": "Hats",
-      "question": "Two guards: one always lies, one tells truth. What question points to the safe door?",
-      "answer": "Ask what the other guard would say",
-      "explanation": "Both answers point to the wrong door, so choose the opposite.",
+      "question": "Ask either guard which door the other would call safe. What should you do with the door they indicate?",
+      "answer": "Choose the opposite door",
+      "explanation": "The liar and truth-teller both indicate the unsafe door when asked what the other would say.",
       "hint": "Look for the hats clue.",
       "difficulty": "viral",
       "visual": "ai_terminal",
@@ -187,19 +252,24 @@
         "LOGIC"
       ],
       "choices": [
-        "Ask what the other guard would say",
-        "13",
-        "One fruit from the mixed-looking box",
-        "Take goat first"
+        "Choose the door they point to",
+        "Ask which guard lies",
+        "Choose the opposite door",
+        "Choose a door at random"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-10",
       "concept": "Coins",
-      "question": "How do you move a wolf, goat, and cabbage across a river safely?",
+      "question": "In the wolf, goat, and cabbage crossing, which passenger must cross first?",
       "answer": "Take goat first",
       "explanation": "The goat cannot be left with wolf or cabbage without the farmer.",
       "hint": "Look for the coins clue.",
@@ -211,14 +281,19 @@
         "LOGIC"
       ],
       "choices": [
-        "Fill 5, pour into 3, leaving 2, then repeat",
-        "One fruit from the mixed-looking box",
+        "Take the wolf first",
+        "Take the cabbage first",
         "Take goat first",
-        "13"
+        "Take the wolf and cabbage together"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-11",
@@ -235,21 +310,26 @@
         "LOGIC"
       ],
       "choices": [
-        "Force both guards into the same false direction",
-        "13",
-        "Fill 5, pour into 3, leaving 2, then repeat",
-        "One fruit from the mixed-looking box"
+        "11",
+        "12",
+        "15",
+        "13"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-12",
       "concept": "River crossing",
-      "question": "A box says 'not apples,' another says 'oranges,' all labels are wrong. What do you inspect?",
-      "answer": "One fruit from the mixed-looking box",
-      "explanation": "Since all labels are wrong, one sample identifies all boxes.",
+      "question": "Three boxes are labeled Apples, Oranges, and Mixed, but every label is wrong. Which box should you sample?",
+      "answer": "The box labeled Mixed",
+      "explanation": "Because every label is wrong, the Mixed-labeled box contains one fruit type; one sample lets you relabel all three.",
       "hint": "Look for the river crossing clue.",
       "difficulty": "hard",
       "visual": "audio_waveform",
@@ -259,21 +339,26 @@
         "LOGIC"
       ],
       "choices": [
-        "Fill 5, pour into 3, leaving 2, then repeat",
-        "One fruit from the mixed-looking box",
-        "Force both guards into the same false direction",
-        "42"
+        "The box labeled Mixed",
+        "The box labeled Apples",
+        "The box labeled Oranges",
+        "All three boxes"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-13",
       "concept": "Weights",
       "question": "You need exactly 4 liters using 3 and 5 liter jugs. What do you do?",
-      "answer": "Fill 5, pour into 3, leaving 2, then repeat",
-      "explanation": "Jug transfers can isolate exactly 4 liters.",
+      "answer": "Fill 5, transfer 2 into 3, refill 5, then top off 3",
+      "explanation": "After leaving 2 liters and moving it into the 3-liter jug, refilling the 5-liter jug and adding 1 leaves exactly 4.",
       "hint": "Look for the weights clue.",
       "difficulty": "viral",
       "visual": "impact_text",
@@ -283,21 +368,26 @@
         "LOGIC"
       ],
       "choices": [
-        "Heat",
-        "Force both guards into the same false direction",
-        "42",
-        "Fill 5, pour into 3, leaving 2, then repeat"
+        "Fill 3 twice and discard the extra",
+        "Fill 5, transfer 2 into 3, refill 5, then top off 3",
+        "Fill 5 and estimate one liter",
+        "Fill both jugs halfway"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-14",
       "concept": "Doors",
-      "question": "A prisoner sees two doors and must choose one question. What strategy helps?",
-      "answer": "Force both guards into the same false direction",
-      "explanation": "The classic liar/truth-teller setup is solved by asking about the other guard.",
+      "question": "Two fathers and two sons catch three fish, and each gets one. How many people are there?",
+      "answer": "Three people",
+      "explanation": "They are a grandfather, his son, and his grandson: two fathers and two sons among three people.",
       "hint": "Look for the doors clue.",
       "difficulty": "easy",
       "visual": "diagram_flow",
@@ -307,14 +397,19 @@
         "LOGIC"
       ],
       "choices": [
-        "Burn both ends of one rope and one end of the other",
-        "Heat",
-        "Force both guards into the same false direction",
-        "42"
+        "Four people",
+        "Five people",
+        "Three people",
+        "Six people"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "genius-logic-puzzles-premium-15",
@@ -331,25 +426,35 @@
         "LOGIC"
       ],
       "choices": [
-        "Heat",
-        "42",
-        "A balance scale",
-        "Burn both ends of one rope and one end of the other"
+        "36",
+        "40",
+        "44",
+        "42"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

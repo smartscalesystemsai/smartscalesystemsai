@@ -1,7 +1,7 @@
 {
   "id": "optical-illusions",
   "title": "Optical Illusions & Brain Glitches",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "One square has more pixels",
+        "Context",
+        "The darker square is moving",
+        "Your eyes changed its file format"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Measuring temperature",
+        "Reading hidden text",
+        "Predicting motion",
+        "Correcting grammar"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Color blindness",
+        "Object permanence",
+        "Afterimage",
+        "Perspective"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Pareidolia",
+        "Synesthesia",
+        "Astigmatism",
+        "Motion parallax"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The pigment changes",
+        "Light correction",
+        "The screen adds ink",
+        "The object emits light"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-06",
@@ -115,14 +165,19 @@
         "VISUAL"
       ],
       "choices": [
-        "Perspective",
+        "Their pigments are different",
+        "One color is animated",
         "Surrounding contrast",
-        "Muller-Lyer illusion",
-        "Pattern contrast"
+        "The image has no background"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-07",
@@ -139,14 +194,19 @@
         "VISUAL"
       ],
       "choices": [
-        "Muller-Lyer illusion",
-        "Pattern contrast",
-        "Perspective",
-        "The brain corrects lighting"
+        "Audio rhythm",
+        "Text alignment",
+        "Lens focus alone",
+        "Pattern contrast"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-08",
@@ -163,14 +223,19 @@
         "VISUAL"
       ],
       "choices": [
-        "One image with multiple interpretations",
         "Perspective",
-        "The brain corrects lighting",
-        "Muller-Lyer illusion"
+        "The tracks bend together",
+        "The rails become narrower",
+        "Earth's rotation twists them"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-09",
@@ -187,14 +252,19 @@
         "VISUAL"
       ],
       "choices": [
-        "The brain corrects lighting",
+        "Ponzo illusion",
         "Muller-Lyer illusion",
-        "One image with multiple interpretations",
-        "Pareidolia"
+        "Checker-shadow illusion",
+        "Rubin vase"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-10",
@@ -211,14 +281,19 @@
         "VISUAL"
       ],
       "choices": [
-        "One image with multiple interpretations",
-        "Pareidolia",
+        "The shadow changes the pigment",
         "The brain corrects lighting",
-        "Depth cues"
+        "The eye stops seeing color",
+        "The object becomes transparent"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-11",
@@ -235,14 +310,19 @@
         "VISUAL"
       ],
       "choices": [
-        "Pareidolia",
-        "Context beats raw pixel value",
-        "Depth cues",
-        "One image with multiple interpretations"
+        "A blurred photograph",
+        "A single fixed meaning",
+        "One image with multiple interpretations",
+        "An image with no subject"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-12",
@@ -259,14 +339,19 @@
         "VISUAL"
       ],
       "choices": [
-        "Context beats raw pixel value",
-        "Depth cues",
-        "Perception is constructed",
+        "Confirmation bias",
+        "Change blindness",
+        "Color constancy",
         "Pareidolia"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-13",
@@ -283,14 +368,19 @@
         "VISUAL"
       ],
       "choices": [
-        "Surrounding contrast",
-        "Context beats raw pixel value",
         "Depth cues",
-        "Perception is constructed"
+        "Loudness cues",
+        "Smell cues",
+        "Word frequency"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-14",
@@ -307,14 +397,19 @@
         "VISUAL"
       ],
       "choices": [
-        "Surrounding contrast",
+        "Every square uses a different pigment",
         "Context beats raw pixel value",
-        "Pattern contrast",
-        "Perception is constructed"
+        "The checkerboard is moving",
+        "The pixels have no measurable values"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "optical-illusions-premium-15",
@@ -331,25 +426,35 @@
         "VISUAL"
       ],
       "choices": [
-        "Pattern contrast",
+        "Vision records reality exactly",
+        "Context never matters",
         "Perception is constructed",
-        "Perspective",
-        "Surrounding contrast"
+        "Illusions only affect cameras"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": "guess-animal-bizarre-traits",
   "title": "Guess the Animal (Bizarre Traits)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Platypus",
+        "Echidna",
+        "Duck",
+        "Beaver"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Salamander",
+        "Axolotl",
+        "Starfish",
+        "Gecko"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Pistol shrimp",
+        "Cuttlefish",
+        "Mantis shrimp",
+        "Swordfish"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Armadillo",
+        "Iguana",
+        "Crocodile",
+        "Pangolin"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "Tardigrade",
+        "Rotifer",
+        "Nematode",
+        "Water flea"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-06",
@@ -115,14 +165,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Platypus",
-        "Pangolin",
-        "Axolotl",
-        "Mantis shrimp"
+        "Porcupine",
+        "Echidna",
+        "Hedgehog",
+        "Platypus"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-07",
@@ -139,14 +194,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Axolotl",
         "Mantis shrimp",
-        "Narwhal",
-        "Pangolin"
+        "Krill",
+        "Pistol shrimp",
+        "Lobster"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-08",
@@ -163,14 +223,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Sloth",
-        "Narwhal",
-        "Pangolin",
-        "Mantis shrimp"
+        "Mole",
+        "Armadillo",
+        "Meerkat",
+        "Naked mole-rat"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-09",
@@ -187,14 +252,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Pangolin",
-        "Sloth",
-        "Narwhal",
-        "Cuttlefish"
+        "Lyrebird",
+        "Mockingbird",
+        "Parrot",
+        "Raven"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-10",
@@ -211,14 +281,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Sloth",
         "Narwhal",
-        "Cuttlefish",
-        "Tardigrade"
+        "Beluga",
+        "Swordfish",
+        "Orca"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-11",
@@ -235,14 +310,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Cuttlefish",
-        "Tardigrade",
+        "Koala",
         "Sloth",
-        "Archerfish"
+        "Tortoise",
+        "Panda"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-12",
@@ -259,14 +339,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Tardigrade",
-        "Komodo dragon",
-        "Archerfish",
-        "Cuttlefish"
+        "Octopus",
+        "Chameleon",
+        "Cuttlefish",
+        "Jellyfish"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-13",
@@ -283,14 +368,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Archerfish",
-        "Platypus",
-        "Tardigrade",
-        "Komodo dragon"
+        "Tree frog",
+        "Surinam toad",
+        "Salamander",
+        "Poison dart frog"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-14",
@@ -307,14 +397,19 @@
         "ANIMAL"
       ],
       "choices": [
-        "Komodo dragon",
-        "Axolotl",
         "Archerfish",
-        "Platypus"
+        "Mudskipper",
+        "Flying fish",
+        "Pufferfish"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "guess-animal-bizarre-traits-premium-15",
@@ -331,25 +426,35 @@
         "ANIMAL"
       ],
       "choices": [
-        "Axolotl",
-        "Mantis shrimp",
-        "Platypus",
-        "Komodo dragon"
+        "Monitor lizard",
+        "Komodo dragon",
+        "Gila monster",
+        "Crocodile"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
-  "version": 2,
-  "generatedAt": "2026-06-28T16:04:13.098Z",
-  "description": "Local editable quiz packs curated for clear answers, viral formats, and kinetic-text animation.",
+  "version": 3,
+  "generatedAt": "2026-07-17T00:50:31.081Z",
+  "description": "Local editable quiz packs certified for clear questions, accurate answers, and contextual multiple-choice distractors.",
   "topics": [
     {
       "title": "10 Million View WOW Riddles (Unexpected Twists)",
@@ -31,7 +31,7 @@
       "title": "Viral AI & Tech Puzzles (Mind-Blowing Reveals)",
       "slug": "ai-tech-puzzles",
       "file": "ai-tech-puzzles.json",
-      "count": 20
+      "count": 120
     },
     {
       "title": "Visual Riddles: Spot the Hidden Object (Hard)",
@@ -125,8 +125,13 @@
     }
   ],
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
-    "totalQuestions": 306
+    "totalQuestions": 406,
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
+    ]
   }
 }

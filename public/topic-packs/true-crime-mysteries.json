@@ -1,7 +1,7 @@
 {
   "id": "true-crime-mysteries",
   "title": "True Crime & Unsolved Mysteries",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The suspect's handwriting",
+        "Timeline conflict",
+        "The room temperature",
+        "The victim's favorite color"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The furniture style",
+        "The lock's brand",
+        "Water pattern",
+        "The wall paint"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Video is always wrong",
+        "Color proves guilt",
+        "Witnesses never make errors",
+        "Memory is fallible"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-04",
@@ -76,10 +106,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "It was printed or traced",
+        "Natural ink variation",
+        "A rushed signature",
+        "Different pens were used"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-05",
@@ -95,10 +135,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The law changed",
+        "Forensic technology",
+        "The suspect confessed automatically",
+        "Witness memory became perfect"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-06",
@@ -115,14 +165,19 @@
         "MYSTERY"
       ],
       "choices": [
+        "Motive",
+        "Identity",
         "Time",
-        "A message",
-        "Missing forced entry evidence",
-        "They reveal contradictions"
+        "Location only"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-07",
@@ -139,14 +194,19 @@
         "MYSTERY"
       ],
       "choices": [
-        "An unsolved older case",
-        "Missing forced entry evidence",
-        "They reveal contradictions",
-        "A message"
+        "A broken picture frame",
+        "An open drawer",
+        "A missing light bulb",
+        "Missing forced entry evidence"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-08",
@@ -163,14 +223,19 @@
         "MYSTERY"
       ],
       "choices": [
-        "They show movement",
-        "A message",
-        "An unsolved older case",
-        "They reveal contradictions"
+        "They reveal contradictions",
+        "They eliminate all suspects",
+        "They prove motive alone",
+        "They replace physical evidence"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-09",
@@ -187,14 +252,19 @@
         "MYSTERY"
       ],
       "choices": [
-        "It can change",
-        "An unsolved older case",
-        "They show movement",
-        "A message"
+        "A fingerprint",
+        "A message",
+        "A footprint",
+        "A timeline"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-10",
@@ -211,14 +281,19 @@
         "MYSTERY"
       ],
       "choices": [
-        "They show movement",
-        "Why someone might act",
-        "It can change",
-        "An unsolved older case"
+        "A solved recent case",
+        "An unsolved older case",
+        "A fictional case",
+        "A case without any records"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-11",
@@ -235,14 +310,19 @@
         "MYSTERY"
       ],
       "choices": [
-        "Impossible access",
-        "It can change",
+        "They prove motive",
+        "They identify every shoe with certainty",
         "They show movement",
-        "Why someone might act"
+        "They show spoken words"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-12",
@@ -259,14 +339,19 @@
         "MYSTERY"
       ],
       "choices": [
-        "Tunnel vision",
-        "Why someone might act",
-        "Impossible access",
+        "It records events exactly",
+        "It cannot be influenced",
+        "It improves under every stress",
         "It can change"
       ],
       "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-13",
@@ -284,13 +369,18 @@
       ],
       "choices": [
         "Why someone might act",
-        "Time",
-        "Impossible access",
-        "Tunnel vision"
+        "Exactly who acted",
+        "Proof beyond doubt",
+        "The precise sentence"
       ],
       "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-14",
@@ -307,14 +397,19 @@
         "MYSTERY"
       ],
       "choices": [
+        "An obvious open entrance",
         "Impossible access",
-        "Tunnel vision",
-        "Missing forced entry evidence",
-        "Time"
+        "A public confession",
+        "A missing motive only"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "true-crime-mysteries-premium-15",
@@ -331,25 +426,35 @@
         "MYSTERY"
       ],
       "choices": [
-        "Missing forced entry evidence",
-        "They reveal contradictions",
-        "Time",
-        "Tunnel vision"
+        "Perfect objectivity",
+        "Guaranteed conviction",
+        "Tunnel vision",
+        "Complete elimination of alternatives"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }

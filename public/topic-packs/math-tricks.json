@@ -1,16 +1,16 @@
 {
   "id": "math-tricks",
   "title": "Mind-Blowing Math Tricks (Looks like Magic)",
-  "version": 2,
+  "version": 3,
   "editable": true,
   "licenseNote": "Starter questions are bundled for local video generation. Buyers can edit, replace, or extend this JSON file.",
   "items": [
     {
       "id": "math-tricks-premium-01",
       "concept": "Premium hook",
-      "question": "A calculator shows 101-102=1. It is not broken. What number system is it using?",
+      "question": "A calculator shows 101 - 10 = 11. It is not broken. What number system is it using?",
       "answer": "Binary",
-      "explanation": "In binary, 101 is 5 and 102 is impossible, so the clue is that the display is not base ten as assumed.",
+      "explanation": "In binary, 101 is 5, 10 is 2, and 11 is 3, so the equation is correct.",
       "hint": "Read the wording carefully.",
       "difficulty": "viral",
       "visual": "diagram_checklist",
@@ -19,10 +19,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "Decimal",
+        "Binary",
+        "Octal",
+        "Hexadecimal"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-02",
@@ -38,10 +48,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "20%",
+        "25%",
+        "16.67%",
+        "80%"
+      ],
+      "answerIndex": 2,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-03",
@@ -57,10 +77,20 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "The number becomes zero first",
+        "Ten is ignored",
+        "Division doubles the number",
+        "The original cancels out"
+      ],
+      "answerIndex": 3,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-04",
@@ -76,17 +106,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
+      "choices": [
+        "50% once",
+        "30% then 20%",
+        "Both give 50%",
+        "It depends on the original price"
+      ],
       "answerIndex": 0,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-05",
       "concept": "Premium hook",
-      "question": "A clock gains 10 minutes every hour. If it says 3 PM after 6 real hours, what time did it start?",
-      "answer": "1:50 PM",
-      "explanation": "In 6 hours it gains 60 minutes, so it reads one hour ahead.",
+      "question": "A clock gains 10 minutes hourly and reads 3 PM after six real hours. What did it display at the start?",
+      "answer": "8:00 AM",
+      "explanation": "In six real hours the clock advances seven displayed hours, so a 3 PM reading began at 8 AM.",
       "hint": "Read the wording carefully.",
       "difficulty": "hard",
       "visual": "diagram_checklist",
@@ -95,17 +135,27 @@
         "THINK FAST",
         "ANSWER AFTER TIMER"
       ],
-      "choices": [],
-      "answerIndex": 0,
+      "choices": [
+        "7:50 AM",
+        "8:00 AM",
+        "9:00 AM",
+        "1:50 PM"
+      ],
+      "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-06",
       "concept": "Nine trick",
-      "question": "Pick any number, multiply by 9, and add the digits. What number keeps appearing?",
+      "question": "Multiply any nonzero whole number by 9, then repeatedly sum its digits. What number remains?",
       "answer": "9",
-      "explanation": "Multiples of 9 have digits that reduce back to 9.",
+      "explanation": "Every positive multiple of 9 has digital root 9.",
       "hint": "Look for the nine trick clue.",
       "difficulty": "easy",
       "visual": "impact_text",
@@ -115,14 +165,19 @@
         "MATH"
       ],
       "choices": [
-        "30",
-        "253",
+        "3",
+        "6",
         "9",
-        "20"
+        "18"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-07",
@@ -139,14 +194,19 @@
         "MATH"
       ],
       "choices": [
-        "253",
-        "4653",
-        "20",
-        "30"
+        "15",
+        "25",
+        "40",
+        "20"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-08",
@@ -163,14 +223,19 @@
         "MATH"
       ],
       "choices": [
-        "1225",
         "30",
-        "253",
-        "4653"
+        "20",
+        "25",
+        "35"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-09",
@@ -187,14 +252,19 @@
         "MATH"
       ],
       "choices": [
+        "233",
         "253",
-        "4653",
-        "1225",
-        "They are equal"
+        "243",
+        "263"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-10",
@@ -211,14 +281,19 @@
         "MATH"
       ],
       "choices": [
-        "6",
+        "4606",
         "4653",
-        "1225",
-        "They are equal"
+        "4693",
+        "4747"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-11",
@@ -235,14 +310,19 @@
         "MATH"
       ],
       "choices": [
-        "3",
+        "1025",
+        "1125",
         "1225",
-        "They are equal",
-        "6"
+        "1325"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-12",
@@ -259,14 +339,19 @@
         "MATH"
       ],
       "choices": [
-        "6",
-        "3",
-        "They are equal",
-        "16"
+        "40% of 70",
+        "70% of 40",
+        "Cannot be compared",
+        "They are equal"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-13",
@@ -283,14 +368,19 @@
         "MATH"
       ],
       "choices": [
-        "9",
-        "3",
-        "16",
-        "6"
+        "6",
+        "5",
+        "7",
+        "8"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-14",
@@ -307,14 +397,19 @@
         "MATH"
       ],
       "choices": [
-        "9",
+        "2",
         "3",
-        "20",
-        "16"
+        "4",
+        "6"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     },
     {
       "id": "math-tricks-premium-15",
@@ -331,25 +426,35 @@
         "MATH"
       ],
       "choices": [
-        "9",
-        "20",
+        "8",
+        "24",
         "16",
-        "30"
+        "32"
       ],
       "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
-      "curation": "viral-clear-v2"
+      "curation": "viral-clear-v3",
+      "certification": {
+        "status": "approved",
+        "standard": "question-choice-v1",
+        "reviewedAt": "2026-07-16"
+      }
     }
   ],
   "premiumCount": 15,
   "qualityStandard": {
-    "label": "Viral Clear v2",
+    "label": "Viral Clear v3",
     "maxQuestionWords": 22,
     "requirements": [
       "single clear prompt",
       "one defensible answer",
       "animation-friendly phrasing",
       "no synthetic hook padding"
+    ],
+    "choiceRequirements": [
+      "four unique options",
+      "three context-relevant distractors",
+      "exactly one keyed answer"
     ]
   }
 }
