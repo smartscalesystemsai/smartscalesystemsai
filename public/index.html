@@ -4,8 +4,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Smart Scale Systems - AI Tools and Digital Products</title>
-<!-- Google AdSense (Auto ads) -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5858891038937086" crossorigin="anonymous"></script>
+<!-- No AdSense on the homepage: it carries the paid Manager AI Toolkit pitch.
+     Ads run only on /quiz-studio/, /quiz/ and /viral-hook/. -->
 <meta name="description" content="AI tools that save you hours every week. Write better performance reviews, create scroll-stopping hooks, and make faceless quiz videos in minutes." />
 <meta name="theme-color" content="#07100e" />
 <meta property="og:title" content="Smart Scale Systems - AI Tools and Digital Products" />
@@ -14,8 +14,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="widget.css" />
-<script src="widget.js" defer></script>
+<!-- widget.css / widget.js moved to /blueprint/ along with the Blueprint Engine.
+     widget.js dereferences #ss-category-select unguarded, so loading it on a page
+     without that element throws. Do not re-add here unless the markup comes back. -->
 <style>
   :root{
     --ink:#f4fff9;
@@ -145,7 +146,7 @@
         <a href="#pulse">AI Pulse</a>
         <a href="#digital">Digital products</a>
       </div>
-      <a class="nav-cta" href="/ai-for-managers/" target="_blank" rel="noopener">Try free prompts</a>
+      <a class="nav-cta" href="/free-prompts/">Try free prompts</a>
     </div>
   </div>
 
@@ -198,7 +199,7 @@
             </div>
             <div class="actions">
               <a class="action primary" href="/ai-for-managers/" target="_blank" rel="noopener">Get the Playbook</a>
-              <a class="action" href="https://ai-for-managers.smart-scale-ai.workers.dev/" target="_blank" rel="noopener">Try 5 free prompts</a>
+              <a class="action" href="/free-prompts/">Try 5 free prompts</a>
             </div>
           </article>
           <article class="product-row">
@@ -269,53 +270,28 @@
       </div>
     </section>
 
+    <!-- The Blueprint Engine now lives at /blueprint/ (its own page, ad-supported).
+         This is the teaser that links to it. -->
     <section id="smart-scale-widget">
       <div class="wrap">
         <div class="section-head">
           <h2>Pick one bottleneck. Get a starter AI stack instantly.</h2>
-          <p>Visitors should see a useful preview before the page asks for email or deeper details. These quick choices feed the existing Blueprint Engine.</p>
+          <p>Answer one question and the Blueprint Engine returns the bottleneck, a free stack, a paid stack, and a realistic time saving.</p>
         </div>
-        <div class="ss-widget-container">
-          <div class="ss-header">
-            <h2>The AI Blueprint Engine</h2>
-            <p>Choose the closest goal below, or use the dropdown if you prefer.</p>
-          </div>
-          <div class="choice-grid" aria-label="Quick blueprint choices">
-            <button class="blueprint-choice" type="button" data-blueprint-choice="faceless">
-              <strong>Make faceless videos faster</strong>
-              <span>Quiz ideas, voiceover, timing, and export workflow.</span>
-            </button>
-            <button class="blueprint-choice" type="button" data-blueprint-choice="repurposing">
-              <strong>Repurpose content</strong>
-              <span>Turn one idea into shorts, posts, and search assets.</span>
-            </button>
-            <button class="blueprint-choice" type="button" data-blueprint-choice="digital_products">
-              <strong>Sell digital products</strong>
-              <span>Build a lean stack for eBooks, planners, and downloads.</span>
-            </button>
-            <button class="blueprint-choice" type="button" data-blueprint-choice="onboarding">
-              <strong>Automate client follow-up</strong>
-              <span>Speed up outreach, onboarding, and admin handoffs.</span>
-            </button>
-          </div>
-          <div class="result-preview">
-            <strong>Example result before the next ask</strong>
-            <p>If you pick faceless videos, the engine shows the bottleneck, free stack, paid stack, and time-saving estimate before asking you to request the full PDF blueprint.</p>
-          </div>
-          <div class="ss-input-section" id="ss-step-1">
-            <div class="ss-input-group">
-              <label for="ss-category-select">Or choose from the full goal list</label>
-              <select id="ss-category-select" class="ss-select">
-                <option value="" disabled selected>Select a goal...</option>
-                <option value="faceless">Faceless Video Channels (Shorts/TikTok)</option>
-                <option value="digital_products">Digital Product Empire (E-books/Planners)</option>
-                <option value="onboarding">B2B Client Onboarding &amp; Outreach</option>
-                <option value="repurposing">Content Repurposing &amp; SEO</option>
-              </select>
+        <article class="product-row">
+          <div>
+            <h3>The AI Blueprint Engine</h3>
+            <p>Choose the goal closest to your situation and see the recommended stack immediately. No email required to look.</p>
+            <div class="meta">
+              <span class="pill">Free</span>
+              <span class="pill">No signup</span>
+              <span class="pill">Instant result</span>
             </div>
           </div>
-          <div id="ss-results-section" class="ss-hidden"></div>
-        </div>
+          <div class="actions">
+            <a class="action primary" href="/blueprint/">Open the Blueprint Engine</a>
+          </div>
+        </article>
       </div>
     </section>
 
