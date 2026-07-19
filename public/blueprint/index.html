@@ -148,6 +148,23 @@
   </div>
 </footer>
 
+<script>
+  // Wires the quick-choice buttons to the select that widget.js listens on.
+  // widget.js only handles the select's "change" event, so without this the
+  // buttons are inert. (This lived in the homepage inline script before the move.)
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-blueprint-choice]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var select = document.getElementById('ss-category-select');
+        if (!select) return;
+        select.value = button.dataset.blueprintChoice;
+        select.dispatchEvent(new Event('change', { bubbles: true }));
+        var results = document.getElementById('ss-results-section');
+        if (results) results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  });
+</script>
 <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"3ce5211f18ee4c47bb24840007d4f4ff"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
