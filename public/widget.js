@@ -7,18 +7,19 @@ document.addEventListener("DOMContentLoaded", () => {
         faceless: {
             problem: "Video editing and sourcing assets take 20+ hours a week.",
             freeStack: [
+                { name: "OmniFrame Quiz Studio", desc: "Our tool. Turn any topic into a faceless quiz video in your browser. Free, no signup.", url: "https://smartscalesystemsai.com/quiz/", own: true },
                 { name: "YouTube Studio", desc: "Free music, auto-generated thumbnails, script inspiration.", url: "https://studio.youtube.com" },
                 { name: "InVideo AI Free Tier", desc: "All-in-one text-to-video assembly for beginners.", url: "https://invideo.io" }
             ],
             paidStack: [
-                { name: "OmniFrame Quiz Studio", desc: "Our tool — faceless quiz videos in minutes. Voiceover, animated visuals, 1080p export. One-time payment, no subscription.", link: "https://smartscalesystemsai.com/quiz-studio/", own: true },
-                { name: "HeyGen", desc: "End-to-end Text-to-Video generation.", link: "https://heygen.com" },
-                { name: "ElevenLabs", desc: "Premium voice APIs.", link: "https://try.elevenlabs.io/ilclr9gz1m92" },
-                { name: "Submagic", desc: "AI dynamic captions & B-roll for Shorts/Reels.", link: "https://submagic.co/?via=suma81" }
+                { name: "ElevenLabs", desc: "Natural AI voiceover. The heart of any faceless channel.", link: "https://try.elevenlabs.io/ilclr9gz1m92" },
+                { name: "Submagic", desc: "AI dynamic captions & B-roll for Shorts/Reels.", link: "https://submagic.co/?via=suma81" },
+                { name: "vidIQ", desc: "YouTube SEO, keywords & trend discovery.", link: "https://vidiq.com/smartsclaesystem" },
+                { name: "HeyGen", desc: "End-to-end Text-to-Video generation.", link: "https://heygen.com" }
             ],
             roi: {
-                timeSaved: "15+ hours/week",
-                value: "Potential $1k-$3k/mo passive AdSense."
+                timeSaved: "Cuts editing from hours to minutes per video.",
+                value: "Monetizable videos without ever showing your face."
             },
             tutorial: { type: "email", cta: "Send me the Step-by-Step PDF Blueprint" }
         },
@@ -33,8 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "Writesonic", desc: "AI copywriting and e-book generation.", link: "https://writesonic.com" }
             ],
             roi: {
-                timeSaved: "Reduces creation time from 4 weeks to 3 days.",
-                value: "100% margin on digital sales."
+                timeSaved: "Ship a product in days, not months.",
+                value: "Digital products cost nothing to reproduce, so every sale is profit."
             },
             tutorial: { type: "video", url: "#youtube-notebooklm", cta: "Watch my tutorial on this tool" }
         },
@@ -49,26 +50,27 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "Pabbly Connect", desc: "Zero-touch workflow automation.", link: "https://pabbly.com/connect/" }
             ],
             roi: {
-                timeSaved: "Eliminates 10 hours/week of admin.",
-                value: "Secures $5k-$10k contracts."
+                timeSaved: "Automates the follow-up admin you do by hand today.",
+                value: "Faster response times mean fewer leads slip away."
             },
             tutorial: { type: "email", cta: "Send me the Step-by-Step PDF Blueprint" }
         },
         repurposing: {
             problem: "Hiring a social media manager costs $3,000/month.",
             freeStack: [
+                { name: "OmniFrame Quiz Studio", desc: "Our tool. Spin any topic or script into faceless quiz shorts, free in your browser.", url: "https://smartscalesystemsai.com/quiz/", own: true },
                 { name: "YouTube Auto-captions", desc: "Free transcripts.", url: "https://studio.youtube.com" },
                 { name: "ChatGPT Free", desc: "Manual rewriting.", url: "https://chatgpt.com" }
             ],
             paidStack: [
-                { name: "OmniFrame Quiz Studio", desc: "Our tool — spin any topic or script into faceless quiz shorts for every platform. 1080p export, one-time payment.", link: "https://smartscalesystemsai.com/quiz-studio/", own: true },
-                { name: "vidyo.ai", desc: "AI viral short extraction.", link: "https://vidyo.ai" },
                 { name: "vidIQ", desc: "YouTube SEO & trend discovery.", link: "https://vidiq.com/smartsclaesystem" },
+                { name: "Submagic", desc: "AI captions & B-roll to repurpose clips fast.", link: "https://submagic.co/?via=suma81" },
+                { name: "vidyo.ai", desc: "AI viral short extraction.", link: "https://vidyo.ai" },
                 { name: "Scalenut", desc: "AI-driven blog ranking.", link: "https://scalenut.com" }
             ],
             roi: {
-                timeSaved: "10x content output.",
-                value: "Saves $36,000/year on agency fees."
+                timeSaved: "One idea becomes shorts, posts, and search content.",
+                value: "Do in-house what agencies charge a monthly retainer for."
             },
             tutorial: { type: "video", url: "#youtube-chatgpt", cta: "Watch my tutorial on this tool" }
         }
@@ -133,6 +135,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${renderStackList(data.paidStack, true)}
                 </div>
             </div>
+
+            <p class="ss-disclosure" style="font-size:0.78rem;opacity:0.65;margin-top:10px;">Some links above are affiliate links. If you buy through them, we earn a small commission at no extra cost to you. We only list tools we'd use ourselves.</p>
 
             <div class="ss-roi-section">
                 <h3>ROI Impact</h3>
