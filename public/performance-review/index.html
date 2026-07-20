@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Demo — Performance Calibration Defense | Manager's AI Command Center</title>
+  <!-- Google AdSense (Auto ads) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5858891038937086" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --bg: #081827;
+      --panel: #102b48;
+      --panel-2: #0b2138;
+      --panel-3: #071522;
+      --border: #25486c;
+      --border-soft: #1c3a5a;
+      --text: #eef6ff;
+      --muted: #9fb3c8;
+      --gold: #e4bd31;
+      --gold-dark: #bd9620;
+      --green: #50d38a;
+      --danger: #ff7777;
+      --shadow: rgba(0, 0, 0, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { height: 100%; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top left, #12365a 0%, var(--bg) 36%, #05101b 100%);
+      line-height: 1.45;
+    }
+
+    a { color: inherit; }
+
+    .app-shell {
+      display: grid;
+      grid-template-columns: 248px 1fr;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      background: linear-gradient(180deg, #0a2138 0%, #071725 100%);
+      border-right: 1px solid var(--border-soft);
+      padding: 22px 16px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border-soft);
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--gold), #ffe98a);
+      color: #071522;
+      font-weight: 900;
+      box-shadow: 0 8px 18px var(--shadow);
+    }
+
+    .brand-title {
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 1.15;
+    }
+
+    .brand-subtitle {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .side-label {
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 18px 8px 8px;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 11px;
+      border-radius: 10px;
+      color: #cfe0f2;
+      font-size: 13px;
+      text-decoration: none;
+      margin-bottom: 4px;
+    }
+
+    .nav-item.active {
+      color: #06111d;
+      background: var(--gold);
+      font-weight: 800;
+    }
+
+    .nav-item.locked {
+      opacity: 0.55;
+    }
+
+    .nav-item:hover:not(.active) {
+      background: rgba(255,255,255,0.05);
+    }
+
+    .main {
+      padding: 24px;
+      max-width: 1280px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.04;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      color: #c3d4e7;
+      font-size: 16px;
+      margin-top: 12px;
+    }
+
+    .top-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .btn {
+      border: 1px solid transparent;
+      border-radius: 10px;
+      padding: 10px 15px;
+      font-weight: 850;
+      font-size: 13px;
+      cursor: pointer;
+      transition: transform 0.08s ease, background 0.15s ease, border-color 0.15s ease;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 40px;
+    }
+
+    .btn:active { transform: translateY(1px); }
+
+    .btn-primary {
+      background: var(--gold);
+      color: #071522;
+      box-shadow: 0 8px 20px rgba(228, 189, 49, 0.16);
+    }
+
+    .btn-primary:hover { background: #f0cb40; }
+
+    .btn-secondary {
+      background: transparent;
+      color: #d7e5f5;
+      border-color: var(--border);
+    }
+
+    .btn-secondary:hover { background: rgba(255,255,255,0.05); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 340px;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .card {
+      background: rgba(16, 43, 72, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 18px 40px var(--shadow);
+      overflow: hidden;
+    }
+
+    .card-header {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border-soft);
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .card-header h2,
+    .card-header h3 {
+      margin: 0;
+      color: var(--gold);
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--border);
+      color: #c8d9ea;
+      background: rgba(8, 24, 39, 0.7);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 750;
+      white-space: nowrap;
+    }
+
+    .card-body { padding: 20px; }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #dce9f8;
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    textarea,
+    select,
+    input[type="text"] {
+      width: 100%;
+      border: 1px solid var(--border);
+      background: #071522;
+      color: var(--text);
+      border-radius: 10px;
+      padding: 12px 14px;
+      font: inherit;
+      outline: none;
+    }
+
+    textarea:focus,
+    select:focus,
+    input[type="text"]:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(228, 189, 49, 0.12);
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .builder-row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .format-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin: 16px 0 10px;
+    }
+
+    .format-label {
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 11px;
+      font-weight: 800;
+      margin-right: 2px;
+    }
+
+    .format-btn {
+      border: 1px solid var(--border);
+      background: #102743;
+      color: #c7d8ea;
+      padding: 8px 13px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .format-btn.active {
+      background: var(--gold);
+      color: #06111d;
+      border-color: var(--gold);
+    }
+
+    .prompt-box {
+      background: #071522;
+      border: 1px solid var(--border-soft);
+      border-radius: 12px;
+      padding: 16px;
+      min-height: 170px;
+      white-space: pre-wrap;
+      font-size: 14px;
+      color: #f2f7ff;
+      overflow-wrap: anywhere;
+    }
+
+    .section-title {
+      color: #dce9f8;
+      font-size: 15px;
+      font-weight: 900;
+      margin: 18px 0 8px;
+    }
+
+    .small-copy {
+      color: #c7d8ea;
+      margin: 0 0 8px;
+      font-size: 14px;
+    }
+
+    .pro-tip {
+      background: rgba(228, 189, 49, 0.08);
+      border: 1px solid rgba(228, 189, 49, 0.32);
+      border-radius: 12px;
+      padding: 12px 14px;
+      color: #f5e6a7;
+      font-size: 14px;
+    }
+
+    .action-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    .notice {
+      background: rgba(80, 211, 138, 0.08);
+      border: 1px solid rgba(80, 211, 138, 0.25);
+      border-radius: 14px;
+      padding: 14px;
+      color: #c8f3da;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .locked-card {
+      background: linear-gradient(180deg, rgba(228, 189, 49, 0.12), rgba(228, 189, 49, 0.03));
+      border: 1px solid rgba(228, 189, 49, 0.32);
+    }
+
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      margin: 12px 0 0;
+    }
+
+    .feature-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      padding: 9px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      color: #d4e2f2;
+      font-size: 14px;
+    }
+
+    .feature-list li:last-child { border-bottom: 0; }
+
+    .check { color: var(--green); font-weight: 900; }
+
+    details {
+      border: 1px solid var(--border-soft);
+      border-radius: 12px;
+      margin-bottom: 10px;
+      background: rgba(7, 21, 34, 0.5);
+      overflow: hidden;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 13px 14px;
+      color: #f0f6ff;
+      font-weight: 850;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    details[open] summary {
+      border-bottom: 1px solid var(--border-soft);
+      color: var(--gold);
+    }
+
+    .details-body {
+      padding: 14px;
+      color: #c9d9eb;
+      font-size: 14px;
+    }
+
+    .details-body ol,
+    .details-body ul { margin: 8px 0 0 20px; padding: 0; }
+    .details-body li { margin-bottom: 6px; }
+
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 24px;
+      transform: translateX(-50%) translateY(16px);
+      background: #06111d;
+      color: #fff;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 11px 16px;
+      box-shadow: 0 12px 30px var(--shadow);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.18s ease, transform 0.18s ease;
+      font-weight: 800;
+      font-size: 13px;
+      z-index: 1000;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .footer {
+      margin-top: 26px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 980px) {
+      .app-shell { grid-template-columns: 1fr; }
+      .sidebar {
+        position: relative;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid var(--border-soft);
+      }
+      .grid { grid-template-columns: 1fr; }
+      .topbar { flex-direction: column; }
+      .top-actions { justify-content: flex-start; }
+      .builder-row { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 620px) {
+      .main { padding: 16px; }
+      .builder-row { grid-template-columns: 1fr; }
+      .card-header { flex-direction: column; align-items: flex-start; }
+      .btn { width: 100%; }
+      .action-row { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">AI</div>
+        <div>
+          <div class="brand-title">Manager's AI<br />Command Center</div>
+          <div class="brand-subtitle">Free workflow demo</div>
+        </div>
+      </div>
+
+      <div class="side-label">Demo</div>
+      <a class="nav-item active" href="#workflow">▾ Performance Calibration Defense</a>
+      <a class="nav-item" href="#safety">🛡 Safety Reminder</a>
+      <a class="nav-item" href="#setup">⚙ Use With AI Tool</a>
+
+      <div class="side-label">Full Vault Preview</div>
+      <div class="nav-item locked">🔒 Prompt Builder</div>
+      <div class="nav-item locked">🔒 55 Manager Prompts</div>
+      <div class="nav-item locked">🔒 11 Workflows</div>
+      <div class="nav-item locked">🔒 AI Safety Checklist</div>
+      <div class="nav-item locked">🔒 AI Assistant Setup Guides</div>
+      <div class="nav-item locked">🔒 Google Sheet Fallback</div>
+      <div class="nav-item locked">🔒 Offline ZIP Version</div>
+    </aside>
+
+    <main class="main">
+      <div class="topbar">
+        <div>
+          <div class="eyebrow">Free Demo · One Premium Workflow</div>
+          <h1>Performance Calibration Defense</h1>
+          <p class="subtitle">Stress-test rating recommendations before calibration. Paste anonymized notes, copy the prompt, and run it in ChatGPT, Claude, Gemini, or Copilot.</p>
+        </div>
+        <div class="top-actions">
+          <a class="btn btn-primary" href="https://sumbasub.gumroad.com/l/promptvault" target="_blank" rel="noopener">Unlock all 55 prompts</a>
+          <button class="btn btn-secondary" type="button" onclick="scrollToSafety()">Read safety reminder</button>
+        </div>
+      </div>
+
+      <div class="grid">
+        <section class="card" id="workflow">
+          <div class="card-header">
+            <h2>▾ The Performance Calibration Defense</h2>
+            <span class="pill">Plain · XML · JSON</span>
+          </div>
+          <div class="card-body">
+            <div class="notice">
+              <strong>Use anonymized notes only.</strong> Replace names with [PERSON A], [PERSON B], remove confidential metrics, and follow your company’s AI policy before using any AI tool.
+            </div>
+
+            <div class="builder-row" aria-label="Prompt builder preview">
+              <div>
+                <label for="role">1. Your role</label>
+                <select id="role" onchange="renderPrompt()">
+                  <option>Engineering Manager</option>
+                  <option>Director of Operations</option>
+                  <option>HR Business Partner</option>
+                  <option>Product Leader</option>
+                  <option>Sales Manager</option>
+                </select>
+              </div>
+              <div>
+                <label for="task">2. Your task</label>
+                <select id="task" onchange="renderPrompt()">
+                  <option>Defend calibration ratings</option>
+                  <option>Stress-test review language</option>
+                  <option>Prepare manager talking points</option>
+                </select>
+              </div>
+              <div>
+                <label for="tone">3. The tone</label>
+                <select id="tone" onchange="renderPrompt()">
+                  <option>Evidence-based and not defensive</option>
+                  <option>Diplomatic but firm</option>
+                  <option>Crisp and executive</option>
+                </select>
+              </div>
+              <div>
+                <label for="output">4. Output format</label>
+                <select id="output" onchange="renderPrompt()">
+                  <option>Under 500-word calibration defense</option>
+                  <option>Decision matrix + defense script</option>
+                  <option>3 bullets + recommended action</option>
+                </select>
+              </div>
+            </div>
+
+            <label for="userContent">Your Content <span style="color: var(--muted); font-weight: 600;">(optional)</span></label>
+            <textarea id="userContent" oninput="renderPrompt()" placeholder="Paste your anonymized rating notes here. Example: [PERSON A] — proposed rating: Exceeds. Evidence: shipped migration two weeks early, mentored two junior engineers, stakeholder feedback strong. Concern: Q3 dashboard slipped 2 weeks."></textarea>
+
+            <div class="section-title">The Prompt</div>
+            <div class="format-row">
+              <span class="format-label">Format:</span>
+              <button id="plainBtn" class="format-btn active" type="button" onclick="setFormat('plain')">Plain</button>
+              <button id="xmlBtn" class="format-btn" type="button" onclick="setFormat('xml')">Convert to XML</button>
+              <button id="jsonBtn" class="format-btn" type="button" onclick="setFormat('json')">Convert to JSON</button>
+            </div>
+            <div id="promptBox" class="prompt-box" aria-live="polite"></div>
+
+            <div class="section-title">Pro Tip / Expected Output</div>
+            <div class="pro-tip">Lets you walk into calibration having already heard every objection. The counter-arguments may reveal a rating you should adjust before the meeting, not defend in it.</div>
+
+            <div class="section-title">Optional Context Request Draft</div>
+            <p id="handoffText" class="small-copy">Hi team, I’m preparing for calibration and want to make sure my ratings are evidence-based and fair. If you have additional context on recent impact, risks, peer feedback, or missed commitments that should be considered before finalizing the review, please send it to me directly before Friday.</p>
+
+            <div class="action-row">
+              <button class="btn btn-primary" type="button" onclick="copyPrompt()">Copy prompt</button>
+              <button class="btn btn-secondary" type="button" onclick="copyHandoff()">Copy context request</button>
+              <button class="btn btn-secondary" type="button" onclick="loadSample()">Load sample data</button>
+            </div>
+          </div>
+        </section>
+
+        <aside>
+          <section class="card locked-card">
+            <div class="card-header">
+              <h3>Unlock the Full Command Center</h3>
+            </div>
+            <div class="card-body">
+              <p class="small-copy">This free demo includes one premium workflow. The full Command Center unlocks the complete app, safety checklist, setup guides, and offline fallbacks.</p>
+              <ul class="feature-list">
+                <li><span class="check">✓</span><span>55 manager-grade prompts</span></li>
+                <li><span class="check">✓</span><span>11 workflows across HR, Engineering, Operations, Sales, Product, IT, and more</span></li>
+                <li><span class="check">✓</span><span>Prompt Builder for role, task, tone, and output format</span></li>
+                <li><span class="check">✓</span><span>Plain → XML → JSON prompt formats</span></li>
+                <li><span class="check">✓</span><span>Complete AI safety checklist</span></li>
+                <li><span class="check">✓</span><span>Setup guides for ChatGPT, Claude, Gemini, NotebookLM, and Copilot</span></li>
+                <li><span class="check">✓</span><span>Google Sheet fallback</span></li>
+                <li><span class="check">✓</span><span>Local offline ZIP version</span></li>
+              </ul>
+              <div class="action-row">
+                <a class="btn btn-primary" href="https://sumbasub.gumroad.com/l/promptvault" target="_blank" rel="noopener">Get full access for $9</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="card" style="margin-top: 18px;">
+            <div class="card-header"><h3>How to use this demo</h3></div>
+            <div class="card-body">
+              <ul class="feature-list">
+                <li><span class="check">1</span><span>Paste anonymized calibration notes.</span></li>
+                <li><span class="check">2</span><span>Choose Plain, XML, or JSON.</span></li>
+                <li><span class="check">3</span><span>Copy the prompt into your AI tool.</span></li>
+                <li><span class="check">4</span><span>Review, verify, and edit before using.</span></li>
+              </ul>
+            </div>
+          </section>
+        </aside>
+      </div>
+
+      <section class="card" id="safety" style="margin-top: 18px;">
+        <div class="card-header"><h2>🛡 AI Safety Reminder</h2><span class="pill">Short demo version</span></div>
+        <div class="card-body">
+          <p class="small-copy"><strong>Use anonymized notes only.</strong> Remove employee names, customer names, financial details, employee IDs, proprietary project names, internal metrics, and confidential company information before using any AI tool.</p>
+          <p class="small-copy">This free demo includes the minimum safety reminder needed to test the workflow. The full Command Center includes the complete AI safety checklist and step-by-step usage guidance.</p>
+        </div>
+      </section>
+
+      <section class="card" id="setup" style="margin-top: 18px;">
+        <div class="card-header"><h2>⚙ Use With Your AI Tool</h2><span class="pill">Simple demo instruction</span></div>
+        <div class="card-body">
+          <p class="small-copy">Copy the prompt and paste it into ChatGPT, Claude, Gemini, or Copilot. Review the response, verify every fact, and edit before using it in any performance or calibration process.</p>
+          <p class="small-copy">The full Command Center includes platform-specific setup guides for turning the vault into a reusable assistant.</p>
+          <div class="action-row">
+            <a class="btn btn-primary" href="https://sumbasub.gumroad.com/l/promptvault" target="_blank" rel="noopener">Unlock full setup guides</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer">
+        <a href="/" style="color:inherit">Smart Scale Systems</a> ·
+        <a href="/free-prompts/" style="color:inherit">Free Prompts</a> ·
+        <a href="/blueprint/" style="color:inherit">Blueprint Engine</a> ·
+        <a href="/privacy.html" style="color:inherit">Privacy &amp; Disclosure</a><br>
+        Free demo page · No installation. No coding required.
+      </div>
+    </main>
+  </div>
+
+  <div id="toast" class="toast">Copied</div>
+
+  <script>
+    let currentFormat = 'plain';
+
+    const basePrompt = () => {
+      const role = document.getElementById('role').value;
+      const tone = document.getElementById('tone').value;
+      const output = document.getElementById('output').value;
+      const userContent = document.getElementById('userContent').value.trim() || '[PASTE: each direct report\'s name, current rating recommendation, and 2–3 sentence justification. Also paste the company rating distribution guidance, if available.]';
+
+      return `Act as a senior HR business partner advising a ${role}. I am walking into a calibration meeting in 24 hours to defend my rating recommendations for my team. I need you to stress-test my case against the toughest reasonable pushback.\n\nHere are my ratings and reasoning:\n${userContent}\n\nRun THREE passes:\n\nPASS 1 — Distribution check: Does my proposed distribution match the guidance? Where am I over or under? Name specific employees who are at risk of being moved by the calibration committee.\n\nPASS 2 — Justification stress test: For each proposed “Exceeds” rating, give me the strongest counter-argument a skeptical peer manager could make. For each proposed “Below” rating, give me the strongest argument why it should be “Meets.”\n\nPASS 3 — Defense script: For my top 2 most-likely-to-be-challenged ratings, write the 3-sentence defense I should give in the calibration meeting when challenged.\n\nTone: ${tone}.\nOutput format: ${output}.\nConstraints: Specific. Evidence-based. Not defensive in tone. Do not invent facts. If evidence is missing, call that out before writing the defense.`;
+    };
+
+    function toXml(prompt) {
+      const escape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      const role = document.getElementById('role').value;
+      const tone = document.getElementById('tone').value;
+      const output = document.getElementById('output').value;
+      const userContent = document.getElementById('userContent').value.trim() || '[PASTE: each direct report\'s name, current rating recommendation, and 2–3 sentence justification. Also paste the company rating distribution guidance, if available.]';
+      return `<calibration_defense_prompt>\n  <role>Senior HR business partner advising a ${escape(role)}</role>\n  <context>I am walking into a calibration meeting in 24 hours to defend rating recommendations for my team.</context>\n  <input>${escape(userContent)}</input>\n  <tasks>\n    <pass number="1" name="Distribution check">Check whether the proposed distribution matches guidance. Identify over/under allocation and employees at risk of movement.</pass>\n    <pass number="2" name="Justification stress test">For each Exceeds rating, provide the strongest skeptical counter-argument. For each Below rating, provide the strongest argument why it should be Meets.</pass>\n    <pass number="3" name="Defense script">Write a 3-sentence defense for the top 2 ratings most likely to be challenged.</pass>\n  </tasks>\n  <tone>${escape(tone)}</tone>\n  <output_format>${escape(output)}</output_format>\n  <constraints>Specific. Evidence-based. Not defensive. Do not invent facts. Call out missing evidence before writing the defense.</constraints>\n</calibration_defense_prompt>`;
+    }
+
+    function toJson() {
+      const role = document.getElementById('role').value;
+      const tone = document.getElementById('tone').value;
+      const output = document.getElementById('output').value;
+      const userContent = document.getElementById('userContent').value.trim() || '[PASTE: each direct report\'s name, current rating recommendation, and 2–3 sentence justification. Also paste the company rating distribution guidance, if available.]';
+      return JSON.stringify({
+        role: `Senior HR business partner advising a ${role}`,
+        context: 'I am walking into a calibration meeting in 24 hours to defend rating recommendations for my team.',
+        input: userContent,
+        tasks: [
+          {
+            pass: 1,
+            name: 'Distribution check',
+            instruction: 'Check whether the proposed distribution matches guidance. Identify over/under allocation and employees at risk of movement.'
+          },
+          {
+            pass: 2,
+            name: 'Justification stress test',
+            instruction: 'For each Exceeds rating, provide the strongest skeptical counter-argument. For each Below rating, provide the strongest argument why it should be Meets.'
+          },
+          {
+            pass: 3,
+            name: 'Defense script',
+            instruction: 'Write a 3-sentence defense for the top 2 ratings most likely to be challenged.'
+          }
+        ],
+        tone,
+        outputFormat: output,
+        constraints: [
+          'Specific',
+          'Evidence-based',
+          'Not defensive in tone',
+          'Do not invent facts',
+          'Call out missing evidence before writing the defense'
+        ]
+      }, null, 2);
+    }
+
+    function renderPrompt() {
+      const box = document.getElementById('promptBox');
+      if (currentFormat === 'xml') box.textContent = toXml(basePrompt());
+      else if (currentFormat === 'json') box.textContent = toJson();
+      else box.textContent = basePrompt();
+    }
+
+    function setFormat(format) {
+      currentFormat = format;
+      ['plain', 'xml', 'json'].forEach((f) => {
+        document.getElementById(`${f}Btn`).classList.toggle('active', f === format);
+      });
+      renderPrompt();
+    }
+
+    async function copyText(text) {
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (e) {
+        const temp = document.createElement('textarea');
+        temp.value = text;
+        document.body.appendChild(temp);
+        temp.select();
+        document.execCommand('copy');
+        document.body.removeChild(temp);
+      }
+      showToast('Copied');
+    }
+
+    function copyPrompt() {
+      copyText(document.getElementById('promptBox').textContent);
+    }
+
+    function copyHandoff() {
+      copyText(document.getElementById('handoffText').textContent);
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.classList.add('show');
+      window.clearTimeout(window.__toastTimer);
+      window.__toastTimer = window.setTimeout(() => toast.classList.remove('show'), 1600);
+    }
+
+    function loadSample() {
+      document.getElementById('userContent').value = `[PERSON A] — Proposed: Exceeds. Evidence: led migration two weeks early, reduced incident volume by 18%, mentored two engineers. Concern: sometimes dominates technical design reviews.\n\n[PERSON B] — Proposed: Meets. Evidence: delivered committed sprint work, strong production support, good peer feedback. Concern: limited cross-team impact.\n\n[PERSON C] — Proposed: Below. Evidence: missed two committed deadlines, required repeated follow-up on documentation, stakeholder feedback mentions slow response time. Positive: improved code quality in last month.\n\nGuidance: 20% Exceeds, 70% Meets, 10% Below.`;
+      renderPrompt();
+      showToast('Sample loaded');
+    }
+
+    function scrollToSafety() {
+      document.getElementById('safety').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    renderPrompt();
+  </script>
+</body>
+</html>

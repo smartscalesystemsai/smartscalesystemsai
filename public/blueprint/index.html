@@ -48,6 +48,28 @@
   .explain li{margin-bottom:7px}
 
   section.engine{padding:22px 0 10px}
+
+  /* These rules previously lived in the homepage's inline <style>. widget.css does
+     NOT style the choice buttons, so without them the grid renders as unstyled
+     browser default buttons. Keep them with the markup. */
+  .ss-widget-container{border:1px solid var(--line);border-radius:14px;padding:26px;background:rgba(255,255,255,.02)}
+  .ss-header h2{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:1.5rem;margin:0 0 6px}
+  .ss-header p{margin:0;color:var(--soft)}
+  .choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}
+  .blueprint-choice{border:1px solid var(--line);border-radius:10px;padding:18px;background:rgba(255,255,255,.03);
+    color:var(--ink);text-align:left;cursor:pointer;min-height:112px;font:inherit;transition:border-color .12s ease,background .12s ease}
+  .blueprint-choice:hover,.blueprint-choice:focus-visible{border-color:rgba(87,230,176,.55);background:rgba(87,230,176,.09)}
+  .blueprint-choice strong{display:block;font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:1.08rem;line-height:1.25}
+  .blueprint-choice span{display:block;color:var(--soft);margin-top:9px;font-size:.94rem;line-height:1.45}
+  .result-preview{border:1px solid rgba(87,230,176,.28);border-radius:10px;padding:18px;margin-bottom:18px;background:rgba(87,230,176,.07)}
+  .result-preview strong{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:1.12rem}
+  .result-preview p{margin:6px 0 0;color:var(--soft)}
+  .ss-input-group label{display:block;margin-bottom:8px;color:var(--soft);font-size:.94rem}
+  .ss-select{width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--line);
+    background:var(--panel);color:var(--ink);font:inherit}
+  .ss-hidden{display:none}
+  @media(max-width:640px){ .choice-grid{grid-template-columns:1fr} .ss-widget-container{padding:18px} }
+
   footer{border-top:1px solid var(--line);margin-top:36px;padding:24px 0 40px;text-align:center;color:var(--muted);font-size:.9rem}
 </style>
 </head>
@@ -75,26 +97,24 @@
 
 <main>
   <div class="wrap explain">
-    <p>Most "AI tool lists" hand you fifty options and no order to try them in. That isn't a plan, it's a shopping catalogue. The problem is rarely that a tool doesn't exist — it's knowing which single bottleneck to attack first, and what the minimum stack for it actually looks like.</p>
+    <p>Most AI tool lists hand you fifty options and no order to try them in. That's a catalogue, not a plan. The hard part was never finding a tool — it's working out which bottleneck to fix first, and how small the stack can be and still work.</p>
+    <p>This engine answers that in one click. Pick the goal closest to your situation and you get a specific starting point instead of a shortlist.</p>
 
     <h2>What you get back</h2>
     <ul>
       <li><strong>The bottleneck</strong> — named plainly, so you know what you're actually solving.</li>
-      <li><strong>A free stack</strong> — what to try before spending anything.</li>
-      <li><strong>A paid stack</strong> — the upgrades that genuinely earn their subscription.</li>
-      <li><strong>A time-saving estimate</strong> — roughly what the change buys you back each week.</li>
+      <li><strong>A free stack</strong> — what to try before you spend anything.</li>
+      <li><strong>A paid stack</strong> — the few upgrades that earn their subscription.</li>
+      <li><strong>Hours saved</strong> — a realistic estimate of what the change gives you back each week.</li>
     </ul>
-
-    <h2>How to use it</h2>
-    <p>Choose the goal closest to your situation below, or use the dropdown for the full list. You'll see the preview immediately — no email required to look.</p>
   </div>
 
   <section class="engine" id="smart-scale-widget">
     <div class="wrap">
       <div class="ss-widget-container">
         <div class="ss-header">
-          <h2>The AI Blueprint Engine</h2>
-          <p>Choose the closest goal below, or use the dropdown if you prefer.</p>
+          <h2>Which of these sounds most like your week?</h2>
+          <p>Pick the closest one. You can change it as often as you like.</p>
         </div>
         <div class="choice-grid" aria-label="Quick blueprint choices">
           <button class="blueprint-choice" type="button" data-blueprint-choice="faceless">
@@ -115,8 +135,8 @@
           </button>
         </div>
         <div class="result-preview">
-          <strong>Example result before the next ask</strong>
-          <p>If you pick faceless videos, the engine shows the bottleneck, free stack, paid stack, and time-saving estimate before asking you to request the full PDF blueprint.</p>
+          <strong>You'll see the answer straight away</strong>
+          <p>Choose a goal and the full breakdown appears below — no email, no signup, nothing to dismiss first.</p>
         </div>
         <div class="ss-input-section" id="ss-step-1">
           <div class="ss-input-group">
