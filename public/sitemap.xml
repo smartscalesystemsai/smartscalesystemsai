@@ -41,23 +41,128 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://smartscalesystemsai.com/about.html</loc>
+    <loc>https://smartscalesystemsai.com/guides/what-makes-a-quiz-question-hard/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smartscalesystemsai.com/contact.html</loc>
+    <loc>https://smartscalesystemsai.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://smartscalesystemsai.com/privacy.html</loc>
+    <loc>https://smartscalesystemsai.com/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://smartscalesystemsai.com/terms.html</loc>
+    <loc>https://smartscalesystemsai.com/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/ai-tech-puzzles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/animal-facts/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/animal-who-am-i/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/deceptive-math/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/faang-interview-riddles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/genius-logic-puzzles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/guess-animal-bizarre-traits/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/lateral-thinking-traps/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/mandela-effect/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/math-tricks/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/optical-illusions/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/psychology-body-language/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/rapid-fire-trick-questions/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/sea-mysteries/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/survival-scenarios/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/true-crime-mysteries/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/viral-tiktok-riddles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/visual-riddles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartscalesystemsai.com/quizzes/wow-riddles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

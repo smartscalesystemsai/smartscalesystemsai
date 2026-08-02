@@ -211,9 +211,9 @@
     {
       "id": "genius-logic-puzzles-premium-08",
       "concept": "Boxes",
-      "question": "One of twelve coins is fake and may be heavier or lighter. What tool solves it?",
-      "answer": "A balance scale",
-      "explanation": "Careful comparisons isolate the odd coin.",
+      "question": "Twelve coins, one fake that may be heavy or light. What is the fewest balance weighings that always finds it?",
+      "answer": "Three",
+      "explanation": "Three weighings distinguish 27 outcomes, enough to cover 24 possible coin-and-direction cases.",
       "hint": "Look for the boxes clue.",
       "difficulty": "hard",
       "visual": "diagram_compare",
@@ -223,10 +223,10 @@
         "LOGIC"
       ],
       "choices": [
-        "A spring scale",
-        "A balance scale",
-        "A stopwatch",
-        "A measuring cup"
+        "Two",
+        "Three",
+        "Four",
+        "Six"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
@@ -234,7 +234,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-01"
       }
     },
     {
@@ -357,8 +357,8 @@
       "id": "genius-logic-puzzles-premium-13",
       "concept": "Weights",
       "question": "You need exactly 4 liters using 3 and 5 liter jugs. What do you do?",
-      "answer": "Fill 5, transfer 2 into 3, refill 5, then top off 3",
-      "explanation": "After leaving 2 liters and moving it into the 3-liter jug, refilling the 5-liter jug and adding 1 leaves exactly 4.",
+      "answer": "Fill 5, pour into 3, empty 3, move the 2 across, refill 5, top up 3",
+      "explanation": "Emptying the 3-litre jug first leaves room for the 2 litres, so topping it up later draws exactly 1 from the full 5.",
       "hint": "Look for the weights clue.",
       "difficulty": "viral",
       "visual": "impact_text",
@@ -368,10 +368,10 @@
         "LOGIC"
       ],
       "choices": [
-        "Fill 3 twice and discard the extra",
-        "Fill 5, transfer 2 into 3, refill 5, then top off 3",
-        "Fill 5 and estimate one liter",
-        "Fill both jugs halfway"
+        "Fill 3 twice and pour both into 5",
+        "Fill 5, pour into 3, empty 3, move the 2 across, refill 5, top up 3",
+        "Fill 5 and pour out half by eye",
+        "Fill 3, pour into 5, then fill 3 again"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
@@ -379,7 +379,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-01"
       }
     },
     {

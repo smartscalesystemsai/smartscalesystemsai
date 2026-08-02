@@ -414,30 +414,30 @@
     {
       "id": "ai-tech-puzzles-premium-15",
       "concept": "Password",
-      "question": "What protects an account better than a password alone?",
-      "answer": "Multi-factor authentication",
-      "explanation": "A second factor helps even if the password leaks.",
+      "question": "A disease affects 1 in 1000. A model predicts nobody has it and scores 99.9% accurate. Why is it useless?",
+      "answer": "Class imbalance",
+      "explanation": "With rare positives, always guessing 'no' scores well while catching none of the real cases.",
       "hint": "Look for the password clue.",
       "difficulty": "easy",
-      "visual": "chaotic_data",
+      "visual": "impact_text",
       "beats": [
         "PASSWORD",
         "MULTI-FACTOR AUTHENTICATION",
         "TECH"
       ],
       "choices": [
-        "Multi-factor authentication",
-        "A longer username",
-        "A password hint",
-        "A public profile"
+        "Overfitting",
+        "Class imbalance",
+        "A context limit",
+        "Poor latency"
       ],
-      "answerIndex": 0,
-      "engagementQuestion": "Did you get it before the reveal?",
+      "answerIndex": 1,
+      "engagementQuestion": "Did you identify the AI concept before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-01"
       }
     },
     {
@@ -675,12 +675,12 @@
     {
       "id": "ai-tech-puzzles-premium-24",
       "concept": "Context limits",
-      "question": "A chatbot forgets early instructions after a huge conversation. Which limit was exceeded?",
-      "answer": "Context window",
-      "explanation": "The context window limits how much input the model can consider at one time.",
+      "question": "Your model's accuracy falls month after month, but nobody changed the code or the model. What is happening?",
+      "answer": "Model drift",
+      "explanation": "The world moved: live data no longer resembles the data the model was trained on.",
       "hint": "Look for the context limits clue.",
       "difficulty": "viral",
-      "visual": "action_cards",
+      "visual": "diagram_flow",
       "beats": [
         "CONTEXT LIMITS",
         "CONTEXT WINDOW",
@@ -688,17 +688,17 @@
       ],
       "engagementQuestion": "Did you identify the AI concept before the reveal?",
       "choices": [
-        "Context window",
-        "Refresh rate",
-        "Disk quota",
-        "Screen buffer"
+        "A memory leak",
+        "Model drift",
+        "Overfitting",
+        "Latency"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-01"
       }
     },
     {
@@ -791,9 +791,9 @@
     {
       "id": "ai-tech-puzzles-premium-28",
       "concept": "Sampling temperature",
-      "question": "The same prompt suddenly produces wilder answers. Which randomness control probably increased?",
-      "answer": "Temperature",
-      "explanation": "Higher temperature generally makes token selection more varied and less predictable.",
+      "question": "You fine-tune a model on a new task and it suddenly fails at a task it used to do well. What happened?",
+      "answer": "Catastrophic forgetting",
+      "explanation": "Training hard on new data can overwrite the weights that encoded the earlier skill.",
       "hint": "Look for the sampling temperature clue.",
       "difficulty": "viral",
       "visual": "chaotic_data",
@@ -804,17 +804,17 @@
       ],
       "engagementQuestion": "Did you identify the AI concept before the reveal?",
       "choices": [
-        "Temperature",
-        "Context length",
-        "Batch size",
-        "File size"
+        "Overfitting",
+        "Context window",
+        "Rate limiting",
+        "Catastrophic forgetting"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-01"
       }
     },
     {
@@ -1168,12 +1168,12 @@
     {
       "id": "ai-tech-puzzles-premium-41",
       "concept": "Hallucination",
-      "question": "A model states a false fact with total confidence. What failure occurred?",
-      "answer": "Hallucination",
-      "explanation": "A hallucination is fluent model output that is unsupported or false.",
+      "question": "A model scores 99% in testing and fails immediately in production. A column secretly contained the answer. What went wrong?",
+      "answer": "Target leakage",
+      "explanation": "A feature carried information unavailable at prediction time, so the test score measured nothing real.",
       "hint": "Look for the hallucination clue.",
       "difficulty": "easy",
-      "visual": "ai_terminal",
+      "visual": "diagram_compare",
       "beats": [
         "HALLUCINATION",
         "HALLUCINATION",
@@ -1181,17 +1181,17 @@
       ],
       "engagementQuestion": "Did you identify the AI concept before the reveal?",
       "choices": [
-        "Quantization",
-        "Caching",
-        "Tokenization",
-        "Hallucination"
+        "Underfitting",
+        "Data poisoning",
+        "Target leakage",
+        "Quantization"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-01"
       }
     },
     {
@@ -1748,12 +1748,12 @@
     {
       "id": "ai-tech-puzzles-premium-61",
       "concept": "Prompt injection",
-      "question": "A user message says to ignore policy and expose secrets. What attack is this?",
-      "answer": "Prompt injection",
-      "explanation": "Prompt injection places malicious instructions in model-visible input to manipulate behavior.",
+      "question": "A fraud detector flags 100 accounts and only 3 are truly fraudulent. Which metric is poor?",
+      "answer": "Precision",
+      "explanation": "Precision asks how many flagged cases were correct; here 97 of 100 alerts were false alarms.",
       "hint": "Look for the prompt injection clue.",
       "difficulty": "easy",
-      "visual": "ai_terminal",
+      "visual": "diagram_checklist",
       "beats": [
         "PROMPT INJECTION",
         "PROMPT INJECTION",
@@ -1761,17 +1761,17 @@
       ],
       "engagementQuestion": "Did you identify the AI concept before the reveal?",
       "choices": [
-        "Model compression",
-        "Prompt injection",
-        "Data backup",
-        "Network caching"
+        "Recall",
+        "Latency",
+        "Throughput",
+        "Precision"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-01"
       }
     },
     {

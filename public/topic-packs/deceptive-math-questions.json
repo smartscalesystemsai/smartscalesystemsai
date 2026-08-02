@@ -184,7 +184,7 @@
       "concept": "Percent",
       "question": "A bat and ball cost $1.10. The bat costs $1 more. How much is the ball?",
       "answer": "5 cents",
-      "explanation": "If the ball is 5 cents, the bat is $1.05, totaling $1.10.",
+      "explanation": "The tempting 10 cents makes the bat $1.10 and the total $1.20; only 5 cents leaves a gap of exactly $1.",
       "hint": "Look for the percent clue.",
       "difficulty": "medium",
       "visual": "diagram_flow",
@@ -205,7 +205,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-01"
       }
     },
     {
@@ -445,7 +445,7 @@
       "concept": "Percent",
       "question": "A lily patch doubles daily and fills a lake on day 48. When was it half full?",
       "answer": "Day 47",
-      "explanation": "If the patch doubles each day, it was half full one day earlier.",
+      "explanation": "Halving day 48 tempts you to say day 24, but doubling means the lake was half covered the day before.",
       "hint": "Look for the percent clue.",
       "difficulty": "medium",
       "visual": "impact_text",
@@ -466,7 +466,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-01"
       }
     }
   ],
