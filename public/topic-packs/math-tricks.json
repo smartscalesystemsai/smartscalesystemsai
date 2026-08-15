@@ -385,9 +385,9 @@
     {
       "id": "math-tricks-premium-14",
       "concept": "Odd/even",
-      "question": "What is 50% of 2 plus 2?",
-      "answer": "3",
-      "explanation": "50% of 2 is 1, then add 2.",
+      "question": "What is 1000 divided by 8, using halving instead of long division?",
+      "answer": "125",
+      "explanation": "Halve three times: 1000 to 500 to 250 to 125, because dividing by 8 is halving three times.",
       "hint": "Look for the odd/even clue.",
       "difficulty": "easy",
       "visual": "diagram_flow",
@@ -397,18 +397,18 @@
         "MATH"
       ],
       "choices": [
-        "2",
-        "3",
-        "4",
-        "6"
+        "125",
+        "112",
+        "150",
+        "80"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {

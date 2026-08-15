@@ -124,9 +124,9 @@
     {
       "id": "faang-interview-riddles-premium-05",
       "concept": "Premium hook",
-      "question": "Your system accepts payments twice during retries. What guarantee do you need?",
-      "answer": "Idempotency",
-      "explanation": "Idempotent operations prevent duplicate side effects.",
+      "question": "A queue grows faster than consumers can drain it. What technique tells producers to slow down?",
+      "answer": "Backpressure",
+      "explanation": "Backpressure signals upstream to reduce its rate so the system degrades gracefully instead of collapsing.",
       "hint": "Read the wording carefully.",
       "difficulty": "hard",
       "visual": "diagram_checklist",
@@ -136,10 +136,10 @@
         "ANSWER AFTER TIMER"
       ],
       "choices": [
-        "Compression",
-        "Idempotency",
-        "Eventual rendering",
-        "Round-robin DNS"
+        "Sharding",
+        "Backpressure",
+        "Caching",
+        "Compression"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
@@ -147,7 +147,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
