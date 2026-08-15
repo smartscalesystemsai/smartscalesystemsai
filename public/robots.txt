@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
 
+# Data and model files, not content. The 391 quiz questions are published as
+# readable pages under /quizzes/ ; the raw JSON below is the same material and
+# would otherwise be crawlable as a duplicate of those pages.
+Disallow: /topic-packs/
+
+# Voice model chunks for the quiz app's offline voiceover (2400+ files).
+# Nothing here is content and crawling it wastes crawl budget.
+Disallow: /bundled-voices/
+
 Sitemap: https://smartscalesystemsai.com/sitemap.xml
