@@ -155,7 +155,7 @@
       "concept": "Color",
       "question": "You stare at a red shape for a minute, look at white paper, and see a cyan ghost. Why?",
       "answer": "Afterimage",
-      "explanation": "Colour receptors tire and the opposing channel briefly dominates once the stimulus is removed.",
+      "explanation": "Color receptors tire and the opposing channel briefly dominates once the stimulus is removed.",
       "hint": "Look for the color clue.",
       "difficulty": "easy",
       "visual": "impact_text",
@@ -225,7 +225,7 @@
       "choices": [
         "The circles differ in size",
         "Surrounding size sets the comparison",
-        "The colours differ",
+        "The colors differ",
         "One is closer"
       ],
       "answerIndex": 1,
