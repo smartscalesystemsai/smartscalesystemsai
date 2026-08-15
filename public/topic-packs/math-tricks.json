@@ -182,9 +182,9 @@
     {
       "id": "math-tricks-premium-07",
       "concept": "Calendar math",
-      "question": "What is 25% of 80, and why does the reverse trick work?",
-      "answer": "20",
-      "explanation": "25% of 80 equals 80% of 25, which is easier: 20.",
+      "question": "What is 16 x 25, using doubling and halving?",
+      "answer": "400",
+      "explanation": "Halve one side and double the other twice: 16x25 becomes 8x50, then 4x100, which is 400.",
       "hint": "Look for the calendar math clue.",
       "difficulty": "medium",
       "visual": "diagram_flow",
@@ -194,18 +194,18 @@
         "MATH"
       ],
       "choices": [
-        "15",
-        "25",
-        "40",
-        "20"
+        "350",
+        "400",
+        "425",
+        "450"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
