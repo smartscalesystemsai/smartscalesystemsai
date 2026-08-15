@@ -7,22 +7,46 @@ review, since a reviewer can land on the workers.dev copy instead of the real si
 **Redirect, do not delete.** The Kindle book prints the old prompts URL, so the
 old address has to keep working — it just needs to send people to the new home.
 
-| Legacy URL | Should redirect to |
+| Legacy URL | Redirects to |
 |---|---|
 | `ai-for-managers.smart-scale-ai.workers.dev` | `https://smartscalesystemsai.com/free-prompts/` |
 | `performance-review-demo.smart-scale-ai.workers.dev` | `https://smartscalesystemsai.com/performance-review/` |
 
-## Steps (per worker)
+## Why wrangler and not the dashboard
 
-1. Go to **dash.cloudflare.com** → **Workers & Pages**
-2. Click the worker (`ai-for-managers`, then `performance-review-demo`)
-3. Click **Edit code** (or **Quick edit**)
-4. Delete everything in the editor and paste the matching file from this folder:
-   - `ai-for-managers.js`
-   - `performance-review-demo.js`
-5. Click **Deploy**
-6. Verify: open the old URL in a private window. It should land on the new page,
-   and the address bar should show smartscalesystemsai.com.
+Both Workers show "Automatic deployment on upload" in the Cloudflare dashboard,
+which means they were pushed with wrangler. Cloudflare disables the in-browser
+code editor for those, so there is no "Edit code" button — they have to be
+replaced the same way they were created.
+
+## Deploy
+
+Run each from Terminal. The first run will ask you to log in to Cloudflare in a
+browser; that is expected.
+
+```
+cd ~/Documents/SmartScaleAI-Video/smartscalesystemsai-site/redirect-workers/ai-for-managers
+npx wrangler deploy
+```
+
+```
+cd ~/Documents/SmartScaleAI-Video/smartscalesystemsai-site/redirect-workers/performance-review-demo
+npx wrangler deploy
+```
+
+The `name` in each `wrangler.jsonc` matches the existing Worker exactly, so this
+**replaces** that Worker rather than creating a new one. That is the intent.
+
+## If you need to undo it
+
+The old version is not lost. In the dashboard, open the Worker → **Deployments**
+tab → find the previous deployment → **Rollback**. Worth knowing before you run
+this, not after.
+
+## Verify
+
+Open each old URL in a private window. You should land on the new page, with
+smartscalesystemsai.com in the address bar.
 
 ## Why 301 and not 302
 
@@ -32,8 +56,12 @@ indexed, which leaves the duplicate-content problem in place.
 
 ## Note on paths
 
-Both workers preserve the path and query string. Someone hitting
-`ai-for-managers.smart-scale-ai.workers.dev/anything?x=1` lands on
-`smartscalesystemsai.com/free-prompts/?x=1` rather than a 404. If you would rather
-send every request to the bare destination regardless of path, delete the
-`url.pathname` and `url.search` lines and hard-code the target.
+Both Workers preserve the query string, so tracked links keep their parameters.
+Any path on the old host lands on the destination page rather than a 404.
+
+## Not touched: manager-command-center
+
+`manager-command-center.smart-scale-ai.workers.dev` is also live but is left
+alone — it appears to be the full paid app that buyers access, and redirecting it
+would break their access. Worth checking separately whether it duplicates
+anything on the main site.

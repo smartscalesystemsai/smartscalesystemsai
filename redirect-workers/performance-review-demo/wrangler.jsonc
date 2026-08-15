@@ -1,0 +1,14 @@
+{
+  // Name must match the existing Worker exactly, so deploying replaces it
+  // rather than creating a second one.
+  "name": "performance-review-demo",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-14",
+  "workers_dev": true,
+
+  // Off deliberately. Preview URLs give each version its own address
+  // (<version>-performance-review-demo.smart-scale-ai.workers.dev). Since the
+  // whole point of this Worker is to stop old duplicate content being
+  // reachable, leaving per-version URLs open would undercut it.
+  "preview_urls": false
+}

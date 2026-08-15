@@ -187,6 +187,29 @@
     <button class="copy" type="button">Copy prompt</button>
   </article>
 
+  <article style="max-width:760px;margin:44px auto 0;padding:0 4px;line-height:1.75;">
+    <h2>Why most manager prompts return useless answers</h2>
+    <p>Paste "help me write a performance review" into any AI tool and you get back something that reads like a HR template wrote it — technically fine, completely generic, and unusable without a rewrite that takes longer than starting from scratch.</p>
+    <p>The failure is almost never the model. It is that the request contains no information. The tool has no idea who the person is, what they did, what your company values, what you are trying to achieve with the conversation, or what a good answer would even look like. Faced with nothing, it produces the statistical average of every review ever written.</p>
+
+    <h2>The four things every good prompt supplies</h2>
+    <p>The prompts above are all built the same way, and it is a structure you can apply to anything:</p>
+    <ul>
+      <li><strong>A role.</strong> "Act as a seasoned executive coach" is not decoration. It narrows the enormous space of possible answers to the ones a specific kind of expert would give, and it changes vocabulary, priorities and what the model chooses to omit.</li>
+      <li><strong>Real context.</strong> The single biggest lever. Last week's notes, the actual Slack thread, the real numbers. Every detail you withhold gets replaced by an average. This is also where most people stop too early — if the output feels generic, you almost certainly under-supplied here.</li>
+      <li><strong>A specific ask.</strong> "Give me exactly three things, no preamble" beats "help me prepare" because it removes the model's freedom to hedge, pad, and restate your question back at you.</li>
+      <li><strong>A named output format.</strong> Under 200 words. A decision matrix. Three bullets and a recommended action. Without this you get essays when you wanted a list.</li>
+    </ul>
+
+    <h2>Build an escape hatch into the prompt</h2>
+    <p>The instruction most people never include is the one telling the model what to do when it does not have enough to go on. Left to itself, it will invent something plausible rather than admit the gap.</p>
+    <p>Notice that several prompts above end with a variation of "if the context is too thin to be specific, tell me the single thing to check first," or "if an assumption is missing, put it in a 'math needed' section instead of inventing a number." That one clause is the difference between a confident fabrication and a useful answer. It costs nothing to add and it is the habit worth taking away from this page even if you never use these five again.</p>
+
+    <h2>Before you paste anything at work</h2>
+    <p>Employee names, customer names, compensation, employee IDs, internal metrics and unreleased plans should not go into a third-party AI tool without checking your organisation's policy first. Substituting [PERSON A] and [PERSON B] costs you nothing in output quality — the model does not need real names to reason about a situation.</p>
+    <p>And treat the output as a draft written by a fast, well-read colleague who was not in the room. Verify anything factual before it reaches another person, particularly in reviews and feedback, where being confidently wrong about someone's record does real damage. Our full position on this is on the <a href="/terms">terms page</a>.</p>
+  </article>
+
   <section class="cta">
     <h2>Want all 60?</h2>
     <p>Reviews, hard conversations, decisions, managing up, hiring, delegation — plus the Four-Part Brief framework to build your own.</p>
@@ -199,6 +222,7 @@
   <div class="wrap">
     Smart Scale Systems · Stop grinding. Start scaling.<br>
     <a href="/">All tools</a> ·
+    <a href="/quizzes/">Question library</a> ·
     <a href="/about">About</a> ·
     <a href="/contact">Contact</a> ·
     <a href="/privacy">Privacy &amp; Disclosure</a> ·
