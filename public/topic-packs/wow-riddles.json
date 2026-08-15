@@ -66,9 +66,9 @@
     {
       "id": "wow-riddles-premium-03",
       "concept": "Premium hook",
-      "question": "Which gemstone is shaped by careful cutting but loses value if badly fractured?",
-      "answer": "A diamond",
-      "explanation": "Diamonds are deliberately cut for brilliance, while unintended fractures generally reduce their value.",
+      "question": "A man leaves home, turns left three times, and returns to find two masked men waiting. Who are they?",
+      "answer": "A catcher and an umpire",
+      "explanation": "The three left turns are the bases; home is home plate, so the masked men are behind it.",
       "hint": "Read the wording carefully.",
       "difficulty": "hard",
       "visual": "diagram_checklist",
@@ -78,10 +78,10 @@
         "ANSWER AFTER TIMER"
       ],
       "choices": [
-        "A pearl",
-        "A diamond",
-        "A glass bead",
-        "A coin"
+        "Burglars",
+        "A catcher and an umpire",
+        "Police officers",
+        "His neighbours"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
@@ -89,7 +89,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
@@ -136,7 +136,7 @@
         "ANSWER AFTER TIMER"
       ],
       "choices": [
-        "A globe",
+        "A travel brochure",
         "A photograph",
         "A road sign",
         "A map"
@@ -147,7 +147,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
@@ -211,9 +211,9 @@
     {
       "id": "wow-riddles-premium-08",
       "concept": "Map",
-      "question": "I show every road, but I never travel. What am I?",
-      "answer": "A map",
-      "explanation": "A map contains routes, but it stays still.",
+      "question": "The more of them you take, the more you leave behind. What are they?",
+      "answer": "Footsteps",
+      "explanation": "Taking a step uses one up and creates another mark, so taking more leaves more.",
       "hint": "Look for the map clue.",
       "difficulty": "hard",
       "visual": "diagram_compare",
@@ -223,18 +223,18 @@
         "RIDDLE"
       ],
       "choices": [
-        "A car",
-        "A compass",
-        "A map",
-        "A suitcase"
+        "Footsteps",
+        "Photographs",
+        "Breaths",
+        "Coins"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {

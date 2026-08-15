@@ -37,9 +37,9 @@
     {
       "id": "rapid-fire-trick-questions-premium-02",
       "concept": "Premium hook",
-      "question": "In the classic trick question, what transparent material is the greenhouse made from?",
+      "question": "A greenhouse is green in name only. What is it actually made of?",
       "answer": "Glass",
-      "explanation": "The word greenhouse describes its purpose, not a green building material; the classic answer is glass.",
+      "explanation": "Green describes what it grows, not its material; the classic answer is glass.",
       "hint": "Read the wording carefully.",
       "difficulty": "viral",
       "visual": "action_cards",
@@ -60,7 +60,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
@@ -97,7 +97,7 @@
       "concept": "Premium hook",
       "question": "What has a bottom at the top?",
       "answer": "Your legs",
-      "explanation": "The bottoms of your feet are at the lower end, but the phrase tricks direction.",
+      "explanation": "Your bottom sits at the top of your legs, so the tempting reading of 'top' as high up is the trap.",
       "hint": "Read the wording carefully.",
       "difficulty": "hard",
       "visual": "action_cards",
@@ -118,7 +118,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
