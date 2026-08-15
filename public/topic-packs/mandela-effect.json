@@ -269,9 +269,9 @@
     {
       "id": "mandela-effect-premium-10",
       "concept": "Brand",
-      "question": "What helps test a Mandela Effect claim?",
-      "answer": "Primary evidence",
-      "explanation": "Old packaging, recordings, or archived sources can verify details.",
+      "question": "You are certain you read something in a newspaper, but you actually saw it on a forum. What error is this?",
+      "answer": "Source confusion",
+      "explanation": "Memory keeps the content more reliably than the origin, so a claim can survive while its source is lost.",
       "hint": "Look for the brand clue.",
       "difficulty": "easy",
       "visual": "chaotic_data",
@@ -281,26 +281,26 @@
         "MEMORY"
       ],
       "choices": [
-        "Popularity",
-        "A vivid anecdote",
-        "Primary evidence",
-        "A current parody"
+        "Source confusion",
+        "Paraphrasing",
+        "Nostalgia",
+        "Social reinforcement"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
       "id": "mandela-effect-premium-11",
       "concept": "Childhood",
-      "question": "Why do groups share the same wrong memory?",
-      "answer": "Common associations",
-      "explanation": "People may infer the same familiar pattern.",
+      "question": "After discussing an event together, a group's accounts match more closely and everyone feels more certain. What happened?",
+      "answer": "Memory conformity",
+      "explanation": "Hearing other accounts edits your own, so agreement rises without accuracy rising with it.",
       "hint": "Look for the childhood clue.",
       "difficulty": "medium",
       "visual": "action_cards",
@@ -310,18 +310,18 @@
         "MEMORY"
       ],
       "choices": [
-        "Independent perfect recall",
-        "Identical camera footage",
-        "A secret announcement",
-        "Common associations"
+        "Shared inference",
+        "Memory conformity",
+        "Source confusion",
+        "Paraphrasing"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
@@ -356,9 +356,9 @@
     {
       "id": "mandela-effect-premium-13",
       "concept": "Culture",
-      "question": "Why does confidence not prove memory accuracy?",
-      "answer": "Emotion can boost certainty",
-      "explanation": "Strong feeling does not guarantee correctness.",
+      "question": "A leading question mentions a stop sign that was never there, and witnesses later recall seeing one. What is this?",
+      "answer": "The misinformation effect",
+      "explanation": "Information introduced after an event can be absorbed into the memory of the event itself.",
       "hint": "Look for the culture clue.",
       "difficulty": "viral",
       "visual": "impact_text",
@@ -368,26 +368,26 @@
         "MEMORY"
       ],
       "choices": [
-        "Confidence is a timestamp",
-        "Emotion can boost certainty",
-        "Certainty prevents errors",
-        "Strong feelings preserve wording"
+        "Nostalgia",
+        "Source confusion",
+        "The misinformation effect",
+        "Small details matter"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
       "id": "mandela-effect-premium-14",
       "concept": "Association",
-      "question": "What is a reality test for a remembered logo?",
-      "answer": "Compare archived images",
-      "explanation": "Old official materials can settle the detail.",
+      "question": "People vividly recall where they were during shocking news, yet the details drift over the years. What is this?",
+      "answer": "A flashbulb memory",
+      "explanation": "Flashbulb memories feel unusually vivid and confident but decay much like ordinary ones.",
       "hint": "Look for the association clue.",
       "difficulty": "easy",
       "visual": "diagram_flow",
@@ -397,18 +397,18 @@
         "MEMORY"
       ],
       "choices": [
-        "Ask which version feels right",
-        "Count social-media votes",
-        "Compare archived images",
-        "Use the newest recreation"
+        "A flashbulb memory",
+        "Pareidolia",
+        "Source confusion",
+        "Paraphrasing"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
