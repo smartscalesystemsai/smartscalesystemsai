@@ -358,7 +358,7 @@
       "concept": "Weights",
       "question": "You need exactly 4 liters using 3 and 5 liter jugs. What do you do?",
       "answer": "Fill 5, pour into 3, empty 3, move the 2 across, refill 5, top up 3",
-      "explanation": "Emptying the 3-litre jug first leaves room for the 2 litres, so topping it up later draws exactly 1 from the full 5.",
+      "explanation": "Emptying the 3-liter jug first leaves room for the 2 liters, so topping it up later draws exactly 1 from the full 5.",
       "hint": "Look for the weights clue.",
       "difficulty": "viral",
       "visual": "impact_text",
