@@ -9,8 +9,8 @@
       "id": "optical-illusions-premium-01",
       "concept": "Premium hook",
       "question": "Two squares are the same shade, but one looks darker. What fooled you?",
-      "answer": "Context",
-      "explanation": "Surrounding brightness changes perceived color.",
+      "answer": "Simultaneous contrast",
+      "explanation": "A patch is judged against its immediate surround, so identical greys shift apart on different backgrounds.",
       "hint": "Read the wording carefully.",
       "difficulty": "viral",
       "visual": "diagram_checklist",
@@ -20,10 +20,10 @@
         "ANSWER AFTER TIMER"
       ],
       "choices": [
-        "One square has more pixels",
-        "Context",
-        "The darker square is moving",
-        "Your eyes changed its file format"
+        "Perspective",
+        "Simultaneous contrast",
+        "Pareidolia",
+        "An afterimage"
       ],
       "answerIndex": 1,
       "engagementQuestion": "Did this trick you?",
@@ -31,7 +31,7 @@
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
@@ -153,9 +153,9 @@
     {
       "id": "optical-illusions-premium-06",
       "concept": "Color",
-      "question": "Why can two identical colors look different?",
-      "answer": "Surrounding contrast",
-      "explanation": "Nearby colors influence how the brain interprets a shade.",
+      "question": "You stare at a red shape for a minute, look at white paper, and see a cyan ghost. Why?",
+      "answer": "Afterimage",
+      "explanation": "Colour receptors tire and the opposing channel briefly dominates once the stimulus is removed.",
       "hint": "Look for the color clue.",
       "difficulty": "easy",
       "visual": "impact_text",
@@ -165,26 +165,26 @@
         "VISUAL"
       ],
       "choices": [
-        "Their pigments are different",
-        "One color is animated",
-        "Surrounding contrast",
-        "The image has no background"
+        "Afterimage",
+        "Pareidolia",
+        "Perspective",
+        "Depth cues"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
       "id": "optical-illusions-premium-07",
       "concept": "Motion",
-      "question": "What creates fake motion in a still image?",
-      "answer": "Pattern contrast",
-      "explanation": "Repeated high-contrast shapes can trick motion perception.",
+      "question": "After watching a waterfall, the rocks beside it seem to drift upward. What is this?",
+      "answer": "Motion aftereffect",
+      "explanation": "Motion detectors tuned to one direction fatigue, so a still scene appears to move the other way.",
       "hint": "Look for the motion clue.",
       "difficulty": "medium",
       "visual": "diagram_flow",
@@ -194,26 +194,26 @@
         "VISUAL"
       ],
       "choices": [
-        "Audio rhythm",
-        "Text alignment",
-        "Lens focus alone",
-        "Pattern contrast"
+        "Pareidolia",
+        "Motion aftereffect",
+        "An afterimage",
+        "Depth cues"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
       "id": "optical-illusions-premium-08",
       "concept": "Perspective",
-      "question": "Why do railroad tracks look like they meet?",
-      "answer": "Perspective",
-      "explanation": "Parallel lines appear closer together in the distance.",
+      "question": "A circle ringed by small circles looks larger than the same circle ringed by big ones. Why?",
+      "answer": "Surrounding size sets the comparison",
+      "explanation": "Size is judged relative to neighbours rather than measured absolutely.",
       "hint": "Look for the perspective clue.",
       "difficulty": "hard",
       "visual": "diagram_compare",
@@ -223,18 +223,18 @@
         "VISUAL"
       ],
       "choices": [
-        "Perspective",
-        "The tracks bend together",
-        "The rails become narrower",
-        "Earth's rotation twists them"
+        "The circles differ in size",
+        "Surrounding size sets the comparison",
+        "The colours differ",
+        "One is closer"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
@@ -269,9 +269,9 @@
     {
       "id": "optical-illusions-premium-10",
       "concept": "Shadow",
-      "question": "Why do shadows change color perception?",
-      "answer": "The brain corrects lighting",
-      "explanation": "Perception adjusts for assumed light and shade.",
+      "question": "A large object disappears between two flashed photos and most viewers never notice. What is this?",
+      "answer": "Change blindness",
+      "explanation": "Without a motion cue to attract attention, the visual system does not compare the scenes in detail.",
       "hint": "Look for the shadow clue.",
       "difficulty": "easy",
       "visual": "chaotic_data",
@@ -281,18 +281,18 @@
         "VISUAL"
       ],
       "choices": [
-        "The shadow changes the pigment",
-        "The brain corrects lighting",
-        "The eye stops seeing color",
-        "The object becomes transparent"
+        "Pareidolia",
+        "An afterimage",
+        "Change blindness",
+        "Perspective"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
@@ -327,9 +327,9 @@
     {
       "id": "optical-illusions-premium-12",
       "concept": "Face",
-      "question": "Why do we see faces in random patterns?",
-      "answer": "Pareidolia",
-      "explanation": "The brain is tuned to detect face-like shapes.",
+      "question": "Each eye has a patch with no light receptors, yet you never notice a hole. Why?",
+      "answer": "The brain fills in the gap",
+      "explanation": "Perception interpolates the missing region from the surrounding pattern.",
       "hint": "Look for the face clue.",
       "difficulty": "hard",
       "visual": "audio_waveform",
@@ -339,18 +339,18 @@
         "VISUAL"
       ],
       "choices": [
-        "Confirmation bias",
-        "Change blindness",
-        "Color constancy",
-        "Pareidolia"
+        "The eyes shake constantly",
+        "The gap is too small to matter",
+        "The brain fills in the gap",
+        "Both eyes have it in the same place"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "engagementQuestion": "Did you get it before the reveal?",
       "curation": "viral-clear-v3",
       "certification": {
         "status": "approved",
         "standard": "question-choice-v1",
-        "reviewedAt": "2026-07-16"
+        "reviewedAt": "2026-08-15"
       }
     },
     {
